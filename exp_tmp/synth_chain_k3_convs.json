@@ -1,0 +1,4652 @@
+[
+  {
+    "idx": 0,
+    "X1": "Paris",
+    "X2": "Lisbon",
+    "X3": "Rome",
+    "query": "Where is the user actually traveling?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "I want to plan a trip to Paris."
+      },
+      {
+        "role": "assistant",
+        "content": "Paris sounds great."
+      },
+      {
+        "role": "user",
+        "content": "Locked in: we're going to Paris."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Paris."
+      },
+      {
+        "role": "user",
+        "content": "Looking at hotels in Paris."
+      },
+      {
+        "role": "user",
+        "content": "What's the timeline?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "Wait, change of plan: Lisbon."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to Lisbon."
+      },
+      {
+        "role": "user",
+        "content": "Locked in: we're going to Lisbon."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Lisbon."
+      },
+      {
+        "role": "user",
+        "content": "Looking at hotels in Lisbon."
+      },
+      {
+        "role": "user",
+        "content": "What's the budget?"
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "No, let's do Rome instead."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, Rome it is."
+      },
+      {
+        "role": "user",
+        "content": "Locked in: we're going to Rome."
+      },
+      {
+        "role": "assistant",
+        "content": "Rome confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Looking at hotels in Rome."
+      },
+      {
+        "role": "user",
+        "content": "Rome confirmed."
+      },
+      {
+        "role": "assistant",
+        "content": "Rome locked in."
+      }
+    ]
+  },
+  {
+    "idx": 1,
+    "X1": "Preact",
+    "X2": "Lit",
+    "X3": "Svelte",
+    "query": "Which frontend framework is the user using?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "I think we should use Preact."
+      },
+      {
+        "role": "assistant",
+        "content": "Preact sounds great."
+      },
+      {
+        "role": "user",
+        "content": "Decided: Preact is our stack."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Preact."
+      },
+      {
+        "role": "user",
+        "content": "Started scaffolding Preact."
+      },
+      {
+        "role": "user",
+        "content": "Tell me more."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "Actually, let's switch to Lit instead."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to Lit."
+      },
+      {
+        "role": "user",
+        "content": "Decided: Lit is our stack."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Lit."
+      },
+      {
+        "role": "user",
+        "content": "Started scaffolding Lit."
+      },
+      {
+        "role": "user",
+        "content": "What's the timeline?"
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "Actually, let's switch to Svelte instead."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, Svelte it is."
+      },
+      {
+        "role": "user",
+        "content": "Decided: Svelte is our stack."
+      },
+      {
+        "role": "assistant",
+        "content": "Svelte confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Started scaffolding Svelte."
+      },
+      {
+        "role": "user",
+        "content": "Svelte confirmed."
+      },
+      {
+        "role": "assistant",
+        "content": "Svelte locked in."
+      }
+    ]
+  },
+  {
+    "idx": 2,
+    "X1": "Thai",
+    "X2": "Indian",
+    "X3": "Mexican",
+    "query": "What cuisine did the user end up choosing?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "I want Thai food tonight."
+      },
+      {
+        "role": "assistant",
+        "content": "Thai sounds great."
+      },
+      {
+        "role": "user",
+        "content": "Thai place booked."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Thai."
+      },
+      {
+        "role": "user",
+        "content": "Looking up Thai options."
+      },
+      {
+        "role": "user",
+        "content": "What's the timeline?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "Actually, let's switch to Indian instead."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to Indian."
+      },
+      {
+        "role": "user",
+        "content": "Indian place booked."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Indian."
+      },
+      {
+        "role": "user",
+        "content": "Looking up Indian options."
+      },
+      {
+        "role": "user",
+        "content": "Any thoughts?"
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "Forget that, going with Mexican."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, Mexican it is."
+      },
+      {
+        "role": "user",
+        "content": "Mexican place booked."
+      },
+      {
+        "role": "assistant",
+        "content": "Mexican confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Looking up Mexican options."
+      },
+      {
+        "role": "user",
+        "content": "Mexican confirmed for dinner."
+      },
+      {
+        "role": "assistant",
+        "content": "Mexican locked in."
+      }
+    ]
+  },
+  {
+    "idx": 3,
+    "X1": "desert villa",
+    "X2": "beach house",
+    "X3": "ski chalet",
+    "query": "Which vacation rental did the user finalize?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "Considering booking a desert villa."
+      },
+      {
+        "role": "assistant",
+        "content": "desert villa sounds great."
+      },
+      {
+        "role": "user",
+        "content": "desert villa rental locked in."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: desert villa."
+      },
+      {
+        "role": "user",
+        "content": "Reading reviews for desert villa."
+      },
+      {
+        "role": "user",
+        "content": "What's the timeline?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "Wait, change of plan: beach house."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to beach house."
+      },
+      {
+        "role": "user",
+        "content": "beach house rental locked in."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: beach house."
+      },
+      {
+        "role": "user",
+        "content": "Reading reviews for beach house."
+      },
+      {
+        "role": "user",
+        "content": "Any thoughts?"
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "No, let's do ski chalet instead."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, ski chalet it is."
+      },
+      {
+        "role": "user",
+        "content": "ski chalet rental locked in."
+      },
+      {
+        "role": "assistant",
+        "content": "ski chalet confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Reading reviews for ski chalet."
+      },
+      {
+        "role": "user",
+        "content": "ski chalet confirmed."
+      },
+      {
+        "role": "assistant",
+        "content": "ski chalet locked in."
+      }
+    ]
+  },
+  {
+    "idx": 4,
+    "X1": "book",
+    "X2": "headphones",
+    "X3": "wine subscription",
+    "query": "What gift did the user actually purchase?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "Thinking of getting them a book."
+      },
+      {
+        "role": "assistant",
+        "content": "book sounds great."
+      },
+      {
+        "role": "user",
+        "content": "Ordered the book."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: book."
+      },
+      {
+        "role": "user",
+        "content": "Wrapping the book."
+      },
+      {
+        "role": "user",
+        "content": "Any thoughts?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "Wait, change of plan: headphones."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to headphones."
+      },
+      {
+        "role": "user",
+        "content": "Ordered the headphones."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: headphones."
+      },
+      {
+        "role": "user",
+        "content": "Wrapping the headphones."
+      },
+      {
+        "role": "user",
+        "content": "What's the timeline?"
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "No, let's do wine subscription instead."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, wine subscription it is."
+      },
+      {
+        "role": "user",
+        "content": "Ordered the wine subscription."
+      },
+      {
+        "role": "assistant",
+        "content": "wine subscription confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Wrapping the wine subscription."
+      },
+      {
+        "role": "user",
+        "content": "wine subscription delivered."
+      },
+      {
+        "role": "assistant",
+        "content": "wine subscription locked in."
+      }
+    ]
+  },
+  {
+    "idx": 5,
+    "X1": "Barcelona",
+    "X2": "London",
+    "X3": "Lisbon",
+    "query": "Where is the user actually traveling?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "I want to plan a trip to Barcelona."
+      },
+      {
+        "role": "assistant",
+        "content": "Barcelona sounds great."
+      },
+      {
+        "role": "user",
+        "content": "Locked in: we're going to Barcelona."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Barcelona."
+      },
+      {
+        "role": "user",
+        "content": "Looking at hotels in Barcelona."
+      },
+      {
+        "role": "user",
+        "content": "Any thoughts?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "Actually scratch that, London."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to London."
+      },
+      {
+        "role": "user",
+        "content": "Locked in: we're going to London."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: London."
+      },
+      {
+        "role": "user",
+        "content": "Looking at hotels in London."
+      },
+      {
+        "role": "user",
+        "content": "Tell me more."
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "Actually scratch that, Lisbon."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, Lisbon it is."
+      },
+      {
+        "role": "user",
+        "content": "Locked in: we're going to Lisbon."
+      },
+      {
+        "role": "assistant",
+        "content": "Lisbon confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Looking at hotels in Lisbon."
+      },
+      {
+        "role": "user",
+        "content": "Lisbon confirmed."
+      },
+      {
+        "role": "assistant",
+        "content": "Lisbon locked in."
+      }
+    ]
+  },
+  {
+    "idx": 6,
+    "X1": "React",
+    "X2": "Qwik",
+    "X3": "Lit",
+    "query": "Which frontend framework is the user using?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "I think we should use React."
+      },
+      {
+        "role": "assistant",
+        "content": "React sounds great."
+      },
+      {
+        "role": "user",
+        "content": "Decided: React is our stack."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: React."
+      },
+      {
+        "role": "user",
+        "content": "Started scaffolding React."
+      },
+      {
+        "role": "user",
+        "content": "Tell me more."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "Actually scratch that, Qwik."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to Qwik."
+      },
+      {
+        "role": "user",
+        "content": "Decided: Qwik is our stack."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Qwik."
+      },
+      {
+        "role": "user",
+        "content": "Started scaffolding Qwik."
+      },
+      {
+        "role": "user",
+        "content": "What's the budget?"
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "Forget that, going with Lit."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, Lit it is."
+      },
+      {
+        "role": "user",
+        "content": "Decided: Lit is our stack."
+      },
+      {
+        "role": "assistant",
+        "content": "Lit confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Started scaffolding Lit."
+      },
+      {
+        "role": "user",
+        "content": "Lit confirmed."
+      },
+      {
+        "role": "assistant",
+        "content": "Lit locked in."
+      }
+    ]
+  },
+  {
+    "idx": 7,
+    "X1": "Spanish",
+    "X2": "Vietnamese",
+    "X3": "Greek",
+    "query": "What cuisine did the user end up choosing?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "I want Spanish food tonight."
+      },
+      {
+        "role": "assistant",
+        "content": "Spanish sounds great."
+      },
+      {
+        "role": "user",
+        "content": "Spanish place booked."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Spanish."
+      },
+      {
+        "role": "user",
+        "content": "Looking up Spanish options."
+      },
+      {
+        "role": "user",
+        "content": "What's the budget?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "Actually, let's switch to Vietnamese instead."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to Vietnamese."
+      },
+      {
+        "role": "user",
+        "content": "Vietnamese place booked."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Vietnamese."
+      },
+      {
+        "role": "user",
+        "content": "Looking up Vietnamese options."
+      },
+      {
+        "role": "user",
+        "content": "What's the budget?"
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "Actually, let's switch to Greek instead."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, Greek it is."
+      },
+      {
+        "role": "user",
+        "content": "Greek place booked."
+      },
+      {
+        "role": "assistant",
+        "content": "Greek confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Looking up Greek options."
+      },
+      {
+        "role": "user",
+        "content": "Greek confirmed for dinner."
+      },
+      {
+        "role": "assistant",
+        "content": "Greek locked in."
+      }
+    ]
+  },
+  {
+    "idx": 8,
+    "X1": "desert villa",
+    "X2": "yurt",
+    "X3": "farmhouse",
+    "query": "Which vacation rental did the user finalize?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "Considering booking a desert villa."
+      },
+      {
+        "role": "assistant",
+        "content": "desert villa sounds great."
+      },
+      {
+        "role": "user",
+        "content": "desert villa rental locked in."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: desert villa."
+      },
+      {
+        "role": "user",
+        "content": "Reading reviews for desert villa."
+      },
+      {
+        "role": "user",
+        "content": "What's the budget?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "Wait, change of plan: yurt."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to yurt."
+      },
+      {
+        "role": "user",
+        "content": "yurt rental locked in."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: yurt."
+      },
+      {
+        "role": "user",
+        "content": "Reading reviews for yurt."
+      },
+      {
+        "role": "user",
+        "content": "What's the budget?"
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "Wait, change of plan: farmhouse."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, farmhouse it is."
+      },
+      {
+        "role": "user",
+        "content": "farmhouse rental locked in."
+      },
+      {
+        "role": "assistant",
+        "content": "farmhouse confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Reading reviews for farmhouse."
+      },
+      {
+        "role": "user",
+        "content": "farmhouse confirmed."
+      },
+      {
+        "role": "assistant",
+        "content": "farmhouse locked in."
+      }
+    ]
+  },
+  {
+    "idx": 9,
+    "X1": "kitchen knife",
+    "X2": "fountain pen",
+    "X3": "wine subscription",
+    "query": "What gift did the user actually purchase?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "Thinking of getting them a kitchen knife."
+      },
+      {
+        "role": "assistant",
+        "content": "kitchen knife sounds great."
+      },
+      {
+        "role": "user",
+        "content": "Ordered the kitchen knife."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: kitchen knife."
+      },
+      {
+        "role": "user",
+        "content": "Wrapping the kitchen knife."
+      },
+      {
+        "role": "user",
+        "content": "Tell me more."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "Forget that, going with fountain pen."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to fountain pen."
+      },
+      {
+        "role": "user",
+        "content": "Ordered the fountain pen."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: fountain pen."
+      },
+      {
+        "role": "user",
+        "content": "Wrapping the fountain pen."
+      },
+      {
+        "role": "user",
+        "content": "Any thoughts?"
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "Actually, let's switch to wine subscription instead."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, wine subscription it is."
+      },
+      {
+        "role": "user",
+        "content": "Ordered the wine subscription."
+      },
+      {
+        "role": "assistant",
+        "content": "wine subscription confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Wrapping the wine subscription."
+      },
+      {
+        "role": "user",
+        "content": "wine subscription delivered."
+      },
+      {
+        "role": "assistant",
+        "content": "wine subscription locked in."
+      }
+    ]
+  },
+  {
+    "idx": 10,
+    "X1": "Rome",
+    "X2": "Vienna",
+    "X3": "Bangkok",
+    "query": "Where is the user actually traveling?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "I want to plan a trip to Rome."
+      },
+      {
+        "role": "assistant",
+        "content": "Rome sounds great."
+      },
+      {
+        "role": "user",
+        "content": "Locked in: we're going to Rome."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Rome."
+      },
+      {
+        "role": "user",
+        "content": "Looking at hotels in Rome."
+      },
+      {
+        "role": "user",
+        "content": "What's the budget?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "Actually, let's switch to Vienna instead."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to Vienna."
+      },
+      {
+        "role": "user",
+        "content": "Locked in: we're going to Vienna."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Vienna."
+      },
+      {
+        "role": "user",
+        "content": "Looking at hotels in Vienna."
+      },
+      {
+        "role": "user",
+        "content": "Any thoughts?"
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "Forget that, going with Bangkok."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, Bangkok it is."
+      },
+      {
+        "role": "user",
+        "content": "Locked in: we're going to Bangkok."
+      },
+      {
+        "role": "assistant",
+        "content": "Bangkok confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Looking at hotels in Bangkok."
+      },
+      {
+        "role": "user",
+        "content": "Bangkok confirmed."
+      },
+      {
+        "role": "assistant",
+        "content": "Bangkok locked in."
+      }
+    ]
+  },
+  {
+    "idx": 11,
+    "X1": "Qwik",
+    "X2": "React",
+    "X3": "Lit",
+    "query": "Which frontend framework is the user using?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "I think we should use Qwik."
+      },
+      {
+        "role": "assistant",
+        "content": "Qwik sounds great."
+      },
+      {
+        "role": "user",
+        "content": "Decided: Qwik is our stack."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Qwik."
+      },
+      {
+        "role": "user",
+        "content": "Started scaffolding Qwik."
+      },
+      {
+        "role": "user",
+        "content": "What's the timeline?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "No, let's do React instead."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to React."
+      },
+      {
+        "role": "user",
+        "content": "Decided: React is our stack."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: React."
+      },
+      {
+        "role": "user",
+        "content": "Started scaffolding React."
+      },
+      {
+        "role": "user",
+        "content": "Tell me more."
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "Forget that, going with Lit."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, Lit it is."
+      },
+      {
+        "role": "user",
+        "content": "Decided: Lit is our stack."
+      },
+      {
+        "role": "assistant",
+        "content": "Lit confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Started scaffolding Lit."
+      },
+      {
+        "role": "user",
+        "content": "Lit confirmed."
+      },
+      {
+        "role": "assistant",
+        "content": "Lit locked in."
+      }
+    ]
+  },
+  {
+    "idx": 12,
+    "X1": "Korean",
+    "X2": "Thai",
+    "X3": "Indian",
+    "query": "What cuisine did the user end up choosing?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "I want Korean food tonight."
+      },
+      {
+        "role": "assistant",
+        "content": "Korean sounds great."
+      },
+      {
+        "role": "user",
+        "content": "Korean place booked."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Korean."
+      },
+      {
+        "role": "user",
+        "content": "Looking up Korean options."
+      },
+      {
+        "role": "user",
+        "content": "Any thoughts?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "Wait, change of plan: Thai."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to Thai."
+      },
+      {
+        "role": "user",
+        "content": "Thai place booked."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Thai."
+      },
+      {
+        "role": "user",
+        "content": "Looking up Thai options."
+      },
+      {
+        "role": "user",
+        "content": "Any thoughts?"
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "Forget that, going with Indian."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, Indian it is."
+      },
+      {
+        "role": "user",
+        "content": "Indian place booked."
+      },
+      {
+        "role": "assistant",
+        "content": "Indian confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Looking up Indian options."
+      },
+      {
+        "role": "user",
+        "content": "Indian confirmed for dinner."
+      },
+      {
+        "role": "assistant",
+        "content": "Indian locked in."
+      }
+    ]
+  },
+  {
+    "idx": 13,
+    "X1": "houseboat",
+    "X2": "ski chalet",
+    "X3": "beach house",
+    "query": "Which vacation rental did the user finalize?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "Considering booking a houseboat."
+      },
+      {
+        "role": "assistant",
+        "content": "houseboat sounds great."
+      },
+      {
+        "role": "user",
+        "content": "houseboat rental locked in."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: houseboat."
+      },
+      {
+        "role": "user",
+        "content": "Reading reviews for houseboat."
+      },
+      {
+        "role": "user",
+        "content": "Tell me more."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "Actually scratch that, ski chalet."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to ski chalet."
+      },
+      {
+        "role": "user",
+        "content": "ski chalet rental locked in."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: ski chalet."
+      },
+      {
+        "role": "user",
+        "content": "Reading reviews for ski chalet."
+      },
+      {
+        "role": "user",
+        "content": "What's the budget?"
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "Forget that, going with beach house."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, beach house it is."
+      },
+      {
+        "role": "user",
+        "content": "beach house rental locked in."
+      },
+      {
+        "role": "assistant",
+        "content": "beach house confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Reading reviews for beach house."
+      },
+      {
+        "role": "user",
+        "content": "beach house confirmed."
+      },
+      {
+        "role": "assistant",
+        "content": "beach house locked in."
+      }
+    ]
+  },
+  {
+    "idx": 14,
+    "X1": "watch",
+    "X2": "headphones",
+    "X3": "camera lens",
+    "query": "What gift did the user actually purchase?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "Thinking of getting them a watch."
+      },
+      {
+        "role": "assistant",
+        "content": "watch sounds great."
+      },
+      {
+        "role": "user",
+        "content": "Ordered the watch."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: watch."
+      },
+      {
+        "role": "user",
+        "content": "Wrapping the watch."
+      },
+      {
+        "role": "user",
+        "content": "What's the budget?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "No, let's do headphones instead."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to headphones."
+      },
+      {
+        "role": "user",
+        "content": "Ordered the headphones."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: headphones."
+      },
+      {
+        "role": "user",
+        "content": "Wrapping the headphones."
+      },
+      {
+        "role": "user",
+        "content": "Any thoughts?"
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "Actually, let's switch to camera lens instead."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, camera lens it is."
+      },
+      {
+        "role": "user",
+        "content": "Ordered the camera lens."
+      },
+      {
+        "role": "assistant",
+        "content": "camera lens confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Wrapping the camera lens."
+      },
+      {
+        "role": "user",
+        "content": "camera lens delivered."
+      },
+      {
+        "role": "assistant",
+        "content": "camera lens locked in."
+      }
+    ]
+  },
+  {
+    "idx": 15,
+    "X1": "Paris",
+    "X2": "Reykjavik",
+    "X3": "Rome",
+    "query": "Where is the user actually traveling?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "I want to plan a trip to Paris."
+      },
+      {
+        "role": "assistant",
+        "content": "Paris sounds great."
+      },
+      {
+        "role": "user",
+        "content": "Locked in: we're going to Paris."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Paris."
+      },
+      {
+        "role": "user",
+        "content": "Looking at hotels in Paris."
+      },
+      {
+        "role": "user",
+        "content": "Tell me more."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "Wait, change of plan: Reykjavik."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to Reykjavik."
+      },
+      {
+        "role": "user",
+        "content": "Locked in: we're going to Reykjavik."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Reykjavik."
+      },
+      {
+        "role": "user",
+        "content": "Looking at hotels in Reykjavik."
+      },
+      {
+        "role": "user",
+        "content": "What's the timeline?"
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "Actually scratch that, Rome."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, Rome it is."
+      },
+      {
+        "role": "user",
+        "content": "Locked in: we're going to Rome."
+      },
+      {
+        "role": "assistant",
+        "content": "Rome confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Looking at hotels in Rome."
+      },
+      {
+        "role": "user",
+        "content": "Rome confirmed."
+      },
+      {
+        "role": "assistant",
+        "content": "Rome locked in."
+      }
+    ]
+  },
+  {
+    "idx": 16,
+    "X1": "Svelte",
+    "X2": "Astro",
+    "X3": "Preact",
+    "query": "Which frontend framework is the user using?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "I think we should use Svelte."
+      },
+      {
+        "role": "assistant",
+        "content": "Svelte sounds great."
+      },
+      {
+        "role": "user",
+        "content": "Decided: Svelte is our stack."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Svelte."
+      },
+      {
+        "role": "user",
+        "content": "Started scaffolding Svelte."
+      },
+      {
+        "role": "user",
+        "content": "Any thoughts?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "No, let's do Astro instead."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to Astro."
+      },
+      {
+        "role": "user",
+        "content": "Decided: Astro is our stack."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Astro."
+      },
+      {
+        "role": "user",
+        "content": "Started scaffolding Astro."
+      },
+      {
+        "role": "user",
+        "content": "Tell me more."
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "Actually scratch that, Preact."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, Preact it is."
+      },
+      {
+        "role": "user",
+        "content": "Decided: Preact is our stack."
+      },
+      {
+        "role": "assistant",
+        "content": "Preact confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Started scaffolding Preact."
+      },
+      {
+        "role": "user",
+        "content": "Preact confirmed."
+      },
+      {
+        "role": "assistant",
+        "content": "Preact locked in."
+      }
+    ]
+  },
+  {
+    "idx": 17,
+    "X1": "Greek",
+    "X2": "Mexican",
+    "X3": "Thai",
+    "query": "What cuisine did the user end up choosing?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "I want Greek food tonight."
+      },
+      {
+        "role": "assistant",
+        "content": "Greek sounds great."
+      },
+      {
+        "role": "user",
+        "content": "Greek place booked."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Greek."
+      },
+      {
+        "role": "user",
+        "content": "Looking up Greek options."
+      },
+      {
+        "role": "user",
+        "content": "Tell me more."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "No, let's do Mexican instead."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to Mexican."
+      },
+      {
+        "role": "user",
+        "content": "Mexican place booked."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Mexican."
+      },
+      {
+        "role": "user",
+        "content": "Looking up Mexican options."
+      },
+      {
+        "role": "user",
+        "content": "What's the budget?"
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "No, let's do Thai instead."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, Thai it is."
+      },
+      {
+        "role": "user",
+        "content": "Thai place booked."
+      },
+      {
+        "role": "assistant",
+        "content": "Thai confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Looking up Thai options."
+      },
+      {
+        "role": "user",
+        "content": "Thai confirmed for dinner."
+      },
+      {
+        "role": "assistant",
+        "content": "Thai locked in."
+      }
+    ]
+  },
+  {
+    "idx": 18,
+    "X1": "lake cottage",
+    "X2": "ski chalet",
+    "X3": "beach house",
+    "query": "Which vacation rental did the user finalize?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "Considering booking a lake cottage."
+      },
+      {
+        "role": "assistant",
+        "content": "lake cottage sounds great."
+      },
+      {
+        "role": "user",
+        "content": "lake cottage rental locked in."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: lake cottage."
+      },
+      {
+        "role": "user",
+        "content": "Reading reviews for lake cottage."
+      },
+      {
+        "role": "user",
+        "content": "Any thoughts?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "Forget that, going with ski chalet."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to ski chalet."
+      },
+      {
+        "role": "user",
+        "content": "ski chalet rental locked in."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: ski chalet."
+      },
+      {
+        "role": "user",
+        "content": "Reading reviews for ski chalet."
+      },
+      {
+        "role": "user",
+        "content": "What's the timeline?"
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "Forget that, going with beach house."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, beach house it is."
+      },
+      {
+        "role": "user",
+        "content": "beach house rental locked in."
+      },
+      {
+        "role": "assistant",
+        "content": "beach house confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Reading reviews for beach house."
+      },
+      {
+        "role": "user",
+        "content": "beach house confirmed."
+      },
+      {
+        "role": "assistant",
+        "content": "beach house locked in."
+      }
+    ]
+  },
+  {
+    "idx": 19,
+    "X1": "espresso machine",
+    "X2": "book",
+    "X3": "headphones",
+    "query": "What gift did the user actually purchase?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "Thinking of getting them a espresso machine."
+      },
+      {
+        "role": "assistant",
+        "content": "espresso machine sounds great."
+      },
+      {
+        "role": "user",
+        "content": "Ordered the espresso machine."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: espresso machine."
+      },
+      {
+        "role": "user",
+        "content": "Wrapping the espresso machine."
+      },
+      {
+        "role": "user",
+        "content": "What's the timeline?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "Forget that, going with book."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to book."
+      },
+      {
+        "role": "user",
+        "content": "Ordered the book."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: book."
+      },
+      {
+        "role": "user",
+        "content": "Wrapping the book."
+      },
+      {
+        "role": "user",
+        "content": "Any thoughts?"
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "Actually scratch that, headphones."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, headphones it is."
+      },
+      {
+        "role": "user",
+        "content": "Ordered the headphones."
+      },
+      {
+        "role": "assistant",
+        "content": "headphones confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Wrapping the headphones."
+      },
+      {
+        "role": "user",
+        "content": "headphones delivered."
+      },
+      {
+        "role": "assistant",
+        "content": "headphones locked in."
+      }
+    ]
+  },
+  {
+    "idx": 20,
+    "X1": "Sydney",
+    "X2": "Lisbon",
+    "X3": "London",
+    "query": "Where is the user actually traveling?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "I want to plan a trip to Sydney."
+      },
+      {
+        "role": "assistant",
+        "content": "Sydney sounds great."
+      },
+      {
+        "role": "user",
+        "content": "Locked in: we're going to Sydney."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Sydney."
+      },
+      {
+        "role": "user",
+        "content": "Looking at hotels in Sydney."
+      },
+      {
+        "role": "user",
+        "content": "What's the budget?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "Forget that, going with Lisbon."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to Lisbon."
+      },
+      {
+        "role": "user",
+        "content": "Locked in: we're going to Lisbon."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Lisbon."
+      },
+      {
+        "role": "user",
+        "content": "Looking at hotels in Lisbon."
+      },
+      {
+        "role": "user",
+        "content": "What's the budget?"
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "Forget that, going with London."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, London it is."
+      },
+      {
+        "role": "user",
+        "content": "Locked in: we're going to London."
+      },
+      {
+        "role": "assistant",
+        "content": "London confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Looking at hotels in London."
+      },
+      {
+        "role": "user",
+        "content": "London confirmed."
+      },
+      {
+        "role": "assistant",
+        "content": "London locked in."
+      }
+    ]
+  },
+  {
+    "idx": 21,
+    "X1": "Lit",
+    "X2": "Angular",
+    "X3": "Preact",
+    "query": "Which frontend framework is the user using?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "I think we should use Lit."
+      },
+      {
+        "role": "assistant",
+        "content": "Lit sounds great."
+      },
+      {
+        "role": "user",
+        "content": "Decided: Lit is our stack."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Lit."
+      },
+      {
+        "role": "user",
+        "content": "Started scaffolding Lit."
+      },
+      {
+        "role": "user",
+        "content": "Any thoughts?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "Wait, change of plan: Angular."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to Angular."
+      },
+      {
+        "role": "user",
+        "content": "Decided: Angular is our stack."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Angular."
+      },
+      {
+        "role": "user",
+        "content": "Started scaffolding Angular."
+      },
+      {
+        "role": "user",
+        "content": "What's the timeline?"
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "Wait, change of plan: Preact."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, Preact it is."
+      },
+      {
+        "role": "user",
+        "content": "Decided: Preact is our stack."
+      },
+      {
+        "role": "assistant",
+        "content": "Preact confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Started scaffolding Preact."
+      },
+      {
+        "role": "user",
+        "content": "Preact confirmed."
+      },
+      {
+        "role": "assistant",
+        "content": "Preact locked in."
+      }
+    ]
+  },
+  {
+    "idx": 22,
+    "X1": "Italian",
+    "X2": "Spanish",
+    "X3": "Thai",
+    "query": "What cuisine did the user end up choosing?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "I want Italian food tonight."
+      },
+      {
+        "role": "assistant",
+        "content": "Italian sounds great."
+      },
+      {
+        "role": "user",
+        "content": "Italian place booked."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Italian."
+      },
+      {
+        "role": "user",
+        "content": "Looking up Italian options."
+      },
+      {
+        "role": "user",
+        "content": "Tell me more."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "Forget that, going with Spanish."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to Spanish."
+      },
+      {
+        "role": "user",
+        "content": "Spanish place booked."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Spanish."
+      },
+      {
+        "role": "user",
+        "content": "Looking up Spanish options."
+      },
+      {
+        "role": "user",
+        "content": "What's the budget?"
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "Wait, change of plan: Thai."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, Thai it is."
+      },
+      {
+        "role": "user",
+        "content": "Thai place booked."
+      },
+      {
+        "role": "assistant",
+        "content": "Thai confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Looking up Thai options."
+      },
+      {
+        "role": "user",
+        "content": "Thai confirmed for dinner."
+      },
+      {
+        "role": "assistant",
+        "content": "Thai locked in."
+      }
+    ]
+  },
+  {
+    "idx": 23,
+    "X1": "beach house",
+    "X2": "cabin",
+    "X3": "desert villa",
+    "query": "Which vacation rental did the user finalize?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "Considering booking a beach house."
+      },
+      {
+        "role": "assistant",
+        "content": "beach house sounds great."
+      },
+      {
+        "role": "user",
+        "content": "beach house rental locked in."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: beach house."
+      },
+      {
+        "role": "user",
+        "content": "Reading reviews for beach house."
+      },
+      {
+        "role": "user",
+        "content": "What's the timeline?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "No, let's do cabin instead."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to cabin."
+      },
+      {
+        "role": "user",
+        "content": "cabin rental locked in."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: cabin."
+      },
+      {
+        "role": "user",
+        "content": "Reading reviews for cabin."
+      },
+      {
+        "role": "user",
+        "content": "Tell me more."
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "Actually scratch that, desert villa."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, desert villa it is."
+      },
+      {
+        "role": "user",
+        "content": "desert villa rental locked in."
+      },
+      {
+        "role": "assistant",
+        "content": "desert villa confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Reading reviews for desert villa."
+      },
+      {
+        "role": "user",
+        "content": "desert villa confirmed."
+      },
+      {
+        "role": "assistant",
+        "content": "desert villa locked in."
+      }
+    ]
+  },
+  {
+    "idx": 24,
+    "X1": "watch",
+    "X2": "headphones",
+    "X3": "kitchen knife",
+    "query": "What gift did the user actually purchase?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "Thinking of getting them a watch."
+      },
+      {
+        "role": "assistant",
+        "content": "watch sounds great."
+      },
+      {
+        "role": "user",
+        "content": "Ordered the watch."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: watch."
+      },
+      {
+        "role": "user",
+        "content": "Wrapping the watch."
+      },
+      {
+        "role": "user",
+        "content": "What's the budget?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "No, let's do headphones instead."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to headphones."
+      },
+      {
+        "role": "user",
+        "content": "Ordered the headphones."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: headphones."
+      },
+      {
+        "role": "user",
+        "content": "Wrapping the headphones."
+      },
+      {
+        "role": "user",
+        "content": "Any thoughts?"
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "Wait, change of plan: kitchen knife."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, kitchen knife it is."
+      },
+      {
+        "role": "user",
+        "content": "Ordered the kitchen knife."
+      },
+      {
+        "role": "assistant",
+        "content": "kitchen knife confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Wrapping the kitchen knife."
+      },
+      {
+        "role": "user",
+        "content": "kitchen knife delivered."
+      },
+      {
+        "role": "assistant",
+        "content": "kitchen knife locked in."
+      }
+    ]
+  },
+  {
+    "idx": 25,
+    "X1": "Bangkok",
+    "X2": "Tokyo",
+    "X3": "Paris",
+    "query": "Where is the user actually traveling?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "I want to plan a trip to Bangkok."
+      },
+      {
+        "role": "assistant",
+        "content": "Bangkok sounds great."
+      },
+      {
+        "role": "user",
+        "content": "Locked in: we're going to Bangkok."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Bangkok."
+      },
+      {
+        "role": "user",
+        "content": "Looking at hotels in Bangkok."
+      },
+      {
+        "role": "user",
+        "content": "What's the budget?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "Forget that, going with Tokyo."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to Tokyo."
+      },
+      {
+        "role": "user",
+        "content": "Locked in: we're going to Tokyo."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Tokyo."
+      },
+      {
+        "role": "user",
+        "content": "Looking at hotels in Tokyo."
+      },
+      {
+        "role": "user",
+        "content": "What's the timeline?"
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "Actually, let's switch to Paris instead."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, Paris it is."
+      },
+      {
+        "role": "user",
+        "content": "Locked in: we're going to Paris."
+      },
+      {
+        "role": "assistant",
+        "content": "Paris confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Looking at hotels in Paris."
+      },
+      {
+        "role": "user",
+        "content": "Paris confirmed."
+      },
+      {
+        "role": "assistant",
+        "content": "Paris locked in."
+      }
+    ]
+  },
+  {
+    "idx": 26,
+    "X1": "Remix",
+    "X2": "React",
+    "X3": "Vue",
+    "query": "Which frontend framework is the user using?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "I think we should use Remix."
+      },
+      {
+        "role": "assistant",
+        "content": "Remix sounds great."
+      },
+      {
+        "role": "user",
+        "content": "Decided: Remix is our stack."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Remix."
+      },
+      {
+        "role": "user",
+        "content": "Started scaffolding Remix."
+      },
+      {
+        "role": "user",
+        "content": "Any thoughts?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "Actually, let's switch to React instead."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to React."
+      },
+      {
+        "role": "user",
+        "content": "Decided: React is our stack."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: React."
+      },
+      {
+        "role": "user",
+        "content": "Started scaffolding React."
+      },
+      {
+        "role": "user",
+        "content": "Any thoughts?"
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "Wait, change of plan: Vue."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, Vue it is."
+      },
+      {
+        "role": "user",
+        "content": "Decided: Vue is our stack."
+      },
+      {
+        "role": "assistant",
+        "content": "Vue confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Started scaffolding Vue."
+      },
+      {
+        "role": "user",
+        "content": "Vue confirmed."
+      },
+      {
+        "role": "assistant",
+        "content": "Vue locked in."
+      }
+    ]
+  },
+  {
+    "idx": 27,
+    "X1": "Thai",
+    "X2": "French",
+    "X3": "Spanish",
+    "query": "What cuisine did the user end up choosing?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "I want Thai food tonight."
+      },
+      {
+        "role": "assistant",
+        "content": "Thai sounds great."
+      },
+      {
+        "role": "user",
+        "content": "Thai place booked."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Thai."
+      },
+      {
+        "role": "user",
+        "content": "Looking up Thai options."
+      },
+      {
+        "role": "user",
+        "content": "Tell me more."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "Actually scratch that, French."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to French."
+      },
+      {
+        "role": "user",
+        "content": "French place booked."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: French."
+      },
+      {
+        "role": "user",
+        "content": "Looking up French options."
+      },
+      {
+        "role": "user",
+        "content": "What's the budget?"
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "Wait, change of plan: Spanish."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, Spanish it is."
+      },
+      {
+        "role": "user",
+        "content": "Spanish place booked."
+      },
+      {
+        "role": "assistant",
+        "content": "Spanish confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Looking up Spanish options."
+      },
+      {
+        "role": "user",
+        "content": "Spanish confirmed for dinner."
+      },
+      {
+        "role": "assistant",
+        "content": "Spanish locked in."
+      }
+    ]
+  },
+  {
+    "idx": 28,
+    "X1": "lake cottage",
+    "X2": "houseboat",
+    "X3": "yurt",
+    "query": "Which vacation rental did the user finalize?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "Considering booking a lake cottage."
+      },
+      {
+        "role": "assistant",
+        "content": "lake cottage sounds great."
+      },
+      {
+        "role": "user",
+        "content": "lake cottage rental locked in."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: lake cottage."
+      },
+      {
+        "role": "user",
+        "content": "Reading reviews for lake cottage."
+      },
+      {
+        "role": "user",
+        "content": "Tell me more."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "Actually, let's switch to houseboat instead."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to houseboat."
+      },
+      {
+        "role": "user",
+        "content": "houseboat rental locked in."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: houseboat."
+      },
+      {
+        "role": "user",
+        "content": "Reading reviews for houseboat."
+      },
+      {
+        "role": "user",
+        "content": "What's the budget?"
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "No, let's do yurt instead."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, yurt it is."
+      },
+      {
+        "role": "user",
+        "content": "yurt rental locked in."
+      },
+      {
+        "role": "assistant",
+        "content": "yurt confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Reading reviews for yurt."
+      },
+      {
+        "role": "user",
+        "content": "yurt confirmed."
+      },
+      {
+        "role": "assistant",
+        "content": "yurt locked in."
+      }
+    ]
+  },
+  {
+    "idx": 29,
+    "X1": "perfume",
+    "X2": "headphones",
+    "X3": "scarf",
+    "query": "What gift did the user actually purchase?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "Thinking of getting them a perfume."
+      },
+      {
+        "role": "assistant",
+        "content": "perfume sounds great."
+      },
+      {
+        "role": "user",
+        "content": "Ordered the perfume."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: perfume."
+      },
+      {
+        "role": "user",
+        "content": "Wrapping the perfume."
+      },
+      {
+        "role": "user",
+        "content": "What's the budget?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "Wait, change of plan: headphones."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to headphones."
+      },
+      {
+        "role": "user",
+        "content": "Ordered the headphones."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: headphones."
+      },
+      {
+        "role": "user",
+        "content": "Wrapping the headphones."
+      },
+      {
+        "role": "user",
+        "content": "Tell me more."
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "Actually, let's switch to scarf instead."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, scarf it is."
+      },
+      {
+        "role": "user",
+        "content": "Ordered the scarf."
+      },
+      {
+        "role": "assistant",
+        "content": "scarf confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Wrapping the scarf."
+      },
+      {
+        "role": "user",
+        "content": "scarf delivered."
+      },
+      {
+        "role": "assistant",
+        "content": "scarf locked in."
+      }
+    ]
+  },
+  {
+    "idx": 30,
+    "X1": "Bangkok",
+    "X2": "Sydney",
+    "X3": "Vienna",
+    "query": "Where is the user actually traveling?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "I want to plan a trip to Bangkok."
+      },
+      {
+        "role": "assistant",
+        "content": "Bangkok sounds great."
+      },
+      {
+        "role": "user",
+        "content": "Locked in: we're going to Bangkok."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Bangkok."
+      },
+      {
+        "role": "user",
+        "content": "Looking at hotels in Bangkok."
+      },
+      {
+        "role": "user",
+        "content": "What's the timeline?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "Actually scratch that, Sydney."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to Sydney."
+      },
+      {
+        "role": "user",
+        "content": "Locked in: we're going to Sydney."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Sydney."
+      },
+      {
+        "role": "user",
+        "content": "Looking at hotels in Sydney."
+      },
+      {
+        "role": "user",
+        "content": "What's the budget?"
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "Forget that, going with Vienna."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, Vienna it is."
+      },
+      {
+        "role": "user",
+        "content": "Locked in: we're going to Vienna."
+      },
+      {
+        "role": "assistant",
+        "content": "Vienna confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Looking at hotels in Vienna."
+      },
+      {
+        "role": "user",
+        "content": "Vienna confirmed."
+      },
+      {
+        "role": "assistant",
+        "content": "Vienna locked in."
+      }
+    ]
+  },
+  {
+    "idx": 31,
+    "X1": "Preact",
+    "X2": "Svelte",
+    "X3": "React",
+    "query": "Which frontend framework is the user using?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "I think we should use Preact."
+      },
+      {
+        "role": "assistant",
+        "content": "Preact sounds great."
+      },
+      {
+        "role": "user",
+        "content": "Decided: Preact is our stack."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Preact."
+      },
+      {
+        "role": "user",
+        "content": "Started scaffolding Preact."
+      },
+      {
+        "role": "user",
+        "content": "Tell me more."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "No, let's do Svelte instead."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to Svelte."
+      },
+      {
+        "role": "user",
+        "content": "Decided: Svelte is our stack."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Svelte."
+      },
+      {
+        "role": "user",
+        "content": "Started scaffolding Svelte."
+      },
+      {
+        "role": "user",
+        "content": "Tell me more."
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "Wait, change of plan: React."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, React it is."
+      },
+      {
+        "role": "user",
+        "content": "Decided: React is our stack."
+      },
+      {
+        "role": "assistant",
+        "content": "React confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Started scaffolding React."
+      },
+      {
+        "role": "user",
+        "content": "React confirmed."
+      },
+      {
+        "role": "assistant",
+        "content": "React locked in."
+      }
+    ]
+  },
+  {
+    "idx": 32,
+    "X1": "Thai",
+    "X2": "Vietnamese",
+    "X3": "Indian",
+    "query": "What cuisine did the user end up choosing?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "I want Thai food tonight."
+      },
+      {
+        "role": "assistant",
+        "content": "Thai sounds great."
+      },
+      {
+        "role": "user",
+        "content": "Thai place booked."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Thai."
+      },
+      {
+        "role": "user",
+        "content": "Looking up Thai options."
+      },
+      {
+        "role": "user",
+        "content": "Tell me more."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "No, let's do Vietnamese instead."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to Vietnamese."
+      },
+      {
+        "role": "user",
+        "content": "Vietnamese place booked."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Vietnamese."
+      },
+      {
+        "role": "user",
+        "content": "Looking up Vietnamese options."
+      },
+      {
+        "role": "user",
+        "content": "What's the timeline?"
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "Actually scratch that, Indian."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, Indian it is."
+      },
+      {
+        "role": "user",
+        "content": "Indian place booked."
+      },
+      {
+        "role": "assistant",
+        "content": "Indian confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Looking up Indian options."
+      },
+      {
+        "role": "user",
+        "content": "Indian confirmed for dinner."
+      },
+      {
+        "role": "assistant",
+        "content": "Indian locked in."
+      }
+    ]
+  },
+  {
+    "idx": 33,
+    "X1": "downtown loft",
+    "X2": "ski chalet",
+    "X3": "lake cottage",
+    "query": "Which vacation rental did the user finalize?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "Considering booking a downtown loft."
+      },
+      {
+        "role": "assistant",
+        "content": "downtown loft sounds great."
+      },
+      {
+        "role": "user",
+        "content": "downtown loft rental locked in."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: downtown loft."
+      },
+      {
+        "role": "user",
+        "content": "Reading reviews for downtown loft."
+      },
+      {
+        "role": "user",
+        "content": "Any thoughts?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "Forget that, going with ski chalet."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to ski chalet."
+      },
+      {
+        "role": "user",
+        "content": "ski chalet rental locked in."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: ski chalet."
+      },
+      {
+        "role": "user",
+        "content": "Reading reviews for ski chalet."
+      },
+      {
+        "role": "user",
+        "content": "Tell me more."
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "No, let's do lake cottage instead."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, lake cottage it is."
+      },
+      {
+        "role": "user",
+        "content": "lake cottage rental locked in."
+      },
+      {
+        "role": "assistant",
+        "content": "lake cottage confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Reading reviews for lake cottage."
+      },
+      {
+        "role": "user",
+        "content": "lake cottage confirmed."
+      },
+      {
+        "role": "assistant",
+        "content": "lake cottage locked in."
+      }
+    ]
+  },
+  {
+    "idx": 34,
+    "X1": "perfume",
+    "X2": "espresso machine",
+    "X3": "scarf",
+    "query": "What gift did the user actually purchase?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "Thinking of getting them a perfume."
+      },
+      {
+        "role": "assistant",
+        "content": "perfume sounds great."
+      },
+      {
+        "role": "user",
+        "content": "Ordered the perfume."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: perfume."
+      },
+      {
+        "role": "user",
+        "content": "Wrapping the perfume."
+      },
+      {
+        "role": "user",
+        "content": "What's the timeline?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "Forget that, going with espresso machine."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to espresso machine."
+      },
+      {
+        "role": "user",
+        "content": "Ordered the espresso machine."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: espresso machine."
+      },
+      {
+        "role": "user",
+        "content": "Wrapping the espresso machine."
+      },
+      {
+        "role": "user",
+        "content": "What's the timeline?"
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "Forget that, going with scarf."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, scarf it is."
+      },
+      {
+        "role": "user",
+        "content": "Ordered the scarf."
+      },
+      {
+        "role": "assistant",
+        "content": "scarf confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Wrapping the scarf."
+      },
+      {
+        "role": "user",
+        "content": "scarf delivered."
+      },
+      {
+        "role": "assistant",
+        "content": "scarf locked in."
+      }
+    ]
+  },
+  {
+    "idx": 35,
+    "X1": "Barcelona",
+    "X2": "Rome",
+    "X3": "Bangkok",
+    "query": "Where is the user actually traveling?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "I want to plan a trip to Barcelona."
+      },
+      {
+        "role": "assistant",
+        "content": "Barcelona sounds great."
+      },
+      {
+        "role": "user",
+        "content": "Locked in: we're going to Barcelona."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Barcelona."
+      },
+      {
+        "role": "user",
+        "content": "Looking at hotels in Barcelona."
+      },
+      {
+        "role": "user",
+        "content": "What's the budget?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "No, let's do Rome instead."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to Rome."
+      },
+      {
+        "role": "user",
+        "content": "Locked in: we're going to Rome."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Rome."
+      },
+      {
+        "role": "user",
+        "content": "Looking at hotels in Rome."
+      },
+      {
+        "role": "user",
+        "content": "Tell me more."
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "Actually scratch that, Bangkok."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, Bangkok it is."
+      },
+      {
+        "role": "user",
+        "content": "Locked in: we're going to Bangkok."
+      },
+      {
+        "role": "assistant",
+        "content": "Bangkok confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Looking at hotels in Bangkok."
+      },
+      {
+        "role": "user",
+        "content": "Bangkok confirmed."
+      },
+      {
+        "role": "assistant",
+        "content": "Bangkok locked in."
+      }
+    ]
+  },
+  {
+    "idx": 36,
+    "X1": "Qwik",
+    "X2": "Remix",
+    "X3": "Astro",
+    "query": "Which frontend framework is the user using?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "I think we should use Qwik."
+      },
+      {
+        "role": "assistant",
+        "content": "Qwik sounds great."
+      },
+      {
+        "role": "user",
+        "content": "Decided: Qwik is our stack."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Qwik."
+      },
+      {
+        "role": "user",
+        "content": "Started scaffolding Qwik."
+      },
+      {
+        "role": "user",
+        "content": "Tell me more."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "Actually, let's switch to Remix instead."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to Remix."
+      },
+      {
+        "role": "user",
+        "content": "Decided: Remix is our stack."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Remix."
+      },
+      {
+        "role": "user",
+        "content": "Started scaffolding Remix."
+      },
+      {
+        "role": "user",
+        "content": "Tell me more."
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "Actually, let's switch to Astro instead."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, Astro it is."
+      },
+      {
+        "role": "user",
+        "content": "Decided: Astro is our stack."
+      },
+      {
+        "role": "assistant",
+        "content": "Astro confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Started scaffolding Astro."
+      },
+      {
+        "role": "user",
+        "content": "Astro confirmed."
+      },
+      {
+        "role": "assistant",
+        "content": "Astro locked in."
+      }
+    ]
+  },
+  {
+    "idx": 37,
+    "X1": "Mexican",
+    "X2": "Korean",
+    "X3": "Italian",
+    "query": "What cuisine did the user end up choosing?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "I want Mexican food tonight."
+      },
+      {
+        "role": "assistant",
+        "content": "Mexican sounds great."
+      },
+      {
+        "role": "user",
+        "content": "Mexican place booked."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Mexican."
+      },
+      {
+        "role": "user",
+        "content": "Looking up Mexican options."
+      },
+      {
+        "role": "user",
+        "content": "What's the timeline?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "Forget that, going with Korean."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to Korean."
+      },
+      {
+        "role": "user",
+        "content": "Korean place booked."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Korean."
+      },
+      {
+        "role": "user",
+        "content": "Looking up Korean options."
+      },
+      {
+        "role": "user",
+        "content": "What's the timeline?"
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "No, let's do Italian instead."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, Italian it is."
+      },
+      {
+        "role": "user",
+        "content": "Italian place booked."
+      },
+      {
+        "role": "assistant",
+        "content": "Italian confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Looking up Italian options."
+      },
+      {
+        "role": "user",
+        "content": "Italian confirmed for dinner."
+      },
+      {
+        "role": "assistant",
+        "content": "Italian locked in."
+      }
+    ]
+  },
+  {
+    "idx": 38,
+    "X1": "houseboat",
+    "X2": "treehouse",
+    "X3": "farmhouse",
+    "query": "Which vacation rental did the user finalize?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "Considering booking a houseboat."
+      },
+      {
+        "role": "assistant",
+        "content": "houseboat sounds great."
+      },
+      {
+        "role": "user",
+        "content": "houseboat rental locked in."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: houseboat."
+      },
+      {
+        "role": "user",
+        "content": "Reading reviews for houseboat."
+      },
+      {
+        "role": "user",
+        "content": "Tell me more."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "Forget that, going with treehouse."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to treehouse."
+      },
+      {
+        "role": "user",
+        "content": "treehouse rental locked in."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: treehouse."
+      },
+      {
+        "role": "user",
+        "content": "Reading reviews for treehouse."
+      },
+      {
+        "role": "user",
+        "content": "Tell me more."
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "Forget that, going with farmhouse."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, farmhouse it is."
+      },
+      {
+        "role": "user",
+        "content": "farmhouse rental locked in."
+      },
+      {
+        "role": "assistant",
+        "content": "farmhouse confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Reading reviews for farmhouse."
+      },
+      {
+        "role": "user",
+        "content": "farmhouse confirmed."
+      },
+      {
+        "role": "assistant",
+        "content": "farmhouse locked in."
+      }
+    ]
+  },
+  {
+    "idx": 39,
+    "X1": "watch",
+    "X2": "book",
+    "X3": "espresso machine",
+    "query": "What gift did the user actually purchase?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "Thinking of getting them a watch."
+      },
+      {
+        "role": "assistant",
+        "content": "watch sounds great."
+      },
+      {
+        "role": "user",
+        "content": "Ordered the watch."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: watch."
+      },
+      {
+        "role": "user",
+        "content": "Wrapping the watch."
+      },
+      {
+        "role": "user",
+        "content": "Any thoughts?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "Actually, let's switch to book instead."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to book."
+      },
+      {
+        "role": "user",
+        "content": "Ordered the book."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: book."
+      },
+      {
+        "role": "user",
+        "content": "Wrapping the book."
+      },
+      {
+        "role": "user",
+        "content": "What's the budget?"
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "Actually, let's switch to espresso machine instead."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, espresso machine it is."
+      },
+      {
+        "role": "user",
+        "content": "Ordered the espresso machine."
+      },
+      {
+        "role": "assistant",
+        "content": "espresso machine confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Wrapping the espresso machine."
+      },
+      {
+        "role": "user",
+        "content": "espresso machine delivered."
+      },
+      {
+        "role": "assistant",
+        "content": "espresso machine locked in."
+      }
+    ]
+  },
+  {
+    "idx": 40,
+    "X1": "Paris",
+    "X2": "Rome",
+    "X3": "London",
+    "query": "Where is the user actually traveling?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "I want to plan a trip to Paris."
+      },
+      {
+        "role": "assistant",
+        "content": "Paris sounds great."
+      },
+      {
+        "role": "user",
+        "content": "Locked in: we're going to Paris."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Paris."
+      },
+      {
+        "role": "user",
+        "content": "Looking at hotels in Paris."
+      },
+      {
+        "role": "user",
+        "content": "What's the timeline?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "Actually, let's switch to Rome instead."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to Rome."
+      },
+      {
+        "role": "user",
+        "content": "Locked in: we're going to Rome."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Rome."
+      },
+      {
+        "role": "user",
+        "content": "Looking at hotels in Rome."
+      },
+      {
+        "role": "user",
+        "content": "What's the timeline?"
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "No, let's do London instead."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, London it is."
+      },
+      {
+        "role": "user",
+        "content": "Locked in: we're going to London."
+      },
+      {
+        "role": "assistant",
+        "content": "London confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Looking at hotels in London."
+      },
+      {
+        "role": "user",
+        "content": "London confirmed."
+      },
+      {
+        "role": "assistant",
+        "content": "London locked in."
+      }
+    ]
+  },
+  {
+    "idx": 41,
+    "X1": "Remix",
+    "X2": "Preact",
+    "X3": "Qwik",
+    "query": "Which frontend framework is the user using?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "I think we should use Remix."
+      },
+      {
+        "role": "assistant",
+        "content": "Remix sounds great."
+      },
+      {
+        "role": "user",
+        "content": "Decided: Remix is our stack."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Remix."
+      },
+      {
+        "role": "user",
+        "content": "Started scaffolding Remix."
+      },
+      {
+        "role": "user",
+        "content": "Tell me more."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "Actually, let's switch to Preact instead."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to Preact."
+      },
+      {
+        "role": "user",
+        "content": "Decided: Preact is our stack."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Preact."
+      },
+      {
+        "role": "user",
+        "content": "Started scaffolding Preact."
+      },
+      {
+        "role": "user",
+        "content": "Tell me more."
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "Actually scratch that, Qwik."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, Qwik it is."
+      },
+      {
+        "role": "user",
+        "content": "Decided: Qwik is our stack."
+      },
+      {
+        "role": "assistant",
+        "content": "Qwik confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Started scaffolding Qwik."
+      },
+      {
+        "role": "user",
+        "content": "Qwik confirmed."
+      },
+      {
+        "role": "assistant",
+        "content": "Qwik locked in."
+      }
+    ]
+  },
+  {
+    "idx": 42,
+    "X1": "Japanese",
+    "X2": "Indian",
+    "X3": "Italian",
+    "query": "What cuisine did the user end up choosing?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "I want Japanese food tonight."
+      },
+      {
+        "role": "assistant",
+        "content": "Japanese sounds great."
+      },
+      {
+        "role": "user",
+        "content": "Japanese place booked."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Japanese."
+      },
+      {
+        "role": "user",
+        "content": "Looking up Japanese options."
+      },
+      {
+        "role": "user",
+        "content": "Tell me more."
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "Actually scratch that, Indian."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to Indian."
+      },
+      {
+        "role": "user",
+        "content": "Indian place booked."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Indian."
+      },
+      {
+        "role": "user",
+        "content": "Looking up Indian options."
+      },
+      {
+        "role": "user",
+        "content": "Any thoughts?"
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "Forget that, going with Italian."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, Italian it is."
+      },
+      {
+        "role": "user",
+        "content": "Italian place booked."
+      },
+      {
+        "role": "assistant",
+        "content": "Italian confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Looking up Italian options."
+      },
+      {
+        "role": "user",
+        "content": "Italian confirmed for dinner."
+      },
+      {
+        "role": "assistant",
+        "content": "Italian locked in."
+      }
+    ]
+  },
+  {
+    "idx": 43,
+    "X1": "downtown loft",
+    "X2": "houseboat",
+    "X3": "desert villa",
+    "query": "Which vacation rental did the user finalize?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "Considering booking a downtown loft."
+      },
+      {
+        "role": "assistant",
+        "content": "downtown loft sounds great."
+      },
+      {
+        "role": "user",
+        "content": "downtown loft rental locked in."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: downtown loft."
+      },
+      {
+        "role": "user",
+        "content": "Reading reviews for downtown loft."
+      },
+      {
+        "role": "user",
+        "content": "What's the budget?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "Actually, let's switch to houseboat instead."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to houseboat."
+      },
+      {
+        "role": "user",
+        "content": "houseboat rental locked in."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: houseboat."
+      },
+      {
+        "role": "user",
+        "content": "Reading reviews for houseboat."
+      },
+      {
+        "role": "user",
+        "content": "Tell me more."
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "No, let's do desert villa instead."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, desert villa it is."
+      },
+      {
+        "role": "user",
+        "content": "desert villa rental locked in."
+      },
+      {
+        "role": "assistant",
+        "content": "desert villa confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Reading reviews for desert villa."
+      },
+      {
+        "role": "user",
+        "content": "desert villa confirmed."
+      },
+      {
+        "role": "assistant",
+        "content": "desert villa locked in."
+      }
+    ]
+  },
+  {
+    "idx": 44,
+    "X1": "espresso machine",
+    "X2": "book",
+    "X3": "perfume",
+    "query": "What gift did the user actually purchase?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "Thinking of getting them a espresso machine."
+      },
+      {
+        "role": "assistant",
+        "content": "espresso machine sounds great."
+      },
+      {
+        "role": "user",
+        "content": "Ordered the espresso machine."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: espresso machine."
+      },
+      {
+        "role": "user",
+        "content": "Wrapping the espresso machine."
+      },
+      {
+        "role": "user",
+        "content": "Any thoughts?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "Actually, let's switch to book instead."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to book."
+      },
+      {
+        "role": "user",
+        "content": "Ordered the book."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: book."
+      },
+      {
+        "role": "user",
+        "content": "Wrapping the book."
+      },
+      {
+        "role": "user",
+        "content": "Tell me more."
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "Actually, let's switch to perfume instead."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, perfume it is."
+      },
+      {
+        "role": "user",
+        "content": "Ordered the perfume."
+      },
+      {
+        "role": "assistant",
+        "content": "perfume confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Wrapping the perfume."
+      },
+      {
+        "role": "user",
+        "content": "perfume delivered."
+      },
+      {
+        "role": "assistant",
+        "content": "perfume locked in."
+      }
+    ]
+  },
+  {
+    "idx": 45,
+    "X1": "Rome",
+    "X2": "Vienna",
+    "X3": "Sydney",
+    "query": "Where is the user actually traveling?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "I want to plan a trip to Rome."
+      },
+      {
+        "role": "assistant",
+        "content": "Rome sounds great."
+      },
+      {
+        "role": "user",
+        "content": "Locked in: we're going to Rome."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Rome."
+      },
+      {
+        "role": "user",
+        "content": "Looking at hotels in Rome."
+      },
+      {
+        "role": "user",
+        "content": "Any thoughts?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "No, let's do Vienna instead."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to Vienna."
+      },
+      {
+        "role": "user",
+        "content": "Locked in: we're going to Vienna."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Vienna."
+      },
+      {
+        "role": "user",
+        "content": "Looking at hotels in Vienna."
+      },
+      {
+        "role": "user",
+        "content": "Tell me more."
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "Actually scratch that, Sydney."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, Sydney it is."
+      },
+      {
+        "role": "user",
+        "content": "Locked in: we're going to Sydney."
+      },
+      {
+        "role": "assistant",
+        "content": "Sydney confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Looking at hotels in Sydney."
+      },
+      {
+        "role": "user",
+        "content": "Sydney confirmed."
+      },
+      {
+        "role": "assistant",
+        "content": "Sydney locked in."
+      }
+    ]
+  },
+  {
+    "idx": 46,
+    "X1": "Remix",
+    "X2": "Vue",
+    "X3": "Lit",
+    "query": "Which frontend framework is the user using?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "I think we should use Remix."
+      },
+      {
+        "role": "assistant",
+        "content": "Remix sounds great."
+      },
+      {
+        "role": "user",
+        "content": "Decided: Remix is our stack."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Remix."
+      },
+      {
+        "role": "user",
+        "content": "Started scaffolding Remix."
+      },
+      {
+        "role": "user",
+        "content": "What's the timeline?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "Actually scratch that, Vue."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to Vue."
+      },
+      {
+        "role": "user",
+        "content": "Decided: Vue is our stack."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Vue."
+      },
+      {
+        "role": "user",
+        "content": "Started scaffolding Vue."
+      },
+      {
+        "role": "user",
+        "content": "What's the budget?"
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "Forget that, going with Lit."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, Lit it is."
+      },
+      {
+        "role": "user",
+        "content": "Decided: Lit is our stack."
+      },
+      {
+        "role": "assistant",
+        "content": "Lit confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Started scaffolding Lit."
+      },
+      {
+        "role": "user",
+        "content": "Lit confirmed."
+      },
+      {
+        "role": "assistant",
+        "content": "Lit locked in."
+      }
+    ]
+  },
+  {
+    "idx": 47,
+    "X1": "Italian",
+    "X2": "French",
+    "X3": "Mexican",
+    "query": "What cuisine did the user end up choosing?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "I want Italian food tonight."
+      },
+      {
+        "role": "assistant",
+        "content": "Italian sounds great."
+      },
+      {
+        "role": "user",
+        "content": "Italian place booked."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: Italian."
+      },
+      {
+        "role": "user",
+        "content": "Looking up Italian options."
+      },
+      {
+        "role": "user",
+        "content": "What's the budget?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "Wait, change of plan: French."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to French."
+      },
+      {
+        "role": "user",
+        "content": "French place booked."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: French."
+      },
+      {
+        "role": "user",
+        "content": "Looking up French options."
+      },
+      {
+        "role": "user",
+        "content": "Any thoughts?"
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "Wait, change of plan: Mexican."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, Mexican it is."
+      },
+      {
+        "role": "user",
+        "content": "Mexican place booked."
+      },
+      {
+        "role": "assistant",
+        "content": "Mexican confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Looking up Mexican options."
+      },
+      {
+        "role": "user",
+        "content": "Mexican confirmed for dinner."
+      },
+      {
+        "role": "assistant",
+        "content": "Mexican locked in."
+      }
+    ]
+  },
+  {
+    "idx": 48,
+    "X1": "downtown loft",
+    "X2": "cabin",
+    "X3": "lake cottage",
+    "query": "Which vacation rental did the user finalize?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "Considering booking a downtown loft."
+      },
+      {
+        "role": "assistant",
+        "content": "downtown loft sounds great."
+      },
+      {
+        "role": "user",
+        "content": "downtown loft rental locked in."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: downtown loft."
+      },
+      {
+        "role": "user",
+        "content": "Reading reviews for downtown loft."
+      },
+      {
+        "role": "user",
+        "content": "Any thoughts?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "Actually scratch that, cabin."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to cabin."
+      },
+      {
+        "role": "user",
+        "content": "cabin rental locked in."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: cabin."
+      },
+      {
+        "role": "user",
+        "content": "Reading reviews for cabin."
+      },
+      {
+        "role": "user",
+        "content": "What's the timeline?"
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "Forget that, going with lake cottage."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, lake cottage it is."
+      },
+      {
+        "role": "user",
+        "content": "lake cottage rental locked in."
+      },
+      {
+        "role": "assistant",
+        "content": "lake cottage confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Reading reviews for lake cottage."
+      },
+      {
+        "role": "user",
+        "content": "lake cottage confirmed."
+      },
+      {
+        "role": "assistant",
+        "content": "lake cottage locked in."
+      }
+    ]
+  },
+  {
+    "idx": 49,
+    "X1": "scarf",
+    "X2": "watch",
+    "X3": "headphones",
+    "query": "What gift did the user actually purchase?",
+    "turns": [
+      {
+        "role": "user",
+        "content": "Thinking of getting them a scarf."
+      },
+      {
+        "role": "assistant",
+        "content": "scarf sounds great."
+      },
+      {
+        "role": "user",
+        "content": "Ordered the scarf."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: scarf."
+      },
+      {
+        "role": "user",
+        "content": "Wrapping the scarf."
+      },
+      {
+        "role": "user",
+        "content": "Any thoughts?"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure."
+      },
+      {
+        "role": "user",
+        "content": "Forget that, going with watch."
+      },
+      {
+        "role": "assistant",
+        "content": "Got it, switching to watch."
+      },
+      {
+        "role": "user",
+        "content": "Ordered the watch."
+      },
+      {
+        "role": "assistant",
+        "content": "Confirmed: watch."
+      },
+      {
+        "role": "user",
+        "content": "Wrapping the watch."
+      },
+      {
+        "role": "user",
+        "content": "What's the budget?"
+      },
+      {
+        "role": "assistant",
+        "content": "Understood."
+      },
+      {
+        "role": "user",
+        "content": "No, let's do headphones instead."
+      },
+      {
+        "role": "assistant",
+        "content": "OK, headphones it is."
+      },
+      {
+        "role": "user",
+        "content": "Ordered the headphones."
+      },
+      {
+        "role": "assistant",
+        "content": "headphones confirmed."
+      },
+      {
+        "role": "user",
+        "content": "Wrapping the headphones."
+      },
+      {
+        "role": "user",
+        "content": "headphones delivered."
+      },
+      {
+        "role": "assistant",
+        "content": "headphones locked in."
+      }
+    ]
+  }
+]

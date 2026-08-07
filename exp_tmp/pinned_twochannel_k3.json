@@ -1,0 +1,1958 @@
+{
+  "config": {
+    "n": 50,
+    "k_retractions": 3,
+    "top_k": 5,
+    "model": "claude-haiku-4-5-20251001",
+    "cand_M": 50,
+    "e2e": true
+  },
+  "retrieval_hit": {
+    "cosine": {
+      "1": 17,
+      "3": 34,
+      "5": 47
+    },
+    "baf": {
+      "1": 26,
+      "3": 38,
+      "5": 48
+    },
+    "a_top": {
+      "1": 26,
+      "3": 38,
+      "5": 48
+    },
+    "a_lex": {
+      "1": 20,
+      "3": 38,
+      "5": 48
+    },
+    "b_slot": {
+      "1": 17,
+      "3": 35,
+      "5": 48
+    }
+  },
+  "retrieval_distractor": {
+    "cosine": {
+      "1": 32,
+      "3": 49,
+      "5": 50
+    },
+    "baf": {
+      "1": 23,
+      "3": 45,
+      "5": 47
+    },
+    "a_top": {
+      "1": 23,
+      "3": 40,
+      "5": 41
+    },
+    "a_lex": {
+      "1": 29,
+      "3": 48,
+      "5": 50
+    },
+    "b_slot": {
+      "1": 32,
+      "3": 49,
+      "5": 50
+    }
+  },
+  "e2e_llm": {
+    "cosine": {
+      "y_correct": 14,
+      "x_distractor": 19,
+      "neither": 17
+    },
+    "baf": {
+      "y_correct": 22,
+      "x_distractor": 18,
+      "neither": 10
+    },
+    "a_top": {
+      "y_correct": 23,
+      "x_distractor": 17,
+      "neither": 10
+    },
+    "a_lex": {
+      "y_correct": 18,
+      "x_distractor": 18,
+      "neither": 14
+    },
+    "b_slot": {
+      "y_correct": 15,
+      "x_distractor": 18,
+      "neither": 17
+    }
+  },
+  "slot_stats": {
+    "updates_ok": 21,
+    "updates_failed": 0,
+    "slot_null": 34
+  },
+  "state_correctness": {
+    "a_correct": 9,
+    "a_stale_cutoff": 7,
+    "a_no_carrier": 34,
+    "b_correct": 9,
+    "b_stale_value": 7,
+    "b_no_slot": 34,
+    "carriers_gold": 100,
+    "carriers_detected": 21
+  },
+  "per_sample": [
+    {
+      "idx": 0,
+      "Xs": [
+        "Paris",
+        "Lisbon",
+        "Rome"
+      ],
+      "Xfinal": "Rome",
+      "query": "Where is the user actually traveling?",
+      "slot": null,
+      "slot_ok": 0,
+      "slot_failed": 0,
+      "a_state": "no_carrier",
+      "b_state": "no_slot",
+      "a_cutoff": -1,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "Rome",
+        "category": "y_correct"
+      },
+      "baf": {
+        "answer": "Rome",
+        "category": "y_correct"
+      },
+      "a_top": {
+        "answer": "Rome",
+        "category": "y_correct"
+      },
+      "a_lex": {
+        "answer": "Rome",
+        "category": "y_correct"
+      },
+      "b_slot": {
+        "answer": "Rome",
+        "category": "y_correct"
+      }
+    },
+    {
+      "idx": 1,
+      "Xs": [
+        "Preact",
+        "Lit",
+        "Svelte"
+      ],
+      "Xfinal": "Svelte",
+      "query": "Which frontend framework is the user using?",
+      "slot": "Svelte",
+      "slot_ok": 2,
+      "slot_failed": 0,
+      "a_state": "correct",
+      "b_state": "correct",
+      "a_cutoff": 14,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "Preact",
+        "category": "x_distractor"
+      },
+      "baf": {
+        "answer": "Lit",
+        "category": "x_distractor"
+      },
+      "a_top": {
+        "answer": "Svelte",
+        "category": "y_correct"
+      },
+      "a_lex": {
+        "answer": "Preact",
+        "category": "x_distractor"
+      },
+      "b_slot": {
+        "answer": "Preact",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 2,
+      "Xs": [
+        "Thai",
+        "Indian",
+        "Mexican"
+      ],
+      "Xfinal": "Mexican",
+      "query": "What cuisine did the user end up choosing?",
+      "slot": "Indian",
+      "slot_ok": 1,
+      "slot_failed": 0,
+      "a_state": "stale_cutoff",
+      "b_state": "stale_value",
+      "a_cutoff": 7,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "Mexican",
+        "category": "y_correct"
+      },
+      "baf": {
+        "answer": "Indian",
+        "category": "x_distractor"
+      },
+      "a_top": {
+        "answer": "Indian",
+        "category": "x_distractor"
+      },
+      "a_lex": {
+        "answer": "Indian",
+        "category": "x_distractor"
+      },
+      "b_slot": {
+        "answer": "Mexican",
+        "category": "y_correct"
+      }
+    },
+    {
+      "idx": 3,
+      "Xs": [
+        "desert villa",
+        "beach house",
+        "ski chalet"
+      ],
+      "Xfinal": "ski chalet",
+      "query": "Which vacation rental did the user finalize?",
+      "slot": null,
+      "slot_ok": 0,
+      "slot_failed": 0,
+      "a_state": "no_carrier",
+      "b_state": "no_slot",
+      "a_cutoff": -1,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "beach house",
+        "category": "x_distractor"
+      },
+      "baf": {
+        "answer": "beach house",
+        "category": "x_distractor"
+      },
+      "a_top": {
+        "answer": "beach house",
+        "category": "x_distractor"
+      },
+      "a_lex": {
+        "answer": "beach house",
+        "category": "x_distractor"
+      },
+      "b_slot": {
+        "answer": "beach house",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 4,
+      "Xs": [
+        "book",
+        "headphones",
+        "wine subscription"
+      ],
+      "Xfinal": "wine subscription",
+      "query": "What gift did the user actually purchase?",
+      "slot": null,
+      "slot_ok": 0,
+      "slot_failed": 0,
+      "a_state": "no_carrier",
+      "b_state": "no_slot",
+      "a_cutoff": -1,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "Wine subscription, book, headphones",
+        "category": "neither"
+      },
+      "baf": {
+        "answer": "Wine subscription, book, headphones",
+        "category": "neither"
+      },
+      "a_top": {
+        "answer": "Wine subscription, book, headphones",
+        "category": "neither"
+      },
+      "a_lex": {
+        "answer": "Wine subscription, book, headphones",
+        "category": "neither"
+      },
+      "b_slot": {
+        "answer": "Wine subscription, book, headphones",
+        "category": "neither"
+      }
+    },
+    {
+      "idx": 5,
+      "Xs": [
+        "Barcelona",
+        "London",
+        "Lisbon"
+      ],
+      "Xfinal": "Lisbon",
+      "query": "Where is the user actually traveling?",
+      "slot": null,
+      "slot_ok": 0,
+      "slot_failed": 0,
+      "a_state": "no_carrier",
+      "b_state": "no_slot",
+      "a_cutoff": -1,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "Barcelona",
+        "category": "x_distractor"
+      },
+      "baf": {
+        "answer": "Barcelona",
+        "category": "x_distractor"
+      },
+      "a_top": {
+        "answer": "Barcelona",
+        "category": "x_distractor"
+      },
+      "a_lex": {
+        "answer": "Barcelona",
+        "category": "x_distractor"
+      },
+      "b_slot": {
+        "answer": "Barcelona",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 6,
+      "Xs": [
+        "React",
+        "Qwik",
+        "Lit"
+      ],
+      "Xfinal": "Lit",
+      "query": "Which frontend framework is the user using?",
+      "slot": null,
+      "slot_ok": 0,
+      "slot_failed": 0,
+      "a_state": "no_carrier",
+      "b_state": "no_slot",
+      "a_cutoff": -1,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "Qwik",
+        "category": "x_distractor"
+      },
+      "baf": {
+        "answer": "Qwik",
+        "category": "x_distractor"
+      },
+      "a_top": {
+        "answer": "Qwik",
+        "category": "x_distractor"
+      },
+      "a_lex": {
+        "answer": "Qwik",
+        "category": "x_distractor"
+      },
+      "b_slot": {
+        "answer": "Qwik",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 7,
+      "Xs": [
+        "Spanish",
+        "Vietnamese",
+        "Greek"
+      ],
+      "Xfinal": "Greek",
+      "query": "What cuisine did the user end up choosing?",
+      "slot": "Greek",
+      "slot_ok": 2,
+      "slot_failed": 0,
+      "a_state": "correct",
+      "b_state": "correct",
+      "a_cutoff": 14,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "Vietnamese",
+        "category": "x_distractor"
+      },
+      "baf": {
+        "answer": "Greek",
+        "category": "y_correct"
+      },
+      "a_top": {
+        "answer": "Greek",
+        "category": "y_correct"
+      },
+      "a_lex": {
+        "answer": "Greek",
+        "category": "y_correct"
+      },
+      "b_slot": {
+        "answer": "Greek",
+        "category": "y_correct"
+      }
+    },
+    {
+      "idx": 8,
+      "Xs": [
+        "desert villa",
+        "yurt",
+        "farmhouse"
+      ],
+      "Xfinal": "farmhouse",
+      "query": "Which vacation rental did the user finalize?",
+      "slot": null,
+      "slot_ok": 0,
+      "slot_failed": 0,
+      "a_state": "no_carrier",
+      "b_state": "no_slot",
+      "a_cutoff": -1,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "Farmhouse",
+        "category": "y_correct"
+      },
+      "baf": {
+        "answer": "Farmhouse",
+        "category": "y_correct"
+      },
+      "a_top": {
+        "answer": "Farmhouse",
+        "category": "y_correct"
+      },
+      "a_lex": {
+        "answer": "Farmhouse",
+        "category": "y_correct"
+      },
+      "b_slot": {
+        "answer": "Farmhouse",
+        "category": "y_correct"
+      }
+    },
+    {
+      "idx": 9,
+      "Xs": [
+        "kitchen knife",
+        "fountain pen",
+        "wine subscription"
+      ],
+      "Xfinal": "wine subscription",
+      "query": "What gift did the user actually purchase?",
+      "slot": "wine",
+      "slot_ok": 1,
+      "slot_failed": 0,
+      "a_state": "correct",
+      "b_state": "correct",
+      "a_cutoff": 14,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "Wine subscription, kitchen knife, fountain pen",
+        "category": "neither"
+      },
+      "baf": {
+        "answer": "wine subscription",
+        "category": "y_correct"
+      },
+      "a_top": {
+        "answer": "wine subscription",
+        "category": "y_correct"
+      },
+      "a_lex": {
+        "answer": "Wine subscription",
+        "category": "y_correct"
+      },
+      "b_slot": {
+        "answer": "Wine subscription, kitchen knife, fountain pen",
+        "category": "neither"
+      }
+    },
+    {
+      "idx": 10,
+      "Xs": [
+        "Rome",
+        "Vienna",
+        "Bangkok"
+      ],
+      "Xfinal": "Bangkok",
+      "query": "Where is the user actually traveling?",
+      "slot": "Vienna",
+      "slot_ok": 1,
+      "slot_failed": 0,
+      "a_state": "stale_cutoff",
+      "b_state": "stale_value",
+      "a_cutoff": 7,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "Rome",
+        "category": "x_distractor"
+      },
+      "baf": {
+        "answer": "Vienna",
+        "category": "x_distractor"
+      },
+      "a_top": {
+        "answer": "Vienna",
+        "category": "x_distractor"
+      },
+      "a_lex": {
+        "answer": "Vienna",
+        "category": "x_distractor"
+      },
+      "b_slot": {
+        "answer": "Rome",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 11,
+      "Xs": [
+        "Qwik",
+        "React",
+        "Lit"
+      ],
+      "Xfinal": "Lit",
+      "query": "Which frontend framework is the user using?",
+      "slot": null,
+      "slot_ok": 0,
+      "slot_failed": 0,
+      "a_state": "no_carrier",
+      "b_state": "no_slot",
+      "a_cutoff": -1,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "Qwik",
+        "category": "x_distractor"
+      },
+      "baf": {
+        "answer": "Qwik",
+        "category": "x_distractor"
+      },
+      "a_top": {
+        "answer": "Qwik",
+        "category": "x_distractor"
+      },
+      "a_lex": {
+        "answer": "Qwik",
+        "category": "x_distractor"
+      },
+      "b_slot": {
+        "answer": "Qwik",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 12,
+      "Xs": [
+        "Korean",
+        "Thai",
+        "Indian"
+      ],
+      "Xfinal": "Indian",
+      "query": "What cuisine did the user end up choosing?",
+      "slot": null,
+      "slot_ok": 0,
+      "slot_failed": 0,
+      "a_state": "no_carrier",
+      "b_state": "no_slot",
+      "a_cutoff": -1,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "Thai",
+        "category": "x_distractor"
+      },
+      "baf": {
+        "answer": "Thai",
+        "category": "x_distractor"
+      },
+      "a_top": {
+        "answer": "Thai",
+        "category": "x_distractor"
+      },
+      "a_lex": {
+        "answer": "Thai",
+        "category": "x_distractor"
+      },
+      "b_slot": {
+        "answer": "Thai",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 13,
+      "Xs": [
+        "houseboat",
+        "ski chalet",
+        "beach house"
+      ],
+      "Xfinal": "beach house",
+      "query": "Which vacation rental did the user finalize?",
+      "slot": null,
+      "slot_ok": 0,
+      "slot_failed": 0,
+      "a_state": "no_carrier",
+      "b_state": "no_slot",
+      "a_cutoff": -1,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "All three",
+        "category": "neither"
+      },
+      "baf": {
+        "answer": "All three",
+        "category": "neither"
+      },
+      "a_top": {
+        "answer": "All three",
+        "category": "neither"
+      },
+      "a_lex": {
+        "answer": "All three",
+        "category": "neither"
+      },
+      "b_slot": {
+        "answer": "All three",
+        "category": "neither"
+      }
+    },
+    {
+      "idx": 14,
+      "Xs": [
+        "watch",
+        "headphones",
+        "camera lens"
+      ],
+      "Xfinal": "camera lens",
+      "query": "What gift did the user actually purchase?",
+      "slot": "camera",
+      "slot_ok": 1,
+      "slot_failed": 0,
+      "a_state": "correct",
+      "b_state": "correct",
+      "a_cutoff": 14,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "Watch, headphones, camera lens",
+        "category": "neither"
+      },
+      "baf": {
+        "answer": "camera lens",
+        "category": "y_correct"
+      },
+      "a_top": {
+        "answer": "camera lens",
+        "category": "y_correct"
+      },
+      "a_lex": {
+        "answer": "Watch and camera lens",
+        "category": "neither"
+      },
+      "b_slot": {
+        "answer": "Watch, headphones, camera lens",
+        "category": "neither"
+      }
+    },
+    {
+      "idx": 15,
+      "Xs": [
+        "Paris",
+        "Reykjavik",
+        "Rome"
+      ],
+      "Xfinal": "Rome",
+      "query": "Where is the user actually traveling?",
+      "slot": null,
+      "slot_ok": 0,
+      "slot_failed": 0,
+      "a_state": "no_carrier",
+      "b_state": "no_slot",
+      "a_cutoff": -1,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "Rome",
+        "category": "y_correct"
+      },
+      "baf": {
+        "answer": "Rome",
+        "category": "y_correct"
+      },
+      "a_top": {
+        "answer": "Rome",
+        "category": "y_correct"
+      },
+      "a_lex": {
+        "answer": "Rome",
+        "category": "y_correct"
+      },
+      "b_slot": {
+        "answer": "Rome",
+        "category": "y_correct"
+      }
+    },
+    {
+      "idx": 16,
+      "Xs": [
+        "Svelte",
+        "Astro",
+        "Preact"
+      ],
+      "Xfinal": "Preact",
+      "query": "Which frontend framework is the user using?",
+      "slot": null,
+      "slot_ok": 0,
+      "slot_failed": 0,
+      "a_state": "no_carrier",
+      "b_state": "no_slot",
+      "a_cutoff": -1,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "Preact",
+        "category": "y_correct"
+      },
+      "baf": {
+        "answer": "Preact",
+        "category": "y_correct"
+      },
+      "a_top": {
+        "answer": "Preact",
+        "category": "y_correct"
+      },
+      "a_lex": {
+        "answer": "Preact",
+        "category": "y_correct"
+      },
+      "b_slot": {
+        "answer": "Preact",
+        "category": "y_correct"
+      }
+    },
+    {
+      "idx": 17,
+      "Xs": [
+        "Greek",
+        "Mexican",
+        "Thai"
+      ],
+      "Xfinal": "Thai",
+      "query": "What cuisine did the user end up choosing?",
+      "slot": null,
+      "slot_ok": 0,
+      "slot_failed": 0,
+      "a_state": "no_carrier",
+      "b_state": "no_slot",
+      "a_cutoff": -1,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "Thai and Mexican",
+        "category": "neither"
+      },
+      "baf": {
+        "answer": "Thai and Mexican",
+        "category": "neither"
+      },
+      "a_top": {
+        "answer": "Thai and Mexican",
+        "category": "neither"
+      },
+      "a_lex": {
+        "answer": "Thai and Mexican",
+        "category": "neither"
+      },
+      "b_slot": {
+        "answer": "Thai and Mexican",
+        "category": "neither"
+      }
+    },
+    {
+      "idx": 18,
+      "Xs": [
+        "lake cottage",
+        "ski chalet",
+        "beach house"
+      ],
+      "Xfinal": "beach house",
+      "query": "Which vacation rental did the user finalize?",
+      "slot": null,
+      "slot_ok": 0,
+      "slot_failed": 0,
+      "a_state": "no_carrier",
+      "b_state": "no_slot",
+      "a_cutoff": -1,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "Beach house, lake cottage, ski chalet",
+        "category": "neither"
+      },
+      "baf": {
+        "answer": "Beach house, lake cottage, ski chalet",
+        "category": "neither"
+      },
+      "a_top": {
+        "answer": "Beach house, lake cottage, ski chalet",
+        "category": "neither"
+      },
+      "a_lex": {
+        "answer": "Beach house, lake cottage, ski chalet",
+        "category": "neither"
+      },
+      "b_slot": {
+        "answer": "Beach house, lake cottage, ski chalet",
+        "category": "neither"
+      }
+    },
+    {
+      "idx": 19,
+      "Xs": [
+        "espresso machine",
+        "book",
+        "headphones"
+      ],
+      "Xfinal": "headphones",
+      "query": "What gift did the user actually purchase?",
+      "slot": null,
+      "slot_ok": 0,
+      "slot_failed": 0,
+      "a_state": "no_carrier",
+      "b_state": "no_slot",
+      "a_cutoff": -1,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "Book, espresso machine, headphones",
+        "category": "neither"
+      },
+      "baf": {
+        "answer": "Book, espresso machine, headphones",
+        "category": "neither"
+      },
+      "a_top": {
+        "answer": "Book, espresso machine, headphones",
+        "category": "neither"
+      },
+      "a_lex": {
+        "answer": "Book, espresso machine, headphones",
+        "category": "neither"
+      },
+      "b_slot": {
+        "answer": "Book, espresso machine, headphones",
+        "category": "neither"
+      }
+    },
+    {
+      "idx": 20,
+      "Xs": [
+        "Sydney",
+        "Lisbon",
+        "London"
+      ],
+      "Xfinal": "London",
+      "query": "Where is the user actually traveling?",
+      "slot": null,
+      "slot_ok": 0,
+      "slot_failed": 0,
+      "a_state": "no_carrier",
+      "b_state": "no_slot",
+      "a_cutoff": -1,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "London",
+        "category": "y_correct"
+      },
+      "baf": {
+        "answer": "London",
+        "category": "y_correct"
+      },
+      "a_top": {
+        "answer": "London",
+        "category": "y_correct"
+      },
+      "a_lex": {
+        "answer": "London",
+        "category": "y_correct"
+      },
+      "b_slot": {
+        "answer": "London",
+        "category": "y_correct"
+      }
+    },
+    {
+      "idx": 21,
+      "Xs": [
+        "Lit",
+        "Angular",
+        "Preact"
+      ],
+      "Xfinal": "Preact",
+      "query": "Which frontend framework is the user using?",
+      "slot": null,
+      "slot_ok": 0,
+      "slot_failed": 0,
+      "a_state": "no_carrier",
+      "b_state": "no_slot",
+      "a_cutoff": -1,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "Preact",
+        "category": "y_correct"
+      },
+      "baf": {
+        "answer": "Preact",
+        "category": "y_correct"
+      },
+      "a_top": {
+        "answer": "Preact",
+        "category": "y_correct"
+      },
+      "a_lex": {
+        "answer": "Preact",
+        "category": "y_correct"
+      },
+      "b_slot": {
+        "answer": "Preact",
+        "category": "y_correct"
+      }
+    },
+    {
+      "idx": 22,
+      "Xs": [
+        "Italian",
+        "Spanish",
+        "Thai"
+      ],
+      "Xfinal": "Thai",
+      "query": "What cuisine did the user end up choosing?",
+      "slot": null,
+      "slot_ok": 0,
+      "slot_failed": 0,
+      "a_state": "no_carrier",
+      "b_state": "no_slot",
+      "a_cutoff": -1,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "Thai",
+        "category": "y_correct"
+      },
+      "baf": {
+        "answer": "Thai",
+        "category": "y_correct"
+      },
+      "a_top": {
+        "answer": "Thai",
+        "category": "y_correct"
+      },
+      "a_lex": {
+        "answer": "Thai",
+        "category": "y_correct"
+      },
+      "b_slot": {
+        "answer": "Thai",
+        "category": "y_correct"
+      }
+    },
+    {
+      "idx": 23,
+      "Xs": [
+        "beach house",
+        "cabin",
+        "desert villa"
+      ],
+      "Xfinal": "desert villa",
+      "query": "Which vacation rental did the user finalize?",
+      "slot": null,
+      "slot_ok": 0,
+      "slot_failed": 0,
+      "a_state": "no_carrier",
+      "b_state": "no_slot",
+      "a_cutoff": -1,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "Beach house, desert villa, cabin",
+        "category": "neither"
+      },
+      "baf": {
+        "answer": "Beach house, desert villa, cabin",
+        "category": "neither"
+      },
+      "a_top": {
+        "answer": "Beach house, desert villa, cabin",
+        "category": "neither"
+      },
+      "a_lex": {
+        "answer": "Beach house, desert villa, cabin",
+        "category": "neither"
+      },
+      "b_slot": {
+        "answer": "Beach house, desert villa, cabin",
+        "category": "neither"
+      }
+    },
+    {
+      "idx": 24,
+      "Xs": [
+        "watch",
+        "headphones",
+        "kitchen knife"
+      ],
+      "Xfinal": "kitchen knife",
+      "query": "What gift did the user actually purchase?",
+      "slot": null,
+      "slot_ok": 0,
+      "slot_failed": 0,
+      "a_state": "no_carrier",
+      "b_state": "no_slot",
+      "a_cutoff": -1,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "Watch, kitchen knife, headphones",
+        "category": "neither"
+      },
+      "baf": {
+        "answer": "Watch, kitchen knife, headphones",
+        "category": "neither"
+      },
+      "a_top": {
+        "answer": "Watch, kitchen knife, headphones",
+        "category": "neither"
+      },
+      "a_lex": {
+        "answer": "Watch, kitchen knife, headphones",
+        "category": "neither"
+      },
+      "b_slot": {
+        "answer": "Watch, kitchen knife, headphones",
+        "category": "neither"
+      }
+    },
+    {
+      "idx": 25,
+      "Xs": [
+        "Bangkok",
+        "Tokyo",
+        "Paris"
+      ],
+      "Xfinal": "Paris",
+      "query": "Where is the user actually traveling?",
+      "slot": "Paris",
+      "slot_ok": 1,
+      "slot_failed": 0,
+      "a_state": "correct",
+      "b_state": "correct",
+      "a_cutoff": 14,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "Paris",
+        "category": "y_correct"
+      },
+      "baf": {
+        "answer": "Paris",
+        "category": "y_correct"
+      },
+      "a_top": {
+        "answer": "Paris",
+        "category": "y_correct"
+      },
+      "a_lex": {
+        "answer": "Paris",
+        "category": "y_correct"
+      },
+      "b_slot": {
+        "answer": "Paris",
+        "category": "y_correct"
+      }
+    },
+    {
+      "idx": 26,
+      "Xs": [
+        "Remix",
+        "React",
+        "Vue"
+      ],
+      "Xfinal": "Vue",
+      "query": "Which frontend framework is the user using?",
+      "slot": "React",
+      "slot_ok": 1,
+      "slot_failed": 0,
+      "a_state": "stale_cutoff",
+      "b_state": "stale_value",
+      "a_cutoff": 7,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "React",
+        "category": "x_distractor"
+      },
+      "baf": {
+        "answer": "React",
+        "category": "x_distractor"
+      },
+      "a_top": {
+        "answer": "React",
+        "category": "x_distractor"
+      },
+      "a_lex": {
+        "answer": "React",
+        "category": "x_distractor"
+      },
+      "b_slot": {
+        "answer": "React",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 27,
+      "Xs": [
+        "Thai",
+        "French",
+        "Spanish"
+      ],
+      "Xfinal": "Spanish",
+      "query": "What cuisine did the user end up choosing?",
+      "slot": null,
+      "slot_ok": 0,
+      "slot_failed": 0,
+      "a_state": "no_carrier",
+      "b_state": "no_slot",
+      "a_cutoff": -1,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "French",
+        "category": "x_distractor"
+      },
+      "baf": {
+        "answer": "French",
+        "category": "x_distractor"
+      },
+      "a_top": {
+        "answer": "French",
+        "category": "x_distractor"
+      },
+      "a_lex": {
+        "answer": "French",
+        "category": "x_distractor"
+      },
+      "b_slot": {
+        "answer": "French",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 28,
+      "Xs": [
+        "lake cottage",
+        "houseboat",
+        "yurt"
+      ],
+      "Xfinal": "yurt",
+      "query": "Which vacation rental did the user finalize?",
+      "slot": "houseboat",
+      "slot_ok": 1,
+      "slot_failed": 0,
+      "a_state": "stale_cutoff",
+      "b_state": "stale_value",
+      "a_cutoff": 7,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "Lake cottage, yurt, houseboat",
+        "category": "neither"
+      },
+      "baf": {
+        "answer": "Houseboat",
+        "category": "x_distractor"
+      },
+      "a_top": {
+        "answer": "Houseboat",
+        "category": "x_distractor"
+      },
+      "a_lex": {
+        "answer": "Houseboat",
+        "category": "x_distractor"
+      },
+      "b_slot": {
+        "answer": "Lake cottage, yurt, houseboat",
+        "category": "neither"
+      }
+    },
+    {
+      "idx": 29,
+      "Xs": [
+        "perfume",
+        "headphones",
+        "scarf"
+      ],
+      "Xfinal": "scarf",
+      "query": "What gift did the user actually purchase?",
+      "slot": "scarf",
+      "slot_ok": 1,
+      "slot_failed": 0,
+      "a_state": "correct",
+      "b_state": "correct",
+      "a_cutoff": 14,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "Perfume, scarf, headphones",
+        "category": "neither"
+      },
+      "baf": {
+        "answer": "scarf",
+        "category": "y_correct"
+      },
+      "a_top": {
+        "answer": "scarf",
+        "category": "y_correct"
+      },
+      "a_lex": {
+        "answer": "Perfume and scarf",
+        "category": "neither"
+      },
+      "b_slot": {
+        "answer": "Perfume, scarf, headphones",
+        "category": "neither"
+      }
+    },
+    {
+      "idx": 30,
+      "Xs": [
+        "Bangkok",
+        "Sydney",
+        "Vienna"
+      ],
+      "Xfinal": "Vienna",
+      "query": "Where is the user actually traveling?",
+      "slot": null,
+      "slot_ok": 0,
+      "slot_failed": 0,
+      "a_state": "no_carrier",
+      "b_state": "no_slot",
+      "a_cutoff": -1,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "Vienna",
+        "category": "y_correct"
+      },
+      "baf": {
+        "answer": "Vienna",
+        "category": "y_correct"
+      },
+      "a_top": {
+        "answer": "Vienna",
+        "category": "y_correct"
+      },
+      "a_lex": {
+        "answer": "Vienna",
+        "category": "y_correct"
+      },
+      "b_slot": {
+        "answer": "Vienna",
+        "category": "y_correct"
+      }
+    },
+    {
+      "idx": 31,
+      "Xs": [
+        "Preact",
+        "Svelte",
+        "React"
+      ],
+      "Xfinal": "React",
+      "query": "Which frontend framework is the user using?",
+      "slot": null,
+      "slot_ok": 0,
+      "slot_failed": 0,
+      "a_state": "no_carrier",
+      "b_state": "no_slot",
+      "a_cutoff": -1,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "Svelte",
+        "category": "x_distractor"
+      },
+      "baf": {
+        "answer": "Svelte",
+        "category": "x_distractor"
+      },
+      "a_top": {
+        "answer": "Svelte",
+        "category": "x_distractor"
+      },
+      "a_lex": {
+        "answer": "Svelte",
+        "category": "x_distractor"
+      },
+      "b_slot": {
+        "answer": "Svelte",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 32,
+      "Xs": [
+        "Thai",
+        "Vietnamese",
+        "Indian"
+      ],
+      "Xfinal": "Indian",
+      "query": "What cuisine did the user end up choosing?",
+      "slot": null,
+      "slot_ok": 0,
+      "slot_failed": 0,
+      "a_state": "no_carrier",
+      "b_state": "no_slot",
+      "a_cutoff": -1,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "Vietnamese",
+        "category": "x_distractor"
+      },
+      "baf": {
+        "answer": "Vietnamese",
+        "category": "x_distractor"
+      },
+      "a_top": {
+        "answer": "Vietnamese",
+        "category": "x_distractor"
+      },
+      "a_lex": {
+        "answer": "Vietnamese",
+        "category": "x_distractor"
+      },
+      "b_slot": {
+        "answer": "Vietnamese",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 33,
+      "Xs": [
+        "downtown loft",
+        "ski chalet",
+        "lake cottage"
+      ],
+      "Xfinal": "lake cottage",
+      "query": "Which vacation rental did the user finalize?",
+      "slot": null,
+      "slot_ok": 0,
+      "slot_failed": 0,
+      "a_state": "no_carrier",
+      "b_state": "no_slot",
+      "a_cutoff": -1,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "All three",
+        "category": "neither"
+      },
+      "baf": {
+        "answer": "All three",
+        "category": "neither"
+      },
+      "a_top": {
+        "answer": "All three",
+        "category": "neither"
+      },
+      "a_lex": {
+        "answer": "All three",
+        "category": "neither"
+      },
+      "b_slot": {
+        "answer": "All three",
+        "category": "neither"
+      }
+    },
+    {
+      "idx": 34,
+      "Xs": [
+        "perfume",
+        "espresso machine",
+        "scarf"
+      ],
+      "Xfinal": "scarf",
+      "query": "What gift did the user actually purchase?",
+      "slot": null,
+      "slot_ok": 0,
+      "slot_failed": 0,
+      "a_state": "no_carrier",
+      "b_state": "no_slot",
+      "a_cutoff": -1,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "Perfume, scarf, espresso machine",
+        "category": "neither"
+      },
+      "baf": {
+        "answer": "Perfume, scarf, espresso machine",
+        "category": "neither"
+      },
+      "a_top": {
+        "answer": "Perfume, scarf, espresso machine",
+        "category": "neither"
+      },
+      "a_lex": {
+        "answer": "Perfume, scarf, espresso machine",
+        "category": "neither"
+      },
+      "b_slot": {
+        "answer": "Perfume, scarf, espresso machine",
+        "category": "neither"
+      }
+    },
+    {
+      "idx": 35,
+      "Xs": [
+        "Barcelona",
+        "Rome",
+        "Bangkok"
+      ],
+      "Xfinal": "Bangkok",
+      "query": "Where is the user actually traveling?",
+      "slot": null,
+      "slot_ok": 0,
+      "slot_failed": 0,
+      "a_state": "no_carrier",
+      "b_state": "no_slot",
+      "a_cutoff": -1,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "Rome",
+        "category": "x_distractor"
+      },
+      "baf": {
+        "answer": "Rome",
+        "category": "x_distractor"
+      },
+      "a_top": {
+        "answer": "Rome",
+        "category": "x_distractor"
+      },
+      "a_lex": {
+        "answer": "Rome",
+        "category": "x_distractor"
+      },
+      "b_slot": {
+        "answer": "Rome",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 36,
+      "Xs": [
+        "Qwik",
+        "Remix",
+        "Astro"
+      ],
+      "Xfinal": "Astro",
+      "query": "Which frontend framework is the user using?",
+      "slot": "Astro",
+      "slot_ok": 2,
+      "slot_failed": 0,
+      "a_state": "correct",
+      "b_state": "correct",
+      "a_cutoff": 14,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "Remix",
+        "category": "x_distractor"
+      },
+      "baf": {
+        "answer": "Astro",
+        "category": "y_correct"
+      },
+      "a_top": {
+        "answer": "Astro",
+        "category": "y_correct"
+      },
+      "a_lex": {
+        "answer": "Astro",
+        "category": "y_correct"
+      },
+      "b_slot": {
+        "answer": "Astro",
+        "category": "y_correct"
+      }
+    },
+    {
+      "idx": 37,
+      "Xs": [
+        "Mexican",
+        "Korean",
+        "Italian"
+      ],
+      "Xfinal": "Italian",
+      "query": "What cuisine did the user end up choosing?",
+      "slot": null,
+      "slot_ok": 0,
+      "slot_failed": 0,
+      "a_state": "no_carrier",
+      "b_state": "no_slot",
+      "a_cutoff": -1,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "Mexican",
+        "category": "x_distractor"
+      },
+      "baf": {
+        "answer": "Mexican",
+        "category": "x_distractor"
+      },
+      "a_top": {
+        "answer": "Mexican",
+        "category": "x_distractor"
+      },
+      "a_lex": {
+        "answer": "Mexican",
+        "category": "x_distractor"
+      },
+      "b_slot": {
+        "answer": "Mexican",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 38,
+      "Xs": [
+        "houseboat",
+        "treehouse",
+        "farmhouse"
+      ],
+      "Xfinal": "farmhouse",
+      "query": "Which vacation rental did the user finalize?",
+      "slot": null,
+      "slot_ok": 0,
+      "slot_failed": 0,
+      "a_state": "no_carrier",
+      "b_state": "no_slot",
+      "a_cutoff": -1,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "Farmhouse",
+        "category": "y_correct"
+      },
+      "baf": {
+        "answer": "Farmhouse",
+        "category": "y_correct"
+      },
+      "a_top": {
+        "answer": "Farmhouse",
+        "category": "y_correct"
+      },
+      "a_lex": {
+        "answer": "Farmhouse",
+        "category": "y_correct"
+      },
+      "b_slot": {
+        "answer": "Treehouse",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 39,
+      "Xs": [
+        "watch",
+        "book",
+        "espresso machine"
+      ],
+      "Xfinal": "espresso machine",
+      "query": "What gift did the user actually purchase?",
+      "slot": "espresso",
+      "slot_ok": 2,
+      "slot_failed": 0,
+      "a_state": "correct",
+      "b_state": "correct",
+      "a_cutoff": 14,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "Book, watch, espresso machine",
+        "category": "neither"
+      },
+      "baf": {
+        "answer": "espresso machine",
+        "category": "y_correct"
+      },
+      "a_top": {
+        "answer": "espresso machine",
+        "category": "y_correct"
+      },
+      "a_lex": {
+        "answer": "Watch and espresso machine",
+        "category": "neither"
+      },
+      "b_slot": {
+        "answer": "Watch and espresso machine",
+        "category": "neither"
+      }
+    },
+    {
+      "idx": 40,
+      "Xs": [
+        "Paris",
+        "Rome",
+        "London"
+      ],
+      "Xfinal": "London",
+      "query": "Where is the user actually traveling?",
+      "slot": "Rome",
+      "slot_ok": 1,
+      "slot_failed": 0,
+      "a_state": "stale_cutoff",
+      "b_state": "stale_value",
+      "a_cutoff": 7,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "Paris",
+        "category": "x_distractor"
+      },
+      "baf": {
+        "answer": "London",
+        "category": "y_correct"
+      },
+      "a_top": {
+        "answer": "London",
+        "category": "y_correct"
+      },
+      "a_lex": {
+        "answer": "London",
+        "category": "y_correct"
+      },
+      "b_slot": {
+        "answer": "Paris",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 41,
+      "Xs": [
+        "Remix",
+        "Preact",
+        "Qwik"
+      ],
+      "Xfinal": "Qwik",
+      "query": "Which frontend framework is the user using?",
+      "slot": "Preact",
+      "slot_ok": 1,
+      "slot_failed": 0,
+      "a_state": "stale_cutoff",
+      "b_state": "stale_value",
+      "a_cutoff": 7,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "Preact",
+        "category": "x_distractor"
+      },
+      "baf": {
+        "answer": "Preact",
+        "category": "x_distractor"
+      },
+      "a_top": {
+        "answer": "Preact",
+        "category": "x_distractor"
+      },
+      "a_lex": {
+        "answer": "Preact",
+        "category": "x_distractor"
+      },
+      "b_slot": {
+        "answer": "Preact",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 42,
+      "Xs": [
+        "Japanese",
+        "Indian",
+        "Italian"
+      ],
+      "Xfinal": "Italian",
+      "query": "What cuisine did the user end up choosing?",
+      "slot": null,
+      "slot_ok": 0,
+      "slot_failed": 0,
+      "a_state": "no_carrier",
+      "b_state": "no_slot",
+      "a_cutoff": -1,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "Italian",
+        "category": "y_correct"
+      },
+      "baf": {
+        "answer": "Italian",
+        "category": "y_correct"
+      },
+      "a_top": {
+        "answer": "Italian",
+        "category": "y_correct"
+      },
+      "a_lex": {
+        "answer": "Italian",
+        "category": "y_correct"
+      },
+      "b_slot": {
+        "answer": "Italian",
+        "category": "y_correct"
+      }
+    },
+    {
+      "idx": 43,
+      "Xs": [
+        "downtown loft",
+        "houseboat",
+        "desert villa"
+      ],
+      "Xfinal": "desert villa",
+      "query": "Which vacation rental did the user finalize?",
+      "slot": "houseboat",
+      "slot_ok": 1,
+      "slot_failed": 0,
+      "a_state": "stale_cutoff",
+      "b_state": "stale_value",
+      "a_cutoff": 7,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "All three",
+        "category": "neither"
+      },
+      "baf": {
+        "answer": "Desert villa",
+        "category": "y_correct"
+      },
+      "a_top": {
+        "answer": "Desert villa",
+        "category": "y_correct"
+      },
+      "a_lex": {
+        "answer": "Desert villa",
+        "category": "y_correct"
+      },
+      "b_slot": {
+        "answer": "All three",
+        "category": "neither"
+      }
+    },
+    {
+      "idx": 44,
+      "Xs": [
+        "espresso machine",
+        "book",
+        "perfume"
+      ],
+      "Xfinal": "perfume",
+      "query": "What gift did the user actually purchase?",
+      "slot": "perfume",
+      "slot_ok": 2,
+      "slot_failed": 0,
+      "a_state": "correct",
+      "b_state": "correct",
+      "a_cutoff": 14,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "Perfume and book",
+        "category": "neither"
+      },
+      "baf": {
+        "answer": "Perfume",
+        "category": "y_correct"
+      },
+      "a_top": {
+        "answer": "perfume",
+        "category": "y_correct"
+      },
+      "a_lex": {
+        "answer": "Perfume and espresso machine",
+        "category": "neither"
+      },
+      "b_slot": {
+        "answer": "Perfume and espresso machine",
+        "category": "neither"
+      }
+    },
+    {
+      "idx": 45,
+      "Xs": [
+        "Rome",
+        "Vienna",
+        "Sydney"
+      ],
+      "Xfinal": "Sydney",
+      "query": "Where is the user actually traveling?",
+      "slot": null,
+      "slot_ok": 0,
+      "slot_failed": 0,
+      "a_state": "no_carrier",
+      "b_state": "no_slot",
+      "a_cutoff": -1,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "Rome",
+        "category": "x_distractor"
+      },
+      "baf": {
+        "answer": "Rome",
+        "category": "x_distractor"
+      },
+      "a_top": {
+        "answer": "Rome",
+        "category": "x_distractor"
+      },
+      "a_lex": {
+        "answer": "Rome",
+        "category": "x_distractor"
+      },
+      "b_slot": {
+        "answer": "Rome",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 46,
+      "Xs": [
+        "Remix",
+        "Vue",
+        "Lit"
+      ],
+      "Xfinal": "Lit",
+      "query": "Which frontend framework is the user using?",
+      "slot": null,
+      "slot_ok": 0,
+      "slot_failed": 0,
+      "a_state": "no_carrier",
+      "b_state": "no_slot",
+      "a_cutoff": -1,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "Lit",
+        "category": "y_correct"
+      },
+      "baf": {
+        "answer": "Lit",
+        "category": "y_correct"
+      },
+      "a_top": {
+        "answer": "Lit",
+        "category": "y_correct"
+      },
+      "a_lex": {
+        "answer": "Lit",
+        "category": "y_correct"
+      },
+      "b_slot": {
+        "answer": "Lit",
+        "category": "y_correct"
+      }
+    },
+    {
+      "idx": 47,
+      "Xs": [
+        "Italian",
+        "French",
+        "Mexican"
+      ],
+      "Xfinal": "Mexican",
+      "query": "What cuisine did the user end up choosing?",
+      "slot": null,
+      "slot_ok": 0,
+      "slot_failed": 0,
+      "a_state": "no_carrier",
+      "b_state": "no_slot",
+      "a_cutoff": -1,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "French",
+        "category": "x_distractor"
+      },
+      "baf": {
+        "answer": "French",
+        "category": "x_distractor"
+      },
+      "a_top": {
+        "answer": "French",
+        "category": "x_distractor"
+      },
+      "a_lex": {
+        "answer": "French",
+        "category": "x_distractor"
+      },
+      "b_slot": {
+        "answer": "French",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 48,
+      "Xs": [
+        "downtown loft",
+        "cabin",
+        "lake cottage"
+      ],
+      "Xfinal": "lake cottage",
+      "query": "Which vacation rental did the user finalize?",
+      "slot": null,
+      "slot_ok": 0,
+      "slot_failed": 0,
+      "a_state": "no_carrier",
+      "b_state": "no_slot",
+      "a_cutoff": -1,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "Lake cottage",
+        "category": "y_correct"
+      },
+      "baf": {
+        "answer": "Lake cottage",
+        "category": "y_correct"
+      },
+      "a_top": {
+        "answer": "Lake cottage",
+        "category": "y_correct"
+      },
+      "a_lex": {
+        "answer": "Lake cottage",
+        "category": "y_correct"
+      },
+      "b_slot": {
+        "answer": "Lake cottage",
+        "category": "y_correct"
+      }
+    },
+    {
+      "idx": 49,
+      "Xs": [
+        "scarf",
+        "watch",
+        "headphones"
+      ],
+      "Xfinal": "headphones",
+      "query": "What gift did the user actually purchase?",
+      "slot": null,
+      "slot_ok": 0,
+      "slot_failed": 0,
+      "a_state": "no_carrier",
+      "b_state": "no_slot",
+      "a_cutoff": -1,
+      "gold_last_carrier": 14,
+      "cosine": {
+        "answer": "Scarf, watch, headphones",
+        "category": "neither"
+      },
+      "baf": {
+        "answer": "Scarf, watch, headphones",
+        "category": "neither"
+      },
+      "a_top": {
+        "answer": "Scarf, watch, headphones",
+        "category": "neither"
+      },
+      "a_lex": {
+        "answer": "Scarf, watch, headphones",
+        "category": "neither"
+      },
+      "b_slot": {
+        "answer": "Scarf, watch, headphones",
+        "category": "neither"
+      }
+    }
+  ]
+}

@@ -1,0 +1,304 @@
+{
+  "m1": {
+    "gate": {
+      "hit5_pct": 100,
+      "e2e": {
+        "y_correct": 100,
+        "x_distractor": 0,
+        "neither": 0
+      }
+    },
+    "agg": {
+      "n": 50,
+      "stale": 0,
+      "context_absent": 0,
+      "in_context": 0,
+      "context_absent_wrong_final": 0,
+      "in_context_wrong_final": 0,
+      "answer_in_finality": 0
+    },
+    "items": []
+  },
+  "m2": {
+    "gate": {
+      "hit5_pct": 100,
+      "e2e": {
+        "y_correct": 80,
+        "x_distractor": 14,
+        "neither": 6
+      }
+    },
+    "agg": {
+      "n": 50,
+      "stale": 7,
+      "context_absent": 0,
+      "in_context": 7,
+      "context_absent_wrong_final": 0,
+      "in_context_wrong_final": 3,
+      "answer_in_finality": 3
+    },
+    "items": [
+      {
+        "idx": 11,
+        "current": "Lit",
+        "answer": "React",
+        "current_in_top5": true,
+        "wrong_final_narrative": false,
+        "answer_in_finality": false
+      },
+      {
+        "idx": 13,
+        "current": "beach house",
+        "answer": "Ski chalet",
+        "current_in_top5": true,
+        "wrong_final_narrative": true,
+        "answer_in_finality": true
+      },
+      {
+        "idx": 29,
+        "current": "scarf",
+        "answer": "Headphones",
+        "current_in_top5": true,
+        "wrong_final_narrative": false,
+        "answer_in_finality": false
+      },
+      {
+        "idx": 31,
+        "current": "React",
+        "answer": "Svelte",
+        "current_in_top5": true,
+        "wrong_final_narrative": false,
+        "answer_in_finality": false
+      },
+      {
+        "idx": 36,
+        "current": "Astro",
+        "answer": "Remix",
+        "current_in_top5": true,
+        "wrong_final_narrative": false,
+        "answer_in_finality": false
+      },
+      {
+        "idx": 43,
+        "current": "desert villa",
+        "answer": "Houseboat",
+        "current_in_top5": true,
+        "wrong_final_narrative": true,
+        "answer_in_finality": true
+      },
+      {
+        "idx": 48,
+        "current": "lake cottage",
+        "answer": "Cabin rental",
+        "current_in_top5": true,
+        "wrong_final_narrative": true,
+        "answer_in_finality": true
+      }
+    ]
+  },
+  "m8": {
+    "gate": {
+      "hit5_pct": 66,
+      "e2e": {
+        "y_correct": 36,
+        "x_distractor": 46,
+        "neither": 18
+      }
+    },
+    "agg": {
+      "n": 50,
+      "stale": 23,
+      "context_absent": 15,
+      "in_context": 8,
+      "context_absent_wrong_final": 8,
+      "in_context_wrong_final": 7,
+      "answer_in_finality": 15
+    },
+    "items": [
+      {
+        "idx": 0,
+        "current": "Barcelona",
+        "answer": "Reykjavik",
+        "current_in_top5": true,
+        "wrong_final_narrative": true,
+        "answer_in_finality": true
+      },
+      {
+        "idx": 2,
+        "current": "Korean",
+        "answer": "Vietnamese",
+        "current_in_top5": false,
+        "wrong_final_narrative": true,
+        "answer_in_finality": true
+      },
+      {
+        "idx": 3,
+        "current": "farmhouse",
+        "answer": "Downtown loft",
+        "current_in_top5": false,
+        "wrong_final_narrative": true,
+        "answer_in_finality": true
+      },
+      {
+        "idx": 7,
+        "current": "Japanese",
+        "answer": "Indian",
+        "current_in_top5": true,
+        "wrong_final_narrative": true,
+        "answer_in_finality": true
+      },
+      {
+        "idx": 9,
+        "current": "book",
+        "answer": "Scarf, camera lens, fountain pen, wine subscription, kitchen knife",
+        "current_in_top5": false,
+        "wrong_final_narrative": false,
+        "answer_in_finality": false
+      },
+      {
+        "idx": 10,
+        "current": "Paris",
+        "answer": "Sydney",
+        "current_in_top5": true,
+        "wrong_final_narrative": true,
+        "answer_in_finality": true
+      },
+      {
+        "idx": 11,
+        "current": "Remix",
+        "answer": "Svelte",
+        "current_in_top5": false,
+        "wrong_final_narrative": false,
+        "answer_in_finality": false
+      },
+      {
+        "idx": 12,
+        "current": "French",
+        "answer": "Spanish",
+        "current_in_top5": false,
+        "wrong_final_narrative": false,
+        "answer_in_finality": false
+      },
+      {
+        "idx": 13,
+        "current": "yurt",
+        "answer": "Beach house",
+        "current_in_top5": false,
+        "wrong_final_narrative": true,
+        "answer_in_finality": true
+      },
+      {
+        "idx": 16,
+        "current": "Qwik",
+        "answer": "Angular",
+        "current_in_top5": false,
+        "wrong_final_narrative": false,
+        "answer_in_finality": false
+      },
+      {
+        "idx": 17,
+        "current": "Indian",
+        "answer": "Vietnamese",
+        "current_in_top5": false,
+        "wrong_final_narrative": false,
+        "answer_in_finality": false
+      },
+      {
+        "idx": 18,
+        "current": "yurt",
+        "answer": "Treehouse",
+        "current_in_top5": false,
+        "wrong_final_narrative": true,
+        "answer_in_finality": true
+      },
+      {
+        "idx": 21,
+        "current": "Angular",
+        "answer": "Solid",
+        "current_in_top5": false,
+        "wrong_final_narrative": false,
+        "answer_in_finality": false
+      },
+      {
+        "idx": 22,
+        "current": "Greek",
+        "answer": "Mexican",
+        "current_in_top5": false,
+        "wrong_final_narrative": true,
+        "answer_in_finality": true
+      },
+      {
+        "idx": 27,
+        "current": "Spanish",
+        "answer": "Vietnamese",
+        "current_in_top5": true,
+        "wrong_final_narrative": true,
+        "answer_in_finality": true
+      },
+      {
+        "idx": 28,
+        "current": "beach house",
+        "answer": "Lake cottage",
+        "current_in_top5": true,
+        "wrong_final_narrative": true,
+        "answer_in_finality": true
+      },
+      {
+        "idx": 31,
+        "current": "React",
+        "answer": "Solid",
+        "current_in_top5": true,
+        "wrong_final_narrative": false,
+        "answer_in_finality": false
+      },
+      {
+        "idx": 33,
+        "current": "treehouse",
+        "answer": "Farmhouse",
+        "current_in_top5": false,
+        "wrong_final_narrative": true,
+        "answer_in_finality": true
+      },
+      {
+        "idx": 37,
+        "current": "Korean",
+        "answer": "French",
+        "current_in_top5": false,
+        "wrong_final_narrative": true,
+        "answer_in_finality": true
+      },
+      {
+        "idx": 42,
+        "current": "Greek",
+        "answer": "Vietnamese",
+        "current_in_top5": true,
+        "wrong_final_narrative": true,
+        "answer_in_finality": true
+      },
+      {
+        "idx": 44,
+        "current": "kitchen knife",
+        "answer": "Book",
+        "current_in_top5": true,
+        "wrong_final_narrative": true,
+        "answer_in_finality": true
+      },
+      {
+        "idx": 46,
+        "current": "Astro",
+        "answer": "Remix",
+        "current_in_top5": false,
+        "wrong_final_narrative": false,
+        "answer_in_finality": false
+      },
+      {
+        "idx": 48,
+        "current": "treehouse",
+        "answer": "Beach house",
+        "current_in_top5": false,
+        "wrong_final_narrative": true,
+        "answer_in_finality": true
+      }
+    ]
+  }
+}

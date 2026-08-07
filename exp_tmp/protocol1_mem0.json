@@ -1,0 +1,3306 @@
+{
+ "summary": {
+  "n_items": 30,
+  "R": 3,
+  "n_cal": 10,
+  "n_test": 20,
+  "tau": 1,
+  "RIS_tau_test": 0.05,
+  "RIS_null_test": 0.0,
+  "mean_d_rn_test": 0.6333333333333333,
+  "mean_d_null_test": 0.16666666666666666,
+  "perm_p_one_sided": 0.000599970001499925,
+  "by_paraphrase": {
+   "0": {
+    "n": 6,
+    "mean_d_rn": 0.8333333333333334,
+    "mean_d_null": 0.2222222222222222
+   },
+   "1": {
+    "n": 6,
+    "mean_d_rn": 0.2777777777777778,
+    "mean_d_null": 0.05555555555555555
+   },
+   "2": {
+    "n": 6,
+    "mean_d_rn": 1.0,
+    "mean_d_null": 0.3333333333333333
+   },
+   "3": {
+    "n": 6,
+    "mean_d_rn": 0.2222222222222222,
+    "mean_d_null": 0.05555555555555555
+   },
+   "4": {
+    "n": 6,
+    "mean_d_rn": 1.0,
+    "mean_d_null": 0.1111111111111111
+   }
+  }
+ },
+ "per_item": [
+  {
+   "idx": 0,
+   "paraphrase": 0,
+   "dir": "fwd",
+   "d_rn": 1.0,
+   "d_null": 0.0,
+   "null_pairs": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "idx": 1,
+   "paraphrase": 1,
+   "dir": "rev",
+   "d_rn": 0.0,
+   "d_null": 0.0,
+   "null_pairs": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "idx": 2,
+   "paraphrase": 2,
+   "dir": "fwd",
+   "d_rn": 1.0,
+   "d_null": 0.0,
+   "null_pairs": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "idx": 3,
+   "paraphrase": 3,
+   "dir": "rev",
+   "d_rn": 0.0,
+   "d_null": 0.0,
+   "null_pairs": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "idx": 4,
+   "paraphrase": 4,
+   "dir": "fwd",
+   "d_rn": 1.0,
+   "d_null": 0.0,
+   "null_pairs": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "idx": 5,
+   "paraphrase": 0,
+   "dir": "rev",
+   "d_rn": 0.6666666666666666,
+   "d_null": 0.3333333333333333,
+   "null_pairs": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ]
+  },
+  {
+   "idx": 6,
+   "paraphrase": 1,
+   "dir": "fwd",
+   "d_rn": 1.6666666666666667,
+   "d_null": 0.3333333333333333,
+   "null_pairs": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "idx": 7,
+   "paraphrase": 2,
+   "dir": "rev",
+   "d_rn": 1.0,
+   "d_null": 0.6666666666666666,
+   "null_pairs": [
+    2,
+    2,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "idx": 8,
+   "paraphrase": 3,
+   "dir": "fwd",
+   "d_rn": 0.0,
+   "d_null": 0.0,
+   "null_pairs": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "idx": 9,
+   "paraphrase": 4,
+   "dir": "rev",
+   "d_rn": 1.0,
+   "d_null": 0.0,
+   "null_pairs": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "idx": 10,
+   "paraphrase": 0,
+   "dir": "fwd",
+   "d_rn": 0.3333333333333333,
+   "d_null": 0.3333333333333333,
+   "null_pairs": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ]
+  },
+  {
+   "idx": 11,
+   "paraphrase": 1,
+   "dir": "rev",
+   "d_rn": 0.0,
+   "d_null": 0.0,
+   "null_pairs": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "idx": 12,
+   "paraphrase": 2,
+   "dir": "fwd",
+   "d_rn": 1.0,
+   "d_null": 0.0,
+   "null_pairs": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "idx": 13,
+   "paraphrase": 3,
+   "dir": "rev",
+   "d_rn": 0.0,
+   "d_null": 0.0,
+   "null_pairs": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "idx": 14,
+   "paraphrase": 4,
+   "dir": "fwd",
+   "d_rn": 0.6666666666666666,
+   "d_null": 0.3333333333333333,
+   "null_pairs": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ]
+  },
+  {
+   "idx": 15,
+   "paraphrase": 0,
+   "dir": "rev",
+   "d_rn": 1.0,
+   "d_null": 0.0,
+   "null_pairs": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "idx": 16,
+   "paraphrase": 1,
+   "dir": "fwd",
+   "d_rn": 0.0,
+   "d_null": 0.0,
+   "null_pairs": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "idx": 17,
+   "paraphrase": 2,
+   "dir": "rev",
+   "d_rn": 1.0,
+   "d_null": 0.6666666666666666,
+   "null_pairs": [
+    0,
+    2,
+    2,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "idx": 18,
+   "paraphrase": 3,
+   "dir": "fwd",
+   "d_rn": 0.3333333333333333,
+   "d_null": 0.3333333333333333,
+   "null_pairs": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ]
+  },
+  {
+   "idx": 19,
+   "paraphrase": 4,
+   "dir": "rev",
+   "d_rn": 1.0,
+   "d_null": 0.0,
+   "null_pairs": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "idx": 20,
+   "paraphrase": 0,
+   "dir": "fwd",
+   "d_rn": 1.0,
+   "d_null": 0.0,
+   "null_pairs": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "idx": 21,
+   "paraphrase": 1,
+   "dir": "rev",
+   "d_rn": 0.0,
+   "d_null": 0.0,
+   "null_pairs": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "idx": 22,
+   "paraphrase": 2,
+   "dir": "fwd",
+   "d_rn": 1.0,
+   "d_null": 0.0,
+   "null_pairs": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "idx": 23,
+   "paraphrase": 3,
+   "dir": "rev",
+   "d_rn": 0.0,
+   "d_null": 0.0,
+   "null_pairs": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "idx": 24,
+   "paraphrase": 4,
+   "dir": "fwd",
+   "d_rn": 1.3333333333333333,
+   "d_null": 0.3333333333333333,
+   "null_pairs": [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "idx": 25,
+   "paraphrase": 0,
+   "dir": "rev",
+   "d_rn": 1.0,
+   "d_null": 0.6666666666666666,
+   "null_pairs": [
+    0,
+    0,
+    0,
+    1,
+    2,
+    1
+   ]
+  },
+  {
+   "idx": 26,
+   "paraphrase": 1,
+   "dir": "fwd",
+   "d_rn": 0.0,
+   "d_null": 0.0,
+   "null_pairs": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "idx": 27,
+   "paraphrase": 2,
+   "dir": "rev",
+   "d_rn": 1.0,
+   "d_null": 0.6666666666666666,
+   "null_pairs": [
+    2,
+    2,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "idx": 28,
+   "paraphrase": 3,
+   "dir": "fwd",
+   "d_rn": 1.0,
+   "d_null": 0.0,
+   "null_pairs": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "idx": 29,
+   "paraphrase": 4,
+   "dir": "rev",
+   "d_rn": 1.0,
+   "d_null": 0.0,
+   "null_pairs": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  }
+ ],
+ "results": [
+  {
+   "idx": 0,
+   "dir": "fwd",
+   "paraphrase": 0,
+   "committed": "Paris",
+   "incoming": "Lisbon",
+   "query": "Where is the user actually traveling?",
+   "runs": {
+    "HN": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User's colleague mentioned Lisbon recently.",
+       "User is planning a trip to Paris and has confirmed the trip.",
+       "User is looking at hotels in Paris."
+      ],
+      "top1": "User is planning a trip to Paris and has confirmed the trip."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User is looking at hotels in Paris.",
+       "User's colleague mentioned Lisbon recently.",
+       "User is planning a trip to Paris and has confirmed the trip."
+      ],
+      "top1": "User is planning a trip to Paris and has confirmed the trip."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User's colleague mentioned Lisbon recently.",
+       "User is looking at hotels in Paris.",
+       "User is planning a trip to Paris and has confirmed the trip."
+      ],
+      "top1": "User is planning a trip to Paris and has confirmed the trip."
+     }
+    ],
+    "HR": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User is looking at hotels in Lisbon for their trip.",
+       "User is planning a trip to Paris, which was later changed to Lisbon around July 31, 2026."
+      ],
+      "top1": "User is planning a trip to Paris, which was later changed to Lisbon around July 31, 2026."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User is looking at hotels in Lisbon for their trip.",
+       "User is planning a trip to Paris, which was later changed to Lisbon around July 31, 2026."
+      ],
+      "top1": "User is planning a trip to Paris, which was later changed to Lisbon around July 31, 2026."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User is looking at hotels in Lisbon for their trip.",
+       "User is planning a trip to Paris, which was later changed to Lisbon around July 31, 2026."
+      ],
+      "top1": "User is planning a trip to Paris, which was later changed to Lisbon around July 31, 2026."
+     }
+    ]
+   }
+  },
+  {
+   "idx": 1,
+   "dir": "rev",
+   "paraphrase": 1,
+   "committed": "Angular",
+   "incoming": "Remix",
+   "query": "Which frontend framework is the user using?",
+   "runs": {
+    "HN": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User inquired about the budget for their project.",
+       "User decided to use Angular as their tech stack and has started scaffolding it around July 31, 2026.",
+       "User's colleague mentioned Remix recently."
+      ],
+      "top1": "User decided to use Angular as their tech stack and has started scaffolding it around July 31, 2026."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User's colleague mentioned Remix recently.",
+       "User decided to use Angular as their tech stack and has started scaffolding it around July 31, 2026."
+      ],
+      "top1": "User decided to use Angular as their tech stack and has started scaffolding it around July 31, 2026."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User decided to use Angular as their tech stack and has started scaffolding it around July 31, 2026.",
+       "User's colleague mentioned Remix recently."
+      ],
+      "top1": "User decided to use Angular as their tech stack and has started scaffolding it around July 31, 2026."
+     }
+    ],
+    "HR": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User changed their decision to use Remix instead of Angular on July 31, 2026.",
+       "User decided to use Angular as their tech stack and started scaffolding it around July 31, 2026."
+      ],
+      "top1": "User decided to use Angular as their tech stack and started scaffolding it around July 31, 2026."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User decided to use Angular as their tech stack and started scaffolding it around July 31, 2026.",
+       "User changed their decision to use Remix instead of Angular on July 31, 2026."
+      ],
+      "top1": "User decided to use Angular as their tech stack and started scaffolding it around July 31, 2026."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User changed their decision to use Remix instead of Angular on July 31, 2026.",
+       "User decided to use Angular as their tech stack and started scaffolding it around July 31, 2026."
+      ],
+      "top1": "User decided to use Angular as their tech stack and started scaffolding it around July 31, 2026."
+     }
+    ]
+   }
+  },
+  {
+   "idx": 2,
+   "dir": "fwd",
+   "paraphrase": 2,
+   "committed": "Spanish",
+   "incoming": "French",
+   "query": "What cuisine did the user end up choosing?",
+   "runs": {
+    "HN": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User has booked a Spanish restaurant for dinner on July 31, 2026.",
+       "User is looking up Spanish food options.",
+       "User inquired about the budget for the Spanish food.",
+       "User wants to have Spanish food on the night of July 31, 2026.",
+       "User's colleague mentioned French food recently."
+      ],
+      "top1": "User is looking up Spanish food options."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User wants to have Spanish food tonight and has booked a Spanish restaurant for dinner.",
+       "User's colleague mentioned French food the other day."
+      ],
+      "top1": "User wants to have Spanish food tonight and has booked a Spanish restaurant for dinner."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User wants to have Spanish food on the night of July 31, 2026.",
+       "User has booked a Spanish restaurant for dinner on July 31, 2026.",
+       "User is looking up Spanish food options.",
+       "User's colleague mentioned French food recently.",
+       "User inquired about the budget for the Spanish food."
+      ],
+      "top1": "User is looking up Spanish food options."
+     }
+    ],
+    "HR": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User is considering switching from Spanish food to French food for dinner on July 31, 2026.",
+       "User wants to have Spanish food on the evening of July 31, 2026, and has booked a Spanish restaurant."
+      ],
+      "top1": "User is considering switching from Spanish food to French food for dinner on July 31, 2026."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User wants to have Spanish food on the night of July 31, 2026 and has booked a Spanish restaurant.",
+       "User is considering switching from Spanish food to French food instead."
+      ],
+      "top1": "User is considering switching from Spanish food to French food instead."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User is considering switching from Spanish food to French food for dinner on July 31, 2026.",
+       "User wants to have Spanish food on the evening of July 31, 2026, and has booked a Spanish restaurant."
+      ],
+      "top1": "User is considering switching from Spanish food to French food for dinner on July 31, 2026."
+     }
+    ]
+   }
+  },
+  {
+   "idx": 3,
+   "dir": "rev",
+   "paraphrase": 3,
+   "committed": "cabin",
+   "incoming": "ski chalet",
+   "query": "Which vacation rental did the user finalize?",
+   "runs": {
+    "HN": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User is reading reviews for the cabin they rented.",
+       "User is considering booking a cabin and has since locked in a cabin rental around July 31, 2026.",
+       "User's colleague mentioned a ski chalet recently."
+      ],
+      "top1": "User is considering booking a cabin and has since locked in a cabin rental around July 31, 2026."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User's colleague mentioned a ski chalet recently.",
+       "User is considering booking a cabin and has now locked in a cabin rental as of July 31, 2026.",
+       "User is reading reviews for the cabin they booked."
+      ],
+      "top1": "User is considering booking a cabin and has now locked in a cabin rental as of July 31, 2026."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User is considering booking a cabin and has since locked in a cabin rental around July 31, 2026.",
+       "User is reading reviews for the cabin they booked.",
+       "User's colleague mentioned a ski chalet recently."
+      ],
+      "top1": "User is considering booking a cabin and has since locked in a cabin rental around July 31, 2026."
+     }
+    ],
+    "HR": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User decided to switch from a cabin to a ski chalet.",
+       "User is considering booking a cabin and has since locked in a cabin rental around July 31, 2026.",
+       "User is reading reviews for the cabin rental."
+      ],
+      "top1": "User is reading reviews for the cabin rental."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User is reading reviews for the cabin rental.",
+       "User is considering booking a cabin and has since locked in a cabin rental around July 31, 2026.",
+       "User decided to switch from a cabin to a ski chalet."
+      ],
+      "top1": "User is reading reviews for the cabin rental."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User is reading reviews for the cabin rental.",
+       "User decided to switch from a cabin to a ski chalet.",
+       "User is considering booking a cabin and has since locked in a cabin rental around July 31, 2026."
+      ],
+      "top1": "User is reading reviews for the cabin rental."
+     }
+    ]
+   }
+  },
+  {
+   "idx": 4,
+   "dir": "fwd",
+   "paraphrase": 4,
+   "committed": "perfume",
+   "incoming": "espresso machine",
+   "query": "What gift did the user actually purchase?",
+   "runs": {
+    "HN": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User ordered a perfume for someone and is currently wrapping it as a gift.",
+       "User's colleague mentioned an espresso machine recently."
+      ],
+      "top1": "User ordered a perfume for someone and is currently wrapping it as a gift."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User's colleague mentioned an espresso machine recently.",
+       "User ordered a perfume as a gift and is currently wrapping it."
+      ],
+      "top1": "User ordered a perfume as a gift and is currently wrapping it."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User's colleague mentioned an espresso machine recently.",
+       "User ordered a perfume as a gift and is currently wrapping it."
+      ],
+      "top1": "User ordered a perfume as a gift and is currently wrapping it."
+     }
+    ],
+    "HR": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User ordered a perfume as a gift on July 31, 2026, but later decided to go with an espresso machine instead."
+      ],
+      "top1": "User ordered a perfume as a gift on July 31, 2026, but later decided to go with an espresso machine instead."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User ordered a perfume as a gift around July 31, 2026, but later decided to go with an espresso machine instead."
+      ],
+      "top1": "User ordered a perfume as a gift around July 31, 2026, but later decided to go with an espresso machine instead."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User ordered a perfume as a gift on July 31, 2026, but later decided to go with an espresso machine instead."
+      ],
+      "top1": "User ordered a perfume as a gift on July 31, 2026, but later decided to go with an espresso machine instead."
+     }
+    ]
+   }
+  },
+  {
+   "idx": 5,
+   "dir": "rev",
+   "paraphrase": 0,
+   "committed": "Lisbon",
+   "incoming": "London",
+   "query": "Where is the user actually traveling?",
+   "runs": {
+    "HN": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User is planning a trip to Lisbon, which is now confirmed.",
+       "User is looking at hotels in Lisbon.",
+       "User's colleague mentioned London recently."
+      ],
+      "top1": "User is planning a trip to Lisbon, which is now confirmed."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User is looking at hotels in Lisbon.",
+       "User's colleague mentioned London recently.",
+       "User is planning a trip to Lisbon, which is now confirmed."
+      ],
+      "top1": "User is planning a trip to Lisbon, which is now confirmed."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User is looking at hotels in Lisbon.",
+       "User's colleague mentioned London recently.",
+       "User is planning a trip to Lisbon, which is now confirmed."
+      ],
+      "top1": "User is planning a trip to Lisbon, which is now confirmed."
+     }
+    ],
+    "HR": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User is looking at hotels in Lisbon before changing their travel plans to London.",
+       "User changed their travel plans from Lisbon to London.",
+       "User is planning a trip to Lisbon, which was later confirmed as their destination."
+      ],
+      "top1": "User is planning a trip to Lisbon, which was later confirmed as their destination."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User is looking at hotels in Lisbon.",
+       "User is planning a trip to Lisbon and has confirmed the trip.",
+       "User changed their travel plan from Lisbon to London."
+      ],
+      "top1": "User changed their travel plan from Lisbon to London."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User is planning a trip to Lisbon and has confirmed the trip.",
+       "User changed their travel plan from Lisbon to London.",
+       "User is looking at hotels in Lisbon."
+      ],
+      "top1": "User changed their travel plan from Lisbon to London."
+     }
+    ]
+   }
+  },
+  {
+   "idx": 6,
+   "dir": "fwd",
+   "paraphrase": 1,
+   "committed": "Astro",
+   "incoming": "Preact",
+   "query": "Which frontend framework is the user using?",
+   "runs": {
+    "HN": [
+     {
+      "obs": [
+       1,
+       1,
+       0,
+       1
+      ],
+      "stored": [
+       "User's colleague mentioned Preact recently.",
+       "User decided to use Astro as their tech stack and has started scaffolding it around July 31, 2026."
+      ],
+      "top1": "User's colleague mentioned Preact recently."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       0,
+       1
+      ],
+      "stored": [
+       "User inquired about the budget for the project involving Astro.",
+       "User decided to use Astro as their tech stack and has started scaffolding it around July 31, 2026.",
+       "User's colleague mentioned Preact recently."
+      ],
+      "top1": "User's colleague mentioned Preact recently."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       0,
+       1
+      ],
+      "stored": [
+       "User decided to use Astro as their tech stack and has started scaffolding it around July 31, 2026.",
+       "User inquired about the budget for the project involving Astro.",
+       "User's colleague mentioned Preact recently."
+      ],
+      "top1": "User's colleague mentioned Preact recently."
+     }
+    ],
+    "HR": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User changed their decision to use Preact instead of Astro on July 31, 2026.",
+       "User decided to use Astro as their tech stack and started scaffolding it around July 31, 2026."
+      ],
+      "top1": "User decided to use Astro as their tech stack and started scaffolding it around July 31, 2026."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User decided to use Astro as their tech stack and started scaffolding it around July 31, 2026.",
+       "User changed their decision to use Preact instead of Astro on July 31, 2026."
+      ],
+      "top1": "User decided to use Astro as their tech stack and started scaffolding it around July 31, 2026."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User decided to use Astro as their tech stack and started scaffolding it around July 31, 2026.",
+       "User later changed their decision and opted to use Preact instead of Astro."
+      ],
+      "top1": "User later changed their decision and opted to use Preact instead of Astro."
+     }
+    ]
+   }
+  },
+  {
+   "idx": 7,
+   "dir": "rev",
+   "paraphrase": 2,
+   "committed": "Korean",
+   "incoming": "Greek",
+   "query": "What cuisine did the user end up choosing?",
+   "runs": {
+    "HN": [
+     {
+      "obs": [
+       1,
+       1,
+       0,
+       1
+      ],
+      "stored": [
+       "User's colleague mentioned Greek food recently.",
+       "User wants to have Korean food on the night of July 31, 2026 and has booked a Korean restaurant."
+      ],
+      "top1": "User's colleague mentioned Greek food recently."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User wants to have Korean food for dinner on July 31, 2026 and has booked a Korean restaurant.",
+       "User's colleague mentioned Greek food recently."
+      ],
+      "top1": "User wants to have Korean food for dinner on July 31, 2026 and has booked a Korean restaurant."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User's colleague mentioned Greek food the other day.",
+       "User wants to have Korean food tonight and has booked a Korean restaurant for dinner."
+      ],
+      "top1": "User wants to have Korean food tonight and has booked a Korean restaurant for dinner."
+     }
+    ],
+    "HR": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User wanted Korean food for dinner on July 31, 2026, and booked a Korean restaurant before switching to Greek cuisine instead."
+      ],
+      "top1": "User wanted Korean food for dinner on July 31, 2026, and booked a Korean restaurant before switching to Greek cuisine instead."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User wanted Korean food for dinner on July 31, 2026, and booked a Korean restaurant before switching to Greek cuisine instead."
+      ],
+      "top1": "User wanted Korean food for dinner on July 31, 2026, and booked a Korean restaurant before switching to Greek cuisine instead."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User wanted Korean food for dinner on July 31, 2026, and booked a Korean restaurant before switching to Greek cuisine instead."
+      ],
+      "top1": "User wanted Korean food for dinner on July 31, 2026, and booked a Korean restaurant before switching to Greek cuisine instead."
+     }
+    ]
+   }
+  },
+  {
+   "idx": 8,
+   "dir": "fwd",
+   "paraphrase": 3,
+   "committed": "lake cottage",
+   "incoming": "farmhouse",
+   "query": "Which vacation rental did the user finalize?",
+   "runs": {
+    "HN": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User is reading reviews for the lake cottage rental.",
+       "User's colleague mentioned a farmhouse recently.",
+       "User is considering booking a lake cottage and has since locked in a rental for it around July 31, 2026."
+      ],
+      "top1": "User is considering booking a lake cottage and has since locked in a rental for it around July 31, 2026."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User is reading reviews for the lake cottage they rented.",
+       "User is considering booking a lake cottage and has locked in a rental for it.",
+       "User's colleague mentioned a farmhouse recently."
+      ],
+      "top1": "User is considering booking a lake cottage and has locked in a rental for it."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User is reading reviews for the lake cottage rental.",
+       "User is considering booking a lake cottage and has locked in a rental for it around July 31, 2026.",
+       "User's colleague mentioned a farmhouse recently."
+      ],
+      "top1": "User is considering booking a lake cottage and has locked in a rental for it around July 31, 2026."
+     }
+    ],
+    "HR": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User is reading reviews for the lake cottage rental.",
+       "User is considering booking a lake cottage and has since locked in a rental for it around July 31, 2026.",
+       "User decided to switch from the lake cottage to a farmhouse rental."
+      ],
+      "top1": "User is considering booking a lake cottage and has since locked in a rental for it around July 31, 2026."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User is reading reviews for the lake cottage rental.",
+       "User is considering booking a lake cottage and has since locked in a rental for it around July 31, 2026.",
+       "User decided to switch from the lake cottage to a farmhouse rental."
+      ],
+      "top1": "User is considering booking a lake cottage and has since locked in a rental for it around July 31, 2026."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User is considering booking a lake cottage and has since locked in a rental for it around July 31, 2026.",
+       "User is reading reviews for the lake cottage rental.",
+       "User decided to switch from the lake cottage to a farmhouse rental."
+      ],
+      "top1": "User is considering booking a lake cottage and has since locked in a rental for it around July 31, 2026."
+     }
+    ]
+   }
+  },
+  {
+   "idx": 9,
+   "dir": "rev",
+   "paraphrase": 4,
+   "committed": "kitchen knife",
+   "incoming": "scarf",
+   "query": "What gift did the user actually purchase?",
+   "runs": {
+    "HN": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User ordered a kitchen knife and is currently wrapping it as a gift.",
+       "User's colleague mentioned a scarf recently."
+      ],
+      "top1": "User ordered a kitchen knife and is currently wrapping it as a gift."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User's colleague mentioned a scarf recently.",
+       "User ordered a kitchen knife and is currently wrapping it as a gift."
+      ],
+      "top1": "User ordered a kitchen knife and is currently wrapping it as a gift."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User ordered a kitchen knife and is currently wrapping it as a gift.",
+       "User's colleague mentioned a scarf recently."
+      ],
+      "top1": "User ordered a kitchen knife and is currently wrapping it as a gift."
+     }
+    ],
+    "HR": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User ordered a kitchen knife as a gift but later decided to go with a scarf instead."
+      ],
+      "top1": "User ordered a kitchen knife as a gift but later decided to go with a scarf instead."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User ordered a kitchen knife as a gift but later decided to go with a scarf instead."
+      ],
+      "top1": "User ordered a kitchen knife as a gift but later decided to go with a scarf instead."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User ordered a kitchen knife as a gift but later decided to go with a scarf instead."
+      ],
+      "top1": "User ordered a kitchen knife as a gift but later decided to go with a scarf instead."
+     }
+    ]
+   }
+  },
+  {
+   "idx": 10,
+   "dir": "fwd",
+   "paraphrase": 0,
+   "committed": "London",
+   "incoming": "Barcelona",
+   "query": "Where is the user actually traveling?",
+   "runs": {
+    "HN": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User is planning a trip to London and has confirmed the trip.",
+       "User's colleague mentioned Barcelona recently.",
+       "User is looking at hotels in London."
+      ],
+      "top1": "User is planning a trip to London and has confirmed the trip."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User is planning a trip to London, which is now confirmed.",
+       "User's colleague mentioned Barcelona recently.",
+       "User is looking at hotels in London."
+      ],
+      "top1": "User is planning a trip to London, which is now confirmed."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User is looking at hotels in London.",
+       "User is planning a trip to London and has confirmed the trip.",
+       "User's colleague mentioned Barcelona recently."
+      ],
+      "top1": "User is planning a trip to London and has confirmed the trip."
+     }
+    ],
+    "HR": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User is looking at hotels in London as part of their trip planning.",
+       "User is planning a trip to London, which was later changed to Barcelona around July 31, 2026."
+      ],
+      "top1": "User is looking at hotels in London as part of their trip planning."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User is looking at hotels in Barcelona for their trip.",
+       "User is planning a trip to London, which was later changed to Barcelona around July 31, 2026."
+      ],
+      "top1": "User is planning a trip to London, which was later changed to Barcelona around July 31, 2026."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User is looking at hotels in London as part of their trip planning.",
+       "User is planning a trip to London, which was later changed to Barcelona around July 31, 2026."
+      ],
+      "top1": "User is looking at hotels in London as part of their trip planning."
+     }
+    ]
+   }
+  },
+  {
+   "idx": 11,
+   "dir": "rev",
+   "paraphrase": 1,
+   "committed": "Svelte",
+   "incoming": "Angular",
+   "query": "Which frontend framework is the user using?",
+   "runs": {
+    "HN": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User decided to use Svelte as their tech stack and has started scaffolding it around July 31, 2026.",
+       "User's colleague mentioned Angular recently."
+      ],
+      "top1": "User decided to use Svelte as their tech stack and has started scaffolding it around July 31, 2026."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User's colleague mentioned Angular recently.",
+       "User decided to use Svelte as their tech stack for a project around July 31, 2026.",
+       "User started scaffolding Svelte for their project."
+      ],
+      "top1": "User started scaffolding Svelte for their project."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User decided to use Svelte as their tech stack and has started scaffolding it around July 31, 2026.",
+       "User's colleague mentioned Angular recently."
+      ],
+      "top1": "User decided to use Svelte as their tech stack and has started scaffolding it around July 31, 2026."
+     }
+    ],
+    "HR": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User decided to use Svelte as their stack for development around July 31, 2026 and started scaffolding it.",
+       "User changed their mind and decided to use Angular instead of Svelte on July 31, 2026."
+      ],
+      "top1": "User decided to use Svelte as their stack for development around July 31, 2026 and started scaffolding it."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User changed their mind and decided to use Angular instead of Svelte on July 31, 2026.",
+       "User decided to use Svelte as their stack for development around July 31, 2026 and started scaffolding it."
+      ],
+      "top1": "User decided to use Svelte as their stack for development around July 31, 2026 and started scaffolding it."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User decided to use Svelte as their stack for development around July 31, 2026 and started scaffolding it.",
+       "User changed their mind and decided to use Angular instead of Svelte on July 31, 2026."
+      ],
+      "top1": "User decided to use Svelte as their stack for development around July 31, 2026 and started scaffolding it."
+     }
+    ]
+   }
+  },
+  {
+   "idx": 12,
+   "dir": "fwd",
+   "paraphrase": 2,
+   "committed": "Korean",
+   "incoming": "Indian",
+   "query": "What cuisine did the user end up choosing?",
+   "runs": {
+    "HN": [
+     {
+      "obs": [
+       1,
+       1,
+       0,
+       1
+      ],
+      "stored": [
+       "User's colleague mentioned Indian food recently.",
+       "User wants to have Korean food for dinner on July 31, 2026 and has booked a Korean restaurant."
+      ],
+      "top1": "User's colleague mentioned Indian food recently."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       0,
+       1
+      ],
+      "stored": [
+       "User's colleague mentioned Indian food recently.",
+       "User wants to have Korean food for dinner on July 31, 2026 and has booked a Korean restaurant."
+      ],
+      "top1": "User's colleague mentioned Indian food recently."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       0,
+       1
+      ],
+      "stored": [
+       "User wants to have Korean food for dinner on July 31, 2026 and has booked a Korean restaurant.",
+       "User's colleague mentioned Indian food recently."
+      ],
+      "top1": "User's colleague mentioned Indian food recently."
+     }
+    ],
+    "HR": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User wanted Korean food for dinner on July 31, 2026, and booked a Korean restaurant before switching to Indian food instead."
+      ],
+      "top1": "User wanted Korean food for dinner on July 31, 2026, and booked a Korean restaurant before switching to Indian food instead."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User wanted Korean food for dinner on July 31, 2026, and booked a Korean restaurant before switching to Indian food instead."
+      ],
+      "top1": "User wanted Korean food for dinner on July 31, 2026, and booked a Korean restaurant before switching to Indian food instead."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User wanted Korean food for dinner on July 31, 2026, and booked a Korean restaurant before switching to Indian food instead."
+      ],
+      "top1": "User wanted Korean food for dinner on July 31, 2026, and booked a Korean restaurant before switching to Indian food instead."
+     }
+    ]
+   }
+  },
+  {
+   "idx": 13,
+   "dir": "rev",
+   "paraphrase": 3,
+   "committed": "beach house",
+   "incoming": "ski chalet",
+   "query": "Which vacation rental did the user finalize?",
+   "runs": {
+    "HN": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User's colleague mentioned a ski chalet recently.",
+       "User is reading reviews for the beach house they rented.",
+       "User is considering booking a beach house and has locked in a rental for it."
+      ],
+      "top1": "User is considering booking a beach house and has locked in a rental for it."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User is reading reviews for the beach house they rented.",
+       "User's colleague mentioned a ski chalet recently.",
+       "User is considering booking a beach house and has locked in a rental for it."
+      ],
+      "top1": "User is considering booking a beach house and has locked in a rental for it."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User is considering booking a beach house and has now locked in a rental for it.",
+       "User's colleague mentioned a ski chalet recently.",
+       "User is reading reviews for the beach house rental."
+      ],
+      "top1": "User is considering booking a beach house and has now locked in a rental for it."
+     }
+    ],
+    "HR": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User is considering booking a beach house and has since locked in a rental for it around July 31, 2026.",
+       "User decided to switch from the beach house rental to a ski chalet.",
+       "User is reading reviews for the beach house rental."
+      ],
+      "top1": "User is considering booking a beach house and has since locked in a rental for it around July 31, 2026."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User is considering booking a beach house and has since locked in a rental for it around July 31, 2026.",
+       "User decided to switch from the beach house rental to a ski chalet.",
+       "User is reading reviews for the beach house rental."
+      ],
+      "top1": "User is considering booking a beach house and has since locked in a rental for it around July 31, 2026."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User is considering booking a beach house and has since locked in a rental for it around July 31, 2026.",
+       "User is reading reviews for the beach house rental.",
+       "User decided to switch from the beach house rental to a ski chalet."
+      ],
+      "top1": "User is considering booking a beach house and has since locked in a rental for it around July 31, 2026."
+     }
+    ]
+   }
+  },
+  {
+   "idx": 14,
+   "dir": "fwd",
+   "paraphrase": 4,
+   "committed": "headphones",
+   "incoming": "perfume",
+   "query": "What gift did the user actually purchase?",
+   "runs": {
+    "HN": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User's colleague mentioned perfume recently.",
+       "User ordered headphones for someone and is currently wrapping them as a gift."
+      ],
+      "top1": "User ordered headphones for someone and is currently wrapping them as a gift."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User ordered headphones for someone and is currently wrapping them as a gift.",
+       "User's colleague mentioned perfume recently."
+      ],
+      "top1": "User ordered headphones for someone and is currently wrapping them as a gift."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User's colleague mentioned perfume recently.",
+       "User ordered headphones for someone and is currently wrapping them as a gift."
+      ],
+      "top1": "User ordered headphones for someone and is currently wrapping them as a gift."
+     }
+    ],
+    "HR": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User decided to switch from headphones to perfume as the gift choice.",
+       "User is wrapping the headphones they ordered as a gift.",
+       "User is considering getting headphones as a gift and has since ordered them."
+      ],
+      "top1": "User is wrapping the headphones they ordered as a gift."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User ordered headphones as a gift on July 31, 2026, but later decided to go with perfume instead."
+      ],
+      "top1": "User ordered headphones as a gift on July 31, 2026, but later decided to go with perfume instead."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User ordered headphones as a gift on July 31, 2026, but later decided to go with perfume instead."
+      ],
+      "top1": "User ordered headphones as a gift on July 31, 2026, but later decided to go with perfume instead."
+     }
+    ]
+   }
+  },
+  {
+   "idx": 15,
+   "dir": "rev",
+   "paraphrase": 0,
+   "committed": "Rome",
+   "incoming": "Lisbon",
+   "query": "Where is the user actually traveling?",
+   "runs": {
+    "HN": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User's colleague mentioned Lisbon recently.",
+       "User inquired about the budget for the trip to Rome.",
+       "User is planning a trip to Rome, which is now confirmed.",
+       "User is looking at hotels in Rome."
+      ],
+      "top1": "User is planning a trip to Rome, which is now confirmed."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User is looking at hotels in Rome.",
+       "User's colleague mentioned Lisbon recently.",
+       "User inquired about the budget for the trip to Rome.",
+       "User is planning a trip to Rome, which is now confirmed."
+      ],
+      "top1": "User is planning a trip to Rome, which is now confirmed."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User is planning a trip to Rome, which is now confirmed.",
+       "User's colleague mentioned Lisbon recently.",
+       "User is looking at hotels in Rome."
+      ],
+      "top1": "User is planning a trip to Rome, which is now confirmed."
+     }
+    ],
+    "HR": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User is looking at hotels in Lisbon for their trip.",
+       "User is planning a trip to Rome, but later changed the destination to Lisbon around July 31, 2026."
+      ],
+      "top1": "User is planning a trip to Rome, but later changed the destination to Lisbon around July 31, 2026."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User is looking at hotels in Lisbon for their trip.",
+       "User is planning a trip to Rome, which was later changed to Lisbon around July 31, 2026."
+      ],
+      "top1": "User is planning a trip to Rome, which was later changed to Lisbon around July 31, 2026."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User is looking at hotels in Lisbon for their trip.",
+       "User is planning a trip to Rome, but later changed the plan to Lisbon around July 31, 2026."
+      ],
+      "top1": "User is planning a trip to Rome, but later changed the plan to Lisbon around July 31, 2026."
+     }
+    ]
+   }
+  },
+  {
+   "idx": 16,
+   "dir": "fwd",
+   "paraphrase": 1,
+   "committed": "Solid",
+   "incoming": "Astro",
+   "query": "Which frontend framework is the user using?",
+   "runs": {
+    "HN": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User decided to use Solid as their tech stack and has started scaffolding it around July 31, 2026.",
+       "User's colleague mentioned Astro recently."
+      ],
+      "top1": "User decided to use Solid as their tech stack and has started scaffolding it around July 31, 2026."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User decided to use Solid as their tech stack and has started scaffolding it.",
+       "User's colleague mentioned Astro recently."
+      ],
+      "top1": "User decided to use Solid as their tech stack and has started scaffolding it."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User decided to use Solid as their tech stack and has started scaffolding it around July 31, 2026.",
+       "User's colleague mentioned Astro recently."
+      ],
+      "top1": "User decided to use Solid as their tech stack and has started scaffolding it around July 31, 2026."
+     }
+    ],
+    "HR": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User changed their decision and opted to use Astro instead of Solid on July 31, 2026.",
+       "User decided to use Solid as their tech stack and started scaffolding it around July 31, 2026."
+      ],
+      "top1": "User decided to use Solid as their tech stack and started scaffolding it around July 31, 2026."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User decided to use Solid as their tech stack and started scaffolding it around July 31, 2026.",
+       "User changed their decision and opted to use Astro instead of Solid on July 31, 2026."
+      ],
+      "top1": "User decided to use Solid as their tech stack and started scaffolding it around July 31, 2026."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User decided to use Solid as their tech stack and started scaffolding it around July 31, 2026.",
+       "User changed their decision and opted to use Astro instead of Solid on July 31, 2026."
+      ],
+      "top1": "User decided to use Solid as their tech stack and started scaffolding it around July 31, 2026."
+     }
+    ]
+   }
+  },
+  {
+   "idx": 17,
+   "dir": "rev",
+   "paraphrase": 2,
+   "committed": "Mexican",
+   "incoming": "Japanese",
+   "query": "What cuisine did the user end up choosing?",
+   "runs": {
+    "HN": [
+     {
+      "obs": [
+       1,
+       1,
+       0,
+       1
+      ],
+      "stored": [
+       "User wants to have Mexican food for dinner on July 31, 2026 and has booked a Mexican restaurant.",
+       "User's colleague mentioned Japanese food recently."
+      ],
+      "top1": "User's colleague mentioned Japanese food recently."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       0,
+       1
+      ],
+      "stored": [
+       "User's colleague mentioned Japanese food recently.",
+       "User wants to have Mexican food for dinner on July 31, 2026 and has booked a Mexican restaurant."
+      ],
+      "top1": "User's colleague mentioned Japanese food recently."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User wants to have Mexican food tonight and has booked a Mexican restaurant for dinner.",
+       "User's colleague mentioned Japanese food the other day."
+      ],
+      "top1": "User wants to have Mexican food tonight and has booked a Mexican restaurant for dinner."
+     }
+    ],
+    "HR": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User decided to switch from Mexican food to Japanese food for dinner instead on July 31, 2026.",
+       "User wants to have Mexican food for dinner on July 31, 2026 and has booked a Mexican restaurant."
+      ],
+      "top1": "User decided to switch from Mexican food to Japanese food for dinner instead on July 31, 2026."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User decided to switch from Mexican food to Japanese food for dinner on July 31, 2026.",
+       "User wants to have Mexican food for dinner on July 31, 2026 and has booked a Mexican restaurant."
+      ],
+      "top1": "User decided to switch from Mexican food to Japanese food for dinner on July 31, 2026."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User decided to switch from Mexican food to Japanese food for dinner instead on July 31, 2026.",
+       "User wants to have Mexican food for dinner on July 31, 2026 and has booked a Mexican restaurant."
+      ],
+      "top1": "User decided to switch from Mexican food to Japanese food for dinner instead on July 31, 2026."
+     }
+    ]
+   }
+  },
+  {
+   "idx": 18,
+   "dir": "fwd",
+   "paraphrase": 3,
+   "committed": "treehouse",
+   "incoming": "beach house",
+   "query": "Which vacation rental did the user finalize?",
+   "runs": {
+    "HN": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User is considering booking a treehouse and has locked in a rental for it as of July 31, 2026.",
+       "User is reading reviews for the treehouse rental.",
+       "User's colleague mentioned a beach house recently."
+      ],
+      "top1": "User is considering booking a treehouse and has locked in a rental for it as of July 31, 2026."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User is reading reviews for the treehouse they rented.",
+       "User is considering booking a treehouse and has locked in a rental for it.",
+       "User's colleague mentioned a beach house recently."
+      ],
+      "top1": "User is considering booking a treehouse and has locked in a rental for it."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User's colleague mentioned a beach house recently.",
+       "User is reading reviews for the treehouse rental.",
+       "User is considering booking a treehouse and has locked in a rental for it around July 31, 2026."
+      ],
+      "top1": "User is considering booking a treehouse and has locked in a rental for it around July 31, 2026."
+     }
+    ],
+    "HR": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User is considering booking a treehouse and has locked in a rental for it.",
+       "User is reading reviews for the treehouse rental.",
+       "User decided to switch from the treehouse rental to a beach house."
+      ],
+      "top1": "User is considering booking a treehouse and has locked in a rental for it."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User is reading reviews for the treehouse rental.",
+       "User is considering booking a treehouse and has locked in a rental for it around July 31, 2026.",
+       "User decided to switch from the treehouse rental to a beach house rental."
+      ],
+      "top1": "User decided to switch from the treehouse rental to a beach house rental."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User is now considering a beach house instead of the treehouse.",
+       "User is reading reviews for the treehouse rental.",
+       "User is considering booking a treehouse and has locked in a rental for it."
+      ],
+      "top1": "User is considering booking a treehouse and has locked in a rental for it."
+     }
+    ]
+   }
+  },
+  {
+   "idx": 19,
+   "dir": "rev",
+   "paraphrase": 4,
+   "committed": "fountain pen",
+   "incoming": "kitchen knife",
+   "query": "What gift did the user actually purchase?",
+   "runs": {
+    "HN": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User ordered a fountain pen on July 31, 2026 and is currently wrapping it as a gift.",
+       "User's colleague mentioned a kitchen knife recently."
+      ],
+      "top1": "User ordered a fountain pen on July 31, 2026 and is currently wrapping it as a gift."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User ordered a fountain pen on July 31, 2026 and is currently wrapping it as a gift.",
+       "User's colleague mentioned a kitchen knife recently."
+      ],
+      "top1": "User ordered a fountain pen on July 31, 2026 and is currently wrapping it as a gift."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User ordered a fountain pen and is currently wrapping it as a gift.",
+       "User's colleague mentioned a kitchen knife recently."
+      ],
+      "top1": "User ordered a fountain pen and is currently wrapping it as a gift."
+     }
+    ],
+    "HR": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User ordered a fountain pen on July 31, 2026, but later decided to go with a kitchen knife instead."
+      ],
+      "top1": "User ordered a fountain pen on July 31, 2026, but later decided to go with a kitchen knife instead."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User ordered a fountain pen on July 31, 2026, but later decided to go with a kitchen knife instead."
+      ],
+      "top1": "User ordered a fountain pen on July 31, 2026, but later decided to go with a kitchen knife instead."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User ordered a fountain pen on July 31, 2026, but later decided to go with a kitchen knife instead."
+      ],
+      "top1": "User ordered a fountain pen on July 31, 2026, but later decided to go with a kitchen knife instead."
+     }
+    ]
+   }
+  },
+  {
+   "idx": 20,
+   "dir": "fwd",
+   "paraphrase": 0,
+   "committed": "Sydney",
+   "incoming": "London",
+   "query": "Where is the user actually traveling?",
+   "runs": {
+    "HN": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User's colleague mentioned London recently.",
+       "User is planning a trip to Sydney, which is now confirmed.",
+       "User is looking at hotels in Sydney."
+      ],
+      "top1": "User is planning a trip to Sydney, which is now confirmed."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User's colleague mentioned London recently.",
+       "User is planning a trip to Sydney and has confirmed the trip.",
+       "User is looking at hotels in Sydney."
+      ],
+      "top1": "User is planning a trip to Sydney and has confirmed the trip."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User's colleague mentioned London recently.",
+       "User is looking at hotels in Sydney.",
+       "User is planning a trip to Sydney and has confirmed the trip."
+      ],
+      "top1": "User is planning a trip to Sydney and has confirmed the trip."
+     }
+    ],
+    "HR": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User is looking at hotels in Sydney.",
+       "User is planning a trip to Sydney and has confirmed the trip.",
+       "User changed their travel plans from Sydney to London."
+      ],
+      "top1": "User changed their travel plans from Sydney to London."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User is planning a trip to Sydney and has confirmed the trip.",
+       "User changed their travel plans from Sydney to London.",
+       "User is looking at hotels in Sydney."
+      ],
+      "top1": "User changed their travel plans from Sydney to London."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User is looking at hotels in Sydney.",
+       "User is planning a trip to Sydney and has confirmed the trip.",
+       "User changed their travel plans from Sydney to London."
+      ],
+      "top1": "User changed their travel plans from Sydney to London."
+     }
+    ]
+   }
+  },
+  {
+   "idx": 21,
+   "dir": "rev",
+   "paraphrase": 1,
+   "committed": "React",
+   "incoming": "Angular",
+   "query": "Which frontend framework is the user using?",
+   "runs": {
+    "HN": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User decided to use React as their tech stack and has started scaffolding a React project around July 31, 2026.",
+       "User's colleague mentioned Angular recently."
+      ],
+      "top1": "User decided to use React as their tech stack and has started scaffolding a React project around July 31, 2026."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User's colleague mentioned Angular recently.",
+       "User decided to use React as their tech stack for a project around July 31, 2026.",
+       "User started scaffolding a React application around July 31, 2026."
+      ],
+      "top1": "User decided to use React as their tech stack for a project around July 31, 2026."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User decided to use React as their tech stack for a project around July 31, 2026 and has started scaffolding it.",
+       "User's colleague mentioned Angular recently."
+      ],
+      "top1": "User decided to use React as their tech stack for a project around July 31, 2026 and has started scaffolding it."
+     }
+    ],
+    "HR": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User decided to use React as their tech stack and started scaffolding it around July 31, 2026.",
+       "User changed their mind and decided to use Angular instead of React on July 31, 2026."
+      ],
+      "top1": "User decided to use React as their tech stack and started scaffolding it around July 31, 2026."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User decided to use React as their tech stack and started scaffolding it around July 31, 2026.",
+       "User changed their mind and decided to use Angular instead of React on July 31, 2026."
+      ],
+      "top1": "User decided to use React as their tech stack and started scaffolding it around July 31, 2026."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User changed their mind and decided to use Angular instead of React on July 31, 2026.",
+       "User decided to use React as their tech stack and started scaffolding it around July 31, 2026."
+      ],
+      "top1": "User decided to use React as their tech stack and started scaffolding it around July 31, 2026."
+     }
+    ]
+   }
+  },
+  {
+   "idx": 22,
+   "dir": "fwd",
+   "paraphrase": 2,
+   "committed": "Korean",
+   "incoming": "Italian",
+   "query": "What cuisine did the user end up choosing?",
+   "runs": {
+    "HN": [
+     {
+      "obs": [
+       1,
+       1,
+       0,
+       1
+      ],
+      "stored": [
+       "User's colleague mentioned Italian food recently.",
+       "User wants to have Korean food on the night of July 31, 2026 and has booked a Korean restaurant."
+      ],
+      "top1": "User's colleague mentioned Italian food recently."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       0,
+       1
+      ],
+      "stored": [
+       "User wants to have Korean food on the night of July 31, 2026 and has booked a Korean restaurant.",
+       "User's colleague mentioned Italian food recently."
+      ],
+      "top1": "User's colleague mentioned Italian food recently."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       0,
+       1
+      ],
+      "stored": [
+       "User's colleague mentioned Italian food recently.",
+       "User wants to have Korean food on the night of July 31, 2026 and has booked a Korean restaurant."
+      ],
+      "top1": "User's colleague mentioned Italian food recently."
+     }
+    ],
+    "HR": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User wanted Korean food for dinner on July 31, 2026, and booked a Korean restaurant before switching to Italian instead."
+      ],
+      "top1": "User wanted Korean food for dinner on July 31, 2026, and booked a Korean restaurant before switching to Italian instead."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User wanted Korean food for dinner on July 31, 2026, and booked a Korean restaurant before deciding to switch to Italian instead."
+      ],
+      "top1": "User wanted Korean food for dinner on July 31, 2026, and booked a Korean restaurant before deciding to switch to Italian instead."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User wanted Korean food for dinner on July 31, 2026, and booked a Korean restaurant before deciding to switch to Italian instead."
+      ],
+      "top1": "User wanted Korean food for dinner on July 31, 2026, and booked a Korean restaurant before deciding to switch to Italian instead."
+     }
+    ]
+   }
+  },
+  {
+   "idx": 23,
+   "dir": "rev",
+   "paraphrase": 3,
+   "committed": "downtown loft",
+   "incoming": "cabin",
+   "query": "Which vacation rental did the user finalize?",
+   "runs": {
+    "HN": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User's colleague mentioned a cabin recently.",
+       "User is considering booking a downtown loft and has since locked in a rental for it around July 31, 2026.",
+       "User is reading reviews for the downtown loft they rented."
+      ],
+      "top1": "User is considering booking a downtown loft and has since locked in a rental for it around July 31, 2026."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User is considering booking a downtown loft and has since locked in a rental for it around July 31, 2026.",
+       "User is reading reviews for the downtown loft rental.",
+       "User's colleague mentioned a cabin recently."
+      ],
+      "top1": "User is considering booking a downtown loft and has since locked in a rental for it around July 31, 2026."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User's colleague mentioned a cabin recently.",
+       "User is reading reviews for the downtown loft rental.",
+       "User is considering booking a downtown loft and has since locked in a rental for it around July 31, 2026."
+      ],
+      "top1": "User is considering booking a downtown loft and has since locked in a rental for it around July 31, 2026."
+     }
+    ],
+    "HR": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User is considering booking a downtown loft and has since locked in a rental for it around July 31, 2026.",
+       "User is reading reviews for the downtown loft rental.",
+       "User decided to scratch the downtown loft plan in favor of a cabin."
+      ],
+      "top1": "User is considering booking a downtown loft and has since locked in a rental for it around July 31, 2026."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User decided to scratch the downtown loft plan in favor of a cabin.",
+       "User is reading reviews for the downtown loft rental.",
+       "User is considering booking a downtown loft and has since locked in a rental for it around July 31, 2026."
+      ],
+      "top1": "User is considering booking a downtown loft and has since locked in a rental for it around July 31, 2026."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User is reading reviews for the downtown loft rental.",
+       "User decided to scratch the downtown loft plan in favor of a cabin.",
+       "User is considering booking a downtown loft and has since locked in a rental for it around July 31, 2026."
+      ],
+      "top1": "User is considering booking a downtown loft and has since locked in a rental for it around July 31, 2026."
+     }
+    ]
+   }
+  },
+  {
+   "idx": 24,
+   "dir": "fwd",
+   "paraphrase": 4,
+   "committed": "wine subscription",
+   "incoming": "book",
+   "query": "What gift did the user actually purchase?",
+   "runs": {
+    "HN": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User ordered a wine subscription on July 31, 2026 and is wrapping it as a gift.",
+       "User's colleague mentioned a book the other day, although no specific details about the book were provided."
+      ],
+      "top1": "User ordered a wine subscription on July 31, 2026 and is wrapping it as a gift."
+     },
+     {
+      "obs": [
+       1,
+       0,
+       1,
+       0
+      ],
+      "stored": [
+       "User ordered a wine subscription on July 31, 2026 and is wrapping it as a gift."
+      ],
+      "top1": "User ordered a wine subscription on July 31, 2026 and is wrapping it as a gift."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User ordered a wine subscription on July 31, 2026 and is wrapping it as a gift.",
+       "User's colleague mentioned a book the other day."
+      ],
+      "top1": "User ordered a wine subscription on July 31, 2026 and is wrapping it as a gift."
+     }
+    ],
+    "HR": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User decided to wrap the wine subscription but later changed their mind and opted for a book instead.",
+       "User considered getting a wine subscription and then ordered it on July 31, 2026."
+      ],
+      "top1": "User decided to wrap the wine subscription but later changed their mind and opted for a book instead."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User decided to wrap the wine subscription but later changed their mind and opted for a book instead.",
+       "User considered getting a wine subscription and then ordered it on July 31, 2026."
+      ],
+      "top1": "User decided to wrap the wine subscription but later changed their mind and opted for a book instead."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User decided to wrap the wine subscription but later changed their mind and opted for a book instead.",
+       "User considered getting a wine subscription and then ordered it on July 31, 2026."
+      ],
+      "top1": "User decided to wrap the wine subscription but later changed their mind and opted for a book instead."
+     }
+    ]
+   }
+  },
+  {
+   "idx": 25,
+   "dir": "rev",
+   "paraphrase": 0,
+   "committed": "Bangkok",
+   "incoming": "Tokyo",
+   "query": "Where is the user actually traveling?",
+   "runs": {
+    "HN": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User's colleague mentioned Tokyo recently.",
+       "User is looking at hotels in Bangkok.",
+       "User is planning a trip to Bangkok, which is now confirmed."
+      ],
+      "top1": "User is planning a trip to Bangkok, which is now confirmed."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User's colleague mentioned Tokyo recently.",
+       "User is looking at hotels in Bangkok.",
+       "User is planning a trip to Bangkok, which is now confirmed."
+      ],
+      "top1": "User is planning a trip to Bangkok, which is now confirmed."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User is planning a trip to Bangkok and has confirmed the destination.",
+       "User is looking at hotels in Bangkok.",
+       "User's colleague mentioned Tokyo recently."
+      ],
+      "top1": "User is planning a trip to Bangkok and has confirmed the destination."
+     }
+    ],
+    "HR": [
+     {
+      "obs": [
+       1,
+       1,
+       0,
+       1
+      ],
+      "stored": [
+       "User is looking at hotels in Tokyo for their trip.",
+       "User is planning a trip to Bangkok, which was later changed to Tokyo around July 31, 2026."
+      ],
+      "top1": "User is looking at hotels in Tokyo for their trip."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User is planning a trip to Bangkok, which was later changed to Tokyo around July 31, 2026.",
+       "User is looking at hotels in Bangkok as part of their trip planning."
+      ],
+      "top1": "User is planning a trip to Bangkok, which was later changed to Tokyo around July 31, 2026."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User is planning a trip to Bangkok and has confirmed the destination.",
+       "User is looking at hotels in Bangkok.",
+       "User changed their travel plans from Bangkok to Tokyo."
+      ],
+      "top1": "User is planning a trip to Bangkok and has confirmed the destination."
+     }
+    ]
+   }
+  },
+  {
+   "idx": 26,
+   "dir": "fwd",
+   "paraphrase": 1,
+   "committed": "React",
+   "incoming": "Remix",
+   "query": "Which frontend framework is the user using?",
+   "runs": {
+    "HN": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User's colleague mentioned Remix as a potential technology.",
+       "User decided to use React as their tech stack and has started scaffolding a React project."
+      ],
+      "top1": "User decided to use React as their tech stack and has started scaffolding a React project."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User decided to use React as their tech stack and has started scaffolding a React project.",
+       "User's colleague mentioned Remix as a potential technology."
+      ],
+      "top1": "User decided to use React as their tech stack and has started scaffolding a React project."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User's colleague mentioned Remix as a potential technology.",
+       "User decided to use React as their tech stack and has started scaffolding a React project."
+      ],
+      "top1": "User decided to use React as their tech stack and has started scaffolding a React project."
+     }
+    ],
+    "HR": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User changed their mind and decided to use Remix instead of React on July 31, 2026.",
+       "User decided to use React as their tech stack and started scaffolding a React project around July 31, 2026."
+      ],
+      "top1": "User decided to use React as their tech stack and started scaffolding a React project around July 31, 2026."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User decided to use React as their tech stack and started scaffolding a React project around July 31, 2026.",
+       "User changed their mind and decided to use Remix instead of React on July 31, 2026."
+      ],
+      "top1": "User decided to use React as their tech stack and started scaffolding a React project around July 31, 2026."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User decided to use React as their tech stack and started scaffolding a React project around July 31, 2026.",
+       "User changed their decision to use Remix instead of React on July 31, 2026."
+      ],
+      "top1": "User decided to use React as their tech stack and started scaffolding a React project around July 31, 2026."
+     }
+    ]
+   }
+  },
+  {
+   "idx": 27,
+   "dir": "rev",
+   "paraphrase": 2,
+   "committed": "French",
+   "incoming": "Italian",
+   "query": "What cuisine did the user end up choosing?",
+   "runs": {
+    "HN": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User has booked a French restaurant for dinner on July 31, 2026",
+       "User's colleague mentioned Italian food recently",
+       "User is looking up French dining options",
+       "User wants to have French food on the night of July 31, 2026"
+      ],
+      "top1": "User is looking up French dining options"
+     },
+     {
+      "obs": [
+       1,
+       1,
+       0,
+       1
+      ],
+      "stored": [
+       "User's colleague mentioned Italian food recently.",
+       "User wants to have French food on the night of July 31, 2026 and has booked a French restaurant for dinner."
+      ],
+      "top1": "User's colleague mentioned Italian food recently."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       0,
+       1
+      ],
+      "stored": [
+       "User's colleague mentioned Italian food recently.",
+       "User wants to have French food on the night of July 31, 2026 and has booked a French restaurant for dinner."
+      ],
+      "top1": "User's colleague mentioned Italian food recently."
+     }
+    ],
+    "HR": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User wanted French food for dinner on July 31, 2026 and booked a French restaurant, but later decided to switch to Italian instead."
+      ],
+      "top1": "User wanted French food for dinner on July 31, 2026 and booked a French restaurant, but later decided to switch to Italian instead."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User wants to have French food on the night of July 31, 2026 and has booked a French place for dinner.",
+       "User is looking up French dining options before deciding to switch to Italian food instead on July 31, 2026."
+      ],
+      "top1": "User is looking up French dining options before deciding to switch to Italian food instead on July 31, 2026."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User wanted French food for dinner on July 31, 2026, and booked a French restaurant before deciding to switch to Italian instead."
+      ],
+      "top1": "User wanted French food for dinner on July 31, 2026, and booked a French restaurant before deciding to switch to Italian instead."
+     }
+    ]
+   }
+  },
+  {
+   "idx": 28,
+   "dir": "fwd",
+   "paraphrase": 3,
+   "committed": "houseboat",
+   "incoming": "beach house",
+   "query": "Which vacation rental did the user finalize?",
+   "runs": {
+    "HN": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User is reading reviews for the houseboat they rented.",
+       "User is considering booking a houseboat and has locked in a rental for it.",
+       "User's colleague mentioned a beach house recently."
+      ],
+      "top1": "User is considering booking a houseboat and has locked in a rental for it."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User is considering booking a houseboat and has locked in a rental for it around July 31, 2026.",
+       "User is reading reviews for the houseboat rental.",
+       "User's colleague mentioned a beach house recently."
+      ],
+      "top1": "User is considering booking a houseboat and has locked in a rental for it around July 31, 2026."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User is reading reviews for the houseboat rental.",
+       "User's colleague mentioned a beach house recently.",
+       "User is considering booking a houseboat and has locked in a rental for it around July 31, 2026."
+      ],
+      "top1": "User is considering booking a houseboat and has locked in a rental for it around July 31, 2026."
+     }
+    ],
+    "HR": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User decided to switch from the houseboat to a beach house rental.",
+       "User is considering booking a houseboat and has since locked in a rental for it around July 31, 2026.",
+       "User is reading reviews for the houseboat rental."
+      ],
+      "top1": "User decided to switch from the houseboat to a beach house rental."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User is reading reviews for the houseboat rental.",
+       "User decided to switch from the houseboat to a beach house rental.",
+       "User is considering booking a houseboat and has since locked in a rental for it around July 31, 2026."
+      ],
+      "top1": "User decided to switch from the houseboat to a beach house rental."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User is considering booking a houseboat and has since locked in a rental for it around July 31, 2026.",
+       "User decided to switch from the houseboat to a beach house rental.",
+       "User is reading reviews for the houseboat rental."
+      ],
+      "top1": "User decided to switch from the houseboat to a beach house rental."
+     }
+    ]
+   }
+  },
+  {
+   "idx": 29,
+   "dir": "rev",
+   "paraphrase": 4,
+   "committed": "kitchen knife",
+   "incoming": "espresso machine",
+   "query": "What gift did the user actually purchase?",
+   "runs": {
+    "HN": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User ordered a kitchen knife and is currently wrapping it as a gift.",
+       "User's colleague mentioned an espresso machine recently."
+      ],
+      "top1": "User ordered a kitchen knife and is currently wrapping it as a gift."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User's colleague mentioned an espresso machine recently.",
+       "User ordered a kitchen knife and is currently wrapping it as a gift."
+      ],
+      "top1": "User ordered a kitchen knife and is currently wrapping it as a gift."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "stored": [
+       "User's colleague mentioned an espresso machine recently.",
+       "User ordered a kitchen knife and is currently wrapping it as a gift."
+      ],
+      "top1": "User ordered a kitchen knife and is currently wrapping it as a gift."
+     }
+    ],
+    "HR": [
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User ordered a kitchen knife on July 31, 2026, but later decided to go with an espresso machine instead."
+      ],
+      "top1": "User ordered a kitchen knife on July 31, 2026, but later decided to go with an espresso machine instead."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User ordered a kitchen knife on July 31, 2026, but later decided to go with an espresso machine instead."
+      ],
+      "top1": "User ordered a kitchen knife on July 31, 2026, but later decided to go with an espresso machine instead."
+     },
+     {
+      "obs": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "stored": [
+       "User ordered a kitchen knife on July 31, 2026, but later decided to go with an espresso machine instead."
+      ],
+      "top1": "User ordered a kitchen knife on July 31, 2026, but later decided to go with an espresso machine instead."
+     }
+    ]
+   }
+  }
+ ]
+}

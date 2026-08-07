@@ -1,0 +1,924 @@
+{
+  "config": {
+    "n": 50,
+    "n_processed": 50,
+    "k_retractions": 3
+  },
+  "retrieval_hit_pct": {
+    "1": 68.0,
+    "3": 100.0,
+    "5": 100.0,
+    "10": 100.0
+  },
+  "retrieval_distractor_pct": {
+    "1": 86.0,
+    "3": 96.0,
+    "5": 96.0,
+    "10": 96.0
+  },
+  "e2e_llm": {
+    "y_correct": 80.0,
+    "x_distractor": 14.0,
+    "neither": 6.0
+  },
+  "per_sample": [
+    {
+      "idx": 0,
+      "Xs": [
+        "Paris",
+        "Lisbon",
+        "Rome"
+      ],
+      "X1": "Paris",
+      "X2": "Lisbon",
+      "X3": "Rome",
+      "retrieved_top5": [
+        "User is planning a trip to Paris but later changed their destination to Lisbon and then to Rome.",
+        "User is looking at hotels in Rome as part of their trip planning.",
+        "User locked in their trip to Rome around July 27, 2026."
+      ],
+      "e2e_answer": "Rome",
+      "e2e_category": "y_correct"
+    },
+    {
+      "idx": 1,
+      "Xs": [
+        "Preact",
+        "Lit",
+        "Svelte"
+      ],
+      "X1": "Preact",
+      "X2": "Lit",
+      "X3": "Svelte",
+      "retrieved_top5": [
+        "User decided to use Preact as their tech stack and started scaffolding it around July 27, 2026.",
+        "User switched their tech stack from Preact to Lit and started scaffolding Lit on July 27, 2026.",
+        "User switched their tech stack from Lit to Svelte and started scaffolding Svelte on July 27, 2026."
+      ],
+      "e2e_answer": "Svelte",
+      "e2e_category": "y_correct"
+    },
+    {
+      "idx": 2,
+      "Xs": [
+        "Thai",
+        "Indian",
+        "Mexican"
+      ],
+      "X1": "Thai",
+      "X2": "Indian",
+      "X3": "Mexican",
+      "retrieved_top5": [
+        "User wanted Thai food for dinner on July 27, 2026, and booked a Thai restaurant before switching to Indian food, which was also booked. Ultimately, user decided on Mexican food and confirmed a Mexican restaurant for dinner."
+      ],
+      "e2e_answer": "Mexican",
+      "e2e_category": "y_correct"
+    },
+    {
+      "idx": 3,
+      "Xs": [
+        "desert villa",
+        "beach house",
+        "ski chalet"
+      ],
+      "X1": "desert villa",
+      "X2": "beach house",
+      "X3": "ski chalet",
+      "retrieved_top5": [
+        "User considered booking a desert villa and then locked in a rental for it before switching plans to a beach house, which was also locked in.",
+        "User is reading reviews for the beach house after confirming the rental.",
+        "User is reading reviews for the ski chalet after confirming the rental.",
+        "User changed plans again to a ski chalet, which was locked in and confirmed."
+      ],
+      "e2e_answer": "Ski chalet",
+      "e2e_category": "y_correct"
+    },
+    {
+      "idx": 4,
+      "Xs": [
+        "book",
+        "headphones",
+        "wine subscription"
+      ],
+      "X1": "book",
+      "X2": "headphones",
+      "X3": "wine subscription",
+      "retrieved_top5": [
+        "User is considering gifts and initially thought of getting a book, then switched to headphones, and finally decided on a wine subscription as the gift.",
+        "User ordered a wine subscription on July 27, 2026, which has been confirmed and delivered."
+      ],
+      "e2e_answer": "Wine subscription",
+      "e2e_category": "y_correct"
+    },
+    {
+      "idx": 5,
+      "Xs": [
+        "Barcelona",
+        "London",
+        "Lisbon"
+      ],
+      "X1": "Barcelona",
+      "X2": "London",
+      "X3": "Lisbon",
+      "retrieved_top5": [
+        "User is planning a trip to Barcelona but later decided to switch to London and then to Lisbon, confirming the trip to Lisbon on July 27, 2026.",
+        "User is looking at hotels in Lisbon as part of their trip planning."
+      ],
+      "e2e_answer": "Lisbon",
+      "e2e_category": "y_correct"
+    },
+    {
+      "idx": 6,
+      "Xs": [
+        "React",
+        "Qwik",
+        "Lit"
+      ],
+      "X1": "React",
+      "X2": "Qwik",
+      "X3": "Lit",
+      "retrieved_top5": [
+        "User started scaffolding the tech stacks for React, Qwik, and Lit.",
+        "User decided to use React as their tech stack before switching to Qwik and finally settling on Lit.",
+        "User confirmed that Lit is their final tech stack."
+      ],
+      "e2e_answer": "Lit",
+      "e2e_category": "y_correct"
+    },
+    {
+      "idx": 7,
+      "Xs": [
+        "Spanish",
+        "Vietnamese",
+        "Greek"
+      ],
+      "X1": "Spanish",
+      "X2": "Vietnamese",
+      "X3": "Greek",
+      "retrieved_top5": [
+        "User then switched their dinner plans again from Vietnamese to Greek food and booked a Greek restaurant.",
+        "User switched their dinner plans from Spanish to Vietnamese food and booked a Vietnamese restaurant.",
+        "User initially wanted Spanish food for dinner on July 27, 2026, and booked a Spanish restaurant.",
+        "User confirmed their dinner plans for Greek food on July 27, 2026."
+      ],
+      "e2e_answer": "Greek",
+      "e2e_category": "y_correct"
+    },
+    {
+      "idx": 8,
+      "Xs": [
+        "desert villa",
+        "yurt",
+        "farmhouse"
+      ],
+      "X1": "desert villa",
+      "X2": "yurt",
+      "X3": "farmhouse",
+      "retrieved_top5": [
+        "User considered booking a desert villa and then locked in a rental for it.",
+        "User switched plans from a desert villa to a yurt and locked in a rental for the yurt.",
+        "User is reading reviews for the farmhouse rental.",
+        "User switched plans again from a yurt to a farmhouse and locked in a rental for the farmhouse."
+      ],
+      "e2e_answer": "Farmhouse",
+      "e2e_category": "y_correct"
+    },
+    {
+      "idx": 9,
+      "Xs": [
+        "kitchen knife",
+        "fountain pen",
+        "wine subscription"
+      ],
+      "X1": "kitchen knife",
+      "X2": "fountain pen",
+      "X3": "wine subscription",
+      "retrieved_top5": [
+        "User ordered a kitchen knife but later switched to a fountain pen before finally deciding on a wine subscription.",
+        "User ordered a wine subscription on July 27, 2026, and confirmed its delivery."
+      ],
+      "e2e_answer": "Wine subscription",
+      "e2e_category": "y_correct"
+    },
+    {
+      "idx": 10,
+      "Xs": [
+        "Rome",
+        "Vienna",
+        "Bangkok"
+      ],
+      "X1": "Rome",
+      "X2": "Vienna",
+      "X3": "Bangkok",
+      "retrieved_top5": [
+        "User is planning a trip and initially considered going to Rome before switching to Vienna and finally confirming Bangkok as the destination.",
+        "User is looking at hotels in Bangkok for their trip.",
+        "User locked in Bangkok as their travel destination on July 27, 2026."
+      ],
+      "e2e_answer": "Bangkok",
+      "e2e_category": "y_correct"
+    },
+    {
+      "idx": 11,
+      "Xs": [
+        "Qwik",
+        "React",
+        "Lit"
+      ],
+      "X1": "Qwik",
+      "X2": "React",
+      "X3": "Lit",
+      "retrieved_top5": [
+        "User switched from Qwik to React as their tech stack and started scaffolding React around July 27, 2026.",
+        "User decided to use Qwik as their tech stack and started scaffolding it around July 27, 2026.",
+        "User decided to use Lit as their tech stack and started scaffolding it around July 27, 2026."
+      ],
+      "e2e_answer": "React",
+      "e2e_category": "x_distractor"
+    },
+    {
+      "idx": 12,
+      "Xs": [
+        "Korean",
+        "Thai",
+        "Indian"
+      ],
+      "X1": "Korean",
+      "X2": "Thai",
+      "X3": "Indian",
+      "retrieved_top5": [
+        "User wanted Korean food for dinner on July 27, 2026, and booked a Korean restaurant before switching to Thai food, which was also booked, and finally decided on Indian food, confirming a reservation at an Indian restaurant."
+      ],
+      "e2e_answer": "Indian",
+      "e2e_category": "y_correct"
+    },
+    {
+      "idx": 13,
+      "Xs": [
+        "houseboat",
+        "ski chalet",
+        "beach house"
+      ],
+      "X1": "houseboat",
+      "X2": "ski chalet",
+      "X3": "beach house",
+      "retrieved_top5": [
+        "User is considering booking a houseboat and has locked in a rental for it.",
+        "User switched from the ski chalet to a beach house and has locked in a rental for the beach house.",
+        "User is reading reviews for the beach house rental.",
+        "User switched from a houseboat to a ski chalet and has locked in a rental for the ski chalet.",
+        "User is reading reviews for the houseboat rental."
+      ],
+      "e2e_answer": "Ski chalet",
+      "e2e_category": "x_distractor"
+    },
+    {
+      "idx": 14,
+      "Xs": [
+        "watch",
+        "headphones",
+        "camera lens"
+      ],
+      "X1": "watch",
+      "X2": "headphones",
+      "X3": "camera lens",
+      "retrieved_top5": [
+        "User initially considered getting a watch as a gift, then switched to headphones, and finally decided on a camera lens.",
+        "User wrapped the camera lens after ordering it.",
+        "User ordered a camera lens on July 27, 2026.",
+        "User confirmed that the camera lens was delivered on July 27, 2026."
+      ],
+      "e2e_answer": "Camera lens",
+      "e2e_category": "y_correct"
+    },
+    {
+      "idx": 15,
+      "Xs": [
+        "Paris",
+        "Reykjavik",
+        "Rome"
+      ],
+      "X1": "Paris",
+      "X2": "Reykjavik",
+      "X3": "Rome",
+      "retrieved_top5": [
+        "User is planning a trip to Paris but later changed their destination to Reykjavik and then to Rome, which is now confirmed as their travel destination.",
+        "User is looking at hotels in Rome for their upcoming trip."
+      ],
+      "e2e_answer": "Rome",
+      "e2e_category": "y_correct"
+    },
+    {
+      "idx": 16,
+      "Xs": [
+        "Svelte",
+        "Astro",
+        "Preact"
+      ],
+      "X1": "Svelte",
+      "X2": "Astro",
+      "X3": "Preact",
+      "retrieved_top5": [
+        "User decided to use Svelte as their tech stack and started scaffolding it around July 27, 2026.",
+        "User later switched from Astro to Preact as their tech stack and started scaffolding Preact on July 27, 2026.",
+        "User switched from Svelte to Astro as their tech stack and started scaffolding Astro on July 27, 2026."
+      ],
+      "e2e_answer": "Preact",
+      "e2e_category": "y_correct"
+    },
+    {
+      "idx": 17,
+      "Xs": [
+        "Greek",
+        "Mexican",
+        "Thai"
+      ],
+      "X1": "Greek",
+      "X2": "Mexican",
+      "X3": "Thai",
+      "retrieved_top5": [
+        "User switched their dinner plans to Mexican food, booking a Mexican restaurant instead.",
+        "User initially wanted Greek food for dinner on July 27, 2026, and booked a Greek restaurant.",
+        "User later changed their dinner plans again to Thai food, booking a Thai restaurant.",
+        "User confirmed their dinner plans for Thai food on July 27, 2026."
+      ],
+      "e2e_answer": "Thai",
+      "e2e_category": "y_correct"
+    },
+    {
+      "idx": 18,
+      "Xs": [
+        "lake cottage",
+        "ski chalet",
+        "beach house"
+      ],
+      "X1": "lake cottage",
+      "X2": "ski chalet",
+      "X3": "beach house",
+      "retrieved_top5": [
+        "User then switched plans again to a beach house rental, which is now confirmed.",
+        "User considered booking a lake cottage but ultimately decided to switch to a ski chalet rental, which is now locked in.",
+        "User is reading reviews for the beach house rental.",
+        "User is reading reviews for the ski chalet rental."
+      ],
+      "e2e_answer": "Beach house rental",
+      "e2e_category": "y_correct"
+    },
+    {
+      "idx": 19,
+      "Xs": [
+        "espresso machine",
+        "book",
+        "headphones"
+      ],
+      "X1": "espresso machine",
+      "X2": "book",
+      "X3": "headphones",
+      "retrieved_top5": [
+        "User ordered headphones after initially considering an espresso machine and a book.",
+        "User ordered an espresso machine but later switched to ordering a book instead.",
+        "User confirmed that the headphones were delivered on July 27, 2026."
+      ],
+      "e2e_answer": "Headphones",
+      "e2e_category": "y_correct"
+    },
+    {
+      "idx": 20,
+      "Xs": [
+        "Sydney",
+        "Lisbon",
+        "London"
+      ],
+      "X1": "Sydney",
+      "X2": "Lisbon",
+      "X3": "London",
+      "retrieved_top5": [
+        "User is planning a trip and has confirmed they are going to London as of July 27, 2026.",
+        "User is looking at hotels in London for their trip."
+      ],
+      "e2e_answer": "London",
+      "e2e_category": "y_correct"
+    },
+    {
+      "idx": 21,
+      "Xs": [
+        "Lit",
+        "Angular",
+        "Preact"
+      ],
+      "X1": "Lit",
+      "X2": "Angular",
+      "X3": "Preact",
+      "retrieved_top5": [
+        "User decided to use Lit as their tech stack and started scaffolding it before switching to Angular, which was also confirmed and scaffolded. Eventually, user decided on Preact as their final stack, which was confirmed and locked in on July 27, 2026."
+      ],
+      "e2e_answer": "Preact",
+      "e2e_category": "y_correct"
+    },
+    {
+      "idx": 22,
+      "Xs": [
+        "Italian",
+        "Spanish",
+        "Thai"
+      ],
+      "X1": "Italian",
+      "X2": "Spanish",
+      "X3": "Thai",
+      "retrieved_top5": [
+        "User initially wanted Italian food for dinner on July 27, 2026, and booked an Italian place before switching to Spanish cuisine.",
+        "User booked a Spanish restaurant for dinner on July 27, 2026, after initially considering Italian.",
+        "User later changed their dinner plan to Thai food on July 27, 2026, and booked a Thai restaurant.",
+        "User confirmed a Thai restaurant for dinner on July 27, 2026."
+      ],
+      "e2e_answer": "Thai",
+      "e2e_category": "y_correct"
+    },
+    {
+      "idx": 23,
+      "Xs": [
+        "beach house",
+        "cabin",
+        "desert villa"
+      ],
+      "X1": "beach house",
+      "X2": "cabin",
+      "X3": "desert villa",
+      "retrieved_top5": [
+        "User is considering booking a beach house but later switched to a cabin and then to a desert villa for their rental.",
+        "User is reading reviews for the desert villa they rented.",
+        "User locked in a rental for a desert villa around July 27, 2026."
+      ],
+      "e2e_answer": "Desert villa",
+      "e2e_category": "y_correct"
+    },
+    {
+      "idx": 24,
+      "Xs": [
+        "watch",
+        "headphones",
+        "kitchen knife"
+      ],
+      "X1": "watch",
+      "X2": "headphones",
+      "X3": "kitchen knife",
+      "retrieved_top5": [
+        "User initially considered getting a watch as a gift but switched to headphones and then to a kitchen knife.",
+        "User ordered a kitchen knife on July 27, 2026, and confirmed its delivery."
+      ],
+      "e2e_answer": "Kitchen knife",
+      "e2e_category": "y_correct"
+    },
+    {
+      "idx": 25,
+      "Xs": [
+        "Bangkok",
+        "Tokyo",
+        "Paris"
+      ],
+      "X1": "Bangkok",
+      "X2": "Tokyo",
+      "X3": "Paris",
+      "retrieved_top5": [
+        "User is planning a trip to Bangkok but later decided to switch to Tokyo and then finally confirmed a trip to Paris.",
+        "User is looking at hotels in Paris for their upcoming trip."
+      ],
+      "e2e_answer": "Paris",
+      "e2e_category": "y_correct"
+    },
+    {
+      "idx": 26,
+      "Xs": [
+        "Remix",
+        "React",
+        "Vue"
+      ],
+      "X1": "Remix",
+      "X2": "React",
+      "X3": "Vue",
+      "retrieved_top5": [
+        "User started scaffolding Remix, then React, and finally Vue for their project.",
+        "User decided to use Remix as their tech stack before switching to React and finally settling on Vue as their stack.",
+        "User confirmed Vue as their tech stack after initially considering Remix and React."
+      ],
+      "e2e_answer": "Vue",
+      "e2e_category": "y_correct"
+    },
+    {
+      "idx": 27,
+      "Xs": [
+        "Thai",
+        "French",
+        "Spanish"
+      ],
+      "X1": "Thai",
+      "X2": "French",
+      "X3": "Spanish",
+      "retrieved_top5": [
+        "User switched their dinner plans from Thai to French food, booking a French restaurant.",
+        "User later changed their dinner plans again to Spanish food, booking a Spanish restaurant.",
+        "User initially wanted Thai food for dinner on July 27, 2026, and booked a Thai restaurant.",
+        "User confirmed their dinner plans for Spanish food on July 27, 2026."
+      ],
+      "e2e_answer": "Spanish",
+      "e2e_category": "y_correct"
+    },
+    {
+      "idx": 28,
+      "Xs": [
+        "lake cottage",
+        "houseboat",
+        "yurt"
+      ],
+      "X1": "lake cottage",
+      "X2": "houseboat",
+      "X3": "yurt",
+      "retrieved_top5": [
+        "User considered booking a lake cottage but ultimately locked in a rental for a yurt around July 27, 2026.",
+        "User switched from a lake cottage to a houseboat rental before finally confirming a yurt rental.",
+        "User is reading reviews for the yurt rental they confirmed."
+      ],
+      "e2e_answer": "Yurt",
+      "e2e_category": "y_correct"
+    },
+    {
+      "idx": 29,
+      "Xs": [
+        "perfume",
+        "headphones",
+        "scarf"
+      ],
+      "X1": "perfume",
+      "X2": "headphones",
+      "X3": "scarf",
+      "retrieved_top5": [
+        "User initially considered getting a perfume as a gift but changed their mind multiple times, ultimately ordering a scarf instead on July 27, 2026.",
+        "User ordered headphones on July 27, 2026, after initially planning to get a perfume and then switching to a scarf.",
+        "User ordered a scarf on July 27, 2026, and confirmed its delivery on the same day."
+      ],
+      "e2e_answer": "Headphones",
+      "e2e_category": "x_distractor"
+    },
+    {
+      "idx": 30,
+      "Xs": [
+        "Bangkok",
+        "Sydney",
+        "Vienna"
+      ],
+      "X1": "Bangkok",
+      "X2": "Sydney",
+      "X3": "Vienna",
+      "retrieved_top5": [
+        "User is planning a trip to Bangkok but later switched their destination to Sydney and then to Vienna.",
+        "User is looking at hotels in Vienna for their trip.",
+        "User locked in their trip to Vienna on July 27, 2026."
+      ],
+      "e2e_answer": "Vienna",
+      "e2e_category": "y_correct"
+    },
+    {
+      "idx": 31,
+      "Xs": [
+        "Preact",
+        "Svelte",
+        "React"
+      ],
+      "X1": "Preact",
+      "X2": "Svelte",
+      "X3": "React",
+      "retrieved_top5": [
+        "User decided to use Preact as their tech stack and started scaffolding it.",
+        "User later changed their tech stack decision to React and started scaffolding it.",
+        "User switched their tech stack decision to Svelte and started scaffolding it."
+      ],
+      "e2e_answer": "Svelte",
+      "e2e_category": "x_distractor"
+    },
+    {
+      "idx": 32,
+      "Xs": [
+        "Thai",
+        "Vietnamese",
+        "Indian"
+      ],
+      "X1": "Thai",
+      "X2": "Vietnamese",
+      "X3": "Indian",
+      "retrieved_top5": [
+        "User confirmed Indian food for dinner on July 27, 2026.",
+        "User later switched from Vietnamese to Indian food for dinner on July 27, 2026, and booked an Indian place.",
+        "User switched from Thai to Vietnamese food for dinner on July 27, 2026, and booked a Vietnamese place.",
+        "User initially wanted Thai food for dinner on July 27, 2026, and booked a Thai place."
+      ],
+      "e2e_answer": "Indian",
+      "e2e_category": "y_correct"
+    },
+    {
+      "idx": 33,
+      "Xs": [
+        "downtown loft",
+        "ski chalet",
+        "lake cottage"
+      ],
+      "X1": "downtown loft",
+      "X2": "ski chalet",
+      "X3": "lake cottage",
+      "retrieved_top5": [
+        "User considered booking a downtown loft but ultimately decided to go with a ski chalet.",
+        "User decided to switch from the ski chalet to a lake cottage.",
+        "User is reading reviews for the lake cottage.",
+        "User is reading reviews for the ski chalet.",
+        "User locked in a lake cottage rental."
+      ],
+      "e2e_answer": "Lake cottage",
+      "e2e_category": "y_correct"
+    },
+    {
+      "idx": 34,
+      "Xs": [
+        "perfume",
+        "espresso machine",
+        "scarf"
+      ],
+      "X1": "perfume",
+      "X2": "espresso machine",
+      "X3": "scarf",
+      "retrieved_top5": [
+        "User decided to go with a scarf after considering other gifts and confirmed the order for the scarf.",
+        "User's scarf was delivered.",
+        "User ordered a perfume but later switched to an espresso machine, which they also ordered."
+      ],
+      "e2e_answer": "Scarf and espresso machine",
+      "e2e_category": "neither"
+    },
+    {
+      "idx": 35,
+      "Xs": [
+        "Barcelona",
+        "Rome",
+        "Bangkok"
+      ],
+      "X1": "Barcelona",
+      "X2": "Rome",
+      "X3": "Bangkok",
+      "retrieved_top5": [
+        "User is planning a trip and has confirmed they are going to Bangkok as of July 27, 2026.",
+        "User is looking at hotels in Bangkok for their trip."
+      ],
+      "e2e_answer": "Bangkok",
+      "e2e_category": "y_correct"
+    },
+    {
+      "idx": 36,
+      "Xs": [
+        "Qwik",
+        "Remix",
+        "Astro"
+      ],
+      "X1": "Qwik",
+      "X2": "Remix",
+      "X3": "Astro",
+      "retrieved_top5": [
+        "User decided to use Qwik as their tech stack and started scaffolding it.",
+        "User switched from Remix to Astro as their tech stack and started scaffolding Astro.",
+        "User switched from Qwik to Remix as their tech stack and started scaffolding Remix."
+      ],
+      "e2e_answer": "Remix",
+      "e2e_category": "x_distractor"
+    },
+    {
+      "idx": 37,
+      "Xs": [
+        "Mexican",
+        "Korean",
+        "Italian"
+      ],
+      "X1": "Mexican",
+      "X2": "Korean",
+      "X3": "Italian",
+      "retrieved_top5": [
+        "User initially wanted Mexican food for dinner on July 27, 2026, and booked a Mexican restaurant before switching to Korean food, which was also booked. Finally, user decided on Italian food and confirmed a reservation at an Italian restaurant for dinner."
+      ],
+      "e2e_answer": "Italian",
+      "e2e_category": "y_correct"
+    },
+    {
+      "idx": 38,
+      "Xs": [
+        "houseboat",
+        "treehouse",
+        "farmhouse"
+      ],
+      "X1": "houseboat",
+      "X2": "treehouse",
+      "X3": "farmhouse",
+      "retrieved_top5": [
+        "User considered booking a houseboat and later locked in a houseboat rental around July 27, 2026.",
+        "User switched from a treehouse to a farmhouse rental, which was confirmed around July 27, 2026.",
+        "User is reading reviews for the farmhouse rental.",
+        "User switched from a houseboat to a treehouse rental, which was also locked in around July 27, 2026."
+      ],
+      "e2e_answer": "Farmhouse",
+      "e2e_category": "y_correct"
+    },
+    {
+      "idx": 39,
+      "Xs": [
+        "watch",
+        "book",
+        "espresso machine"
+      ],
+      "X1": "watch",
+      "X2": "book",
+      "X3": "espresso machine",
+      "retrieved_top5": [
+        "User initially considered getting a watch as a gift, then switched to a book, and finally decided on an espresso machine.",
+        "User ordered an espresso machine on July 27, 2026.",
+        "User confirmed that the espresso machine was delivered on July 27, 2026."
+      ],
+      "e2e_answer": "Espresso machine",
+      "e2e_category": "y_correct"
+    },
+    {
+      "idx": 40,
+      "Xs": [
+        "Paris",
+        "Rome",
+        "London"
+      ],
+      "X1": "Paris",
+      "X2": "Rome",
+      "X3": "London",
+      "retrieved_top5": [
+        "User is planning a trip to Paris but later switched their destination to Rome and then to London.",
+        "User is looking at hotels in London for their trip.",
+        "User locked in their trip to London on July 27, 2026."
+      ],
+      "e2e_answer": "London",
+      "e2e_category": "y_correct"
+    },
+    {
+      "idx": 41,
+      "Xs": [
+        "Remix",
+        "Preact",
+        "Qwik"
+      ],
+      "X1": "Remix",
+      "X2": "Preact",
+      "X3": "Qwik",
+      "retrieved_top5": [
+        "User decided to use Qwik as their tech stack after initially considering Remix and Preact, confirming Qwik on July 27, 2026.",
+        "User started scaffolding Qwik on July 27, 2026."
+      ],
+      "e2e_answer": "Qwik",
+      "e2e_category": "y_correct"
+    },
+    {
+      "idx": 42,
+      "Xs": [
+        "Japanese",
+        "Indian",
+        "Italian"
+      ],
+      "X1": "Japanese",
+      "X2": "Indian",
+      "X3": "Italian",
+      "retrieved_top5": [
+        "User switched their dinner plans from Japanese to Indian food on July 27, 2026, and booked an Indian place.",
+        "User initially wanted Japanese food for dinner on July 27, 2026, and booked a Japanese place.",
+        "User later changed their dinner plans again to Italian food on July 27, 2026, and booked an Italian place.",
+        "User confirmed their dinner plans for Italian food on July 27, 2026."
+      ],
+      "e2e_answer": "Italian",
+      "e2e_category": "y_correct"
+    },
+    {
+      "idx": 43,
+      "Xs": [
+        "downtown loft",
+        "houseboat",
+        "desert villa"
+      ],
+      "X1": "downtown loft",
+      "X2": "houseboat",
+      "X3": "desert villa",
+      "retrieved_top5": [
+        "User is reading reviews for the desert villa rental.",
+        "User switched from the houseboat to a desert villa rental, which is now locked in.",
+        "User is considering booking a downtown loft and has locked in a rental for it.",
+        "User is reading reviews for the houseboat rental.",
+        "User switched from the downtown loft to a houseboat rental, which is now locked in."
+      ],
+      "e2e_answer": "Houseboat",
+      "e2e_category": "x_distractor"
+    },
+    {
+      "idx": 44,
+      "Xs": [
+        "espresso machine",
+        "book",
+        "perfume"
+      ],
+      "X1": "espresso machine",
+      "X2": "book",
+      "X3": "perfume",
+      "retrieved_top5": [
+        "User ordered an espresso machine on July 27, 2026 and is wrapping it as a gift.",
+        "User switched from the espresso machine to a book on July 27, 2026, and ordered the book, which is also being wrapped as a gift.",
+        "User switched from the book to perfume on July 27, 2026, and ordered the perfume, which has been delivered and is being wrapped as a gift."
+      ],
+      "e2e_answer": "All three.",
+      "e2e_category": "neither"
+    },
+    {
+      "idx": 45,
+      "Xs": [
+        "Rome",
+        "Vienna",
+        "Sydney"
+      ],
+      "X1": "Rome",
+      "X2": "Vienna",
+      "X3": "Sydney",
+      "retrieved_top5": [
+        "User is planning a trip and has confirmed they are going to Sydney as of July 27, 2026.",
+        "User previously considered trips to Rome and Vienna before finalizing their plans for Sydney.",
+        "User is looking at hotels in Sydney for their trip."
+      ],
+      "e2e_answer": "Sydney",
+      "e2e_category": "y_correct"
+    },
+    {
+      "idx": 46,
+      "Xs": [
+        "Remix",
+        "Vue",
+        "Lit"
+      ],
+      "X1": "Remix",
+      "X2": "Vue",
+      "X3": "Lit",
+      "retrieved_top5": [
+        "User switched their tech stack to Vue and started scaffolding Vue around July 27, 2026.",
+        "User decided to use Remix as their tech stack and started scaffolding it around July 27, 2026.",
+        "User switched their tech stack to Lit and started scaffolding Lit around July 27, 2026."
+      ],
+      "e2e_answer": "Vue, Remix, Lit",
+      "e2e_category": "neither"
+    },
+    {
+      "idx": 47,
+      "Xs": [
+        "Italian",
+        "French",
+        "Mexican"
+      ],
+      "X1": "Italian",
+      "X2": "French",
+      "X3": "Mexican",
+      "retrieved_top5": [
+        "User wanted Italian food for dinner on July 27, 2026, and booked an Italian restaurant before switching to French cuisine, which was also booked. Ultimately, user confirmed a reservation at a Mexican restaurant for dinner on the same day."
+      ],
+      "e2e_answer": "Mexican",
+      "e2e_category": "y_correct"
+    },
+    {
+      "idx": 48,
+      "Xs": [
+        "downtown loft",
+        "cabin",
+        "lake cottage"
+      ],
+      "X1": "downtown loft",
+      "X2": "cabin",
+      "X3": "lake cottage",
+      "retrieved_top5": [
+        "User is reading reviews for the cabin rental.",
+        "User considered booking a downtown loft but ultimately decided on a cabin rental.",
+        "User decided to switch from the cabin to a lake cottage rental.",
+        "User is reading reviews for the lake cottage rental.",
+        "User locked in a cabin rental."
+      ],
+      "e2e_answer": "Cabin rental",
+      "e2e_category": "x_distractor"
+    },
+    {
+      "idx": 49,
+      "Xs": [
+        "scarf",
+        "watch",
+        "headphones"
+      ],
+      "X1": "scarf",
+      "X2": "watch",
+      "X3": "headphones",
+      "retrieved_top5": [
+        "User ordered a scarf as a gift but later switched to a watch, then finally decided on headphones, which they also ordered and confirmed delivery on July 27, 2026."
+      ],
+      "e2e_answer": "Headphones",
+      "e2e_category": "y_correct"
+    }
+  ]
+}

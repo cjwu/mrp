@@ -1,0 +1,8225 @@
+{
+ "marker_re": "/\\b(chang(?:e|ed|es|ing)|switch(?:ed|es|ing)?|instead|no\\s+longer|updat(?:e|ed|es|ing))\\b/i",
+ "per_m": {
+  "1": {
+   "n": 50,
+   "deterministic": {
+    "cosine": {
+     "cover5": 48,
+     "mention5": 49,
+     "unresolved5": 49
+    },
+    "baf": {
+     "cover5": 48,
+     "mention5": 42,
+     "unresolved5": 42
+    },
+    "a_top": {
+     "cover5": 48,
+     "mention5": 42,
+     "unresolved5": 42
+    },
+    "a_lex": {
+     "cover5": 48,
+     "mention5": 42,
+     "unresolved5": 42
+    },
+    "b_slot": {
+     "cover5": 48,
+     "mention5": 49,
+     "unresolved5": 49
+    }
+   },
+   "mem0": {
+    "cover5": 50,
+    "mention5": 50,
+    "unresolved5": 5,
+    "n": 50
+   },
+   "per_sample": [
+    {
+     "idx": 0,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 1,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 0,
+      "unresolved5": 0
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 0,
+      "unresolved5": 0
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 0,
+      "unresolved5": 0
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 0,
+      "unresolved5": 0
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 0,
+      "unresolved5": 0
+     }
+    },
+    {
+     "idx": 2,
+     "cosine": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 3,
+     "cosine": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 4,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 5,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 6,
+     "cosine": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 7,
+     "cosine": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 8,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 0,
+      "unresolved5": 0
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 0,
+      "unresolved5": 0
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 0,
+      "unresolved5": 0
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 9,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 10,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 0,
+      "unresolved5": 0
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 0,
+      "unresolved5": 0
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 0,
+      "unresolved5": 0
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 11,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 12,
+     "cosine": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 13,
+     "cosine": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 14,
+     "cosine": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 15,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 16,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 17,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 18,
+     "cosine": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 19,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 20,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 21,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 22,
+     "cosine": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 0,
+      "unresolved5": 0
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 0,
+      "unresolved5": 0
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 0,
+      "unresolved5": 0
+     },
+     "b_slot": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 23,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 24,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 0,
+      "unresolved5": 0
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 0,
+      "unresolved5": 0
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 0,
+      "unresolved5": 0
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 25,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 26,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 27,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 28,
+     "cosine": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 29,
+     "cosine": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 30,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 31,
+     "cosine": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 32,
+     "cosine": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 33,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 34,
+     "cosine": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 35,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 36,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 37,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 38,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 39,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 40,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 41,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 0,
+      "unresolved5": 0
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 0,
+      "unresolved5": 0
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 0,
+      "unresolved5": 0
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 42,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 43,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 44,
+     "cosine": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 0,
+      "unresolved5": 0
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 0,
+      "unresolved5": 0
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 0,
+      "unresolved5": 0
+     },
+     "b_slot": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 45,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 46,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 0,
+      "unresolved5": 0
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 0,
+      "unresolved5": 0
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 0,
+      "unresolved5": 0
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 47,
+     "cosine": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 48,
+     "cosine": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 49,
+     "cosine": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    }
+   ],
+   "mem0_per_sample": [
+    {
+     "idx": 0,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 1,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 2,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 3,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 4,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 5,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 6,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 7,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 8,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 9,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 10,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 11,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 12,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 13,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 14,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 15,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 16,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 17,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 18,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 19,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 20,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 21,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 22,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 23,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 24,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 25,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 26,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 27,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 28,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 29,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 30,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 31,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 32,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 33,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 34,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 35,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 36,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 37,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 38,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 39,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 40,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 41,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 42,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 43,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 44,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 45,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 46,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 47,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 48,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 49,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    }
+   ]
+  },
+  "2": {
+   "n": 50,
+   "deterministic": {
+    "cosine": {
+     "cover5": 47,
+     "mention5": 50,
+     "unresolved5": 50
+    },
+    "baf": {
+     "cover5": 48,
+     "mention5": 47,
+     "unresolved5": 41
+    },
+    "a_top": {
+     "cover5": 48,
+     "mention5": 41,
+     "unresolved5": 41
+    },
+    "a_lex": {
+     "cover5": 48,
+     "mention5": 50,
+     "unresolved5": 50
+    },
+    "b_slot": {
+     "cover5": 48,
+     "mention5": 50,
+     "unresolved5": 50
+    }
+   },
+   "mem0": {
+    "cover5": 50,
+    "mention5": 48,
+    "unresolved5": 21,
+    "n": 50
+   },
+   "per_sample": [
+    {
+     "idx": 0,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 1,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 0
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 0,
+      "unresolved5": 0
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 2,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 3,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 4,
+     "cosine": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 5,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 6,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 7,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 0
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 0,
+      "unresolved5": 0
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 8,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 9,
+     "cosine": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 0,
+      "unresolved5": 0
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 0,
+      "unresolved5": 0
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 10,
+     "cosine": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 11,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 12,
+     "cosine": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 13,
+     "cosine": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 14,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 0,
+      "unresolved5": 0
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 0,
+      "unresolved5": 0
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 15,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 16,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 17,
+     "cosine": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 18,
+     "cosine": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 19,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 20,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 21,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 22,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 23,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 24,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 25,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 0
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 0,
+      "unresolved5": 0
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 26,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 27,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 28,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 29,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 0,
+      "unresolved5": 0
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 0,
+      "unresolved5": 0
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 30,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 31,
+     "cosine": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 32,
+     "cosine": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 33,
+     "cosine": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 34,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 35,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 36,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 0
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 0,
+      "unresolved5": 0
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 37,
+     "cosine": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 38,
+     "cosine": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 39,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 0
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 0,
+      "unresolved5": 0
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 40,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 41,
+     "cosine": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 42,
+     "cosine": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 43,
+     "cosine": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 44,
+     "cosine": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 0
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 0,
+      "unresolved5": 0
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 45,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 46,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 47,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 48,
+     "cosine": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 49,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    }
+   ],
+   "mem0_per_sample": [
+    {
+     "idx": 0,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 1,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 2,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 3,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 4,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 5,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 6,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 7,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 8,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 9,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 10,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 11,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 12,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 13,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 14,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 15,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 16,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 17,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 18,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 19,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 20,
+     "cover5": 1,
+     "mention5": 0,
+     "unresolved5": 0
+    },
+    {
+     "idx": 21,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 22,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 23,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 24,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 25,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 26,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 27,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 28,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 29,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 30,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 31,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 32,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 33,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 34,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 35,
+     "cover5": 1,
+     "mention5": 0,
+     "unresolved5": 0
+    },
+    {
+     "idx": 36,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 37,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 38,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 39,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 40,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 41,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 42,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 43,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 44,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 45,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 46,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 47,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 48,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 49,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    }
+   ]
+  },
+  "8": {
+   "n": 50,
+   "deterministic": {
+    "cosine": {
+     "cover5": 24,
+     "mention5": 50,
+     "unresolved5": 50
+    },
+    "baf": {
+     "cover5": 37,
+     "mention5": 50,
+     "unresolved5": 42
+    },
+    "a_top": {
+     "cover5": 38,
+     "mention5": 43,
+     "unresolved5": 43
+    },
+    "a_lex": {
+     "cover5": 27,
+     "mention5": 49,
+     "unresolved5": 49
+    },
+    "b_slot": {
+     "cover5": 28,
+     "mention5": 50,
+     "unresolved5": 50
+    }
+   },
+   "mem0": {
+    "cover5": 33,
+    "mention5": 50,
+    "unresolved5": 44,
+    "n": 50
+   },
+   "per_sample": [
+    {
+     "idx": 0,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 1,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 2,
+     "cosine": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 0
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 0,
+      "unresolved5": 0
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 3,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 4,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 5,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 6,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 7,
+     "cosine": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 8,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 0
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 0,
+      "unresolved5": 0
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 9,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 10,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 0
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 0,
+      "unresolved5": 0
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 11,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 12,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 13,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 0
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 0,
+      "unresolved5": 0
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 14,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 0
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 0,
+      "unresolved5": 0
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 15,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 16,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 17,
+     "cosine": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 18,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 19,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 20,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 21,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 0
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 0,
+      "unresolved5": 0
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 0,
+      "unresolved5": 0
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 22,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 23,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 24,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 25,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 26,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 27,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 28,
+     "cosine": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 29,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 30,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 31,
+     "cosine": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 0
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 32,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 33,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 34,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 35,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 36,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 37,
+     "cosine": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 0
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 0,
+      "unresolved5": 0
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 38,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 39,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 40,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 41,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 42,
+     "cosine": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 43,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 44,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 45,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 46,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 47,
+     "cosine": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 0,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 48,
+     "cosine": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 0,
+      "dist1": 1,
+      "hit3": 0,
+      "dist3": 1,
+      "hit5": 0,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    },
+    {
+     "idx": 49,
+     "cosine": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "baf": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_top": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "a_lex": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     },
+     "b_slot": {
+      "hit1": 1,
+      "dist1": 0,
+      "hit3": 1,
+      "dist3": 1,
+      "hit5": 1,
+      "dist5": 1,
+      "unresolved5": 1
+     }
+    }
+   ],
+   "mem0_per_sample": [
+    {
+     "idx": 0,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 1,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 2,
+     "cover5": 0,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 3,
+     "cover5": 0,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 4,
+     "cover5": 0,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 5,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 6,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 7,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 8,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 9,
+     "cover5": 0,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 10,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 11,
+     "cover5": 0,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 12,
+     "cover5": 0,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 13,
+     "cover5": 0,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 14,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 15,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 16,
+     "cover5": 0,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 17,
+     "cover5": 0,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 18,
+     "cover5": 0,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 19,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 20,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 21,
+     "cover5": 0,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 22,
+     "cover5": 0,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 23,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 24,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 25,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 26,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 27,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 28,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 29,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 30,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 31,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 32,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 33,
+     "cover5": 0,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 34,
+     "cover5": 0,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 35,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 36,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 37,
+     "cover5": 0,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 38,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 39,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 40,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 41,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    },
+    {
+     "idx": 42,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 43,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 44,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 45,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 46,
+     "cover5": 0,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 47,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 48,
+     "cover5": 0,
+     "mention5": 1,
+     "unresolved5": 1
+    },
+    {
+     "idx": 49,
+     "cover5": 1,
+     "mention5": 1,
+     "unresolved5": 0
+    }
+   ]
+  }
+ }
+}

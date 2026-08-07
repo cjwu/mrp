@@ -1,0 +1,122 @@
+[
+ {
+  "idx": 39,
+  "key": "humor_level",
+  "X1": "minimal",
+  "Xf": "light",
+  "r1": 49,
+  "c1": 4,
+  "rf": 22,
+  "cf": 6,
+  "nr": 4336,
+  "nc": 401
+ },
+ {
+  "idx": 87,
+  "key": "listening_ratio",
+  "X1": "0.95",
+  "Xf": "0.7",
+  "r1": 0,
+  "c1": 0,
+  "rf": 0,
+  "cf": 0,
+  "nr": 3889,
+  "nc": 401
+ },
+ {
+  "idx": 88,
+  "key": "listening_ratio",
+  "X1": "0.95",
+  "Xf": "0.7",
+  "r1": 0,
+  "c1": 0,
+  "rf": 0,
+  "cf": 0,
+  "nr": 3877,
+  "nc": 401
+ },
+ {
+  "idx": 76,
+  "key": "detail_depth",
+  "X1": "high",
+  "Xf": "moderate",
+  "r1": 35,
+  "c1": 5,
+  "rf": 10,
+  "cf": 0,
+  "nr": 3614,
+  "nc": 401
+ },
+ {
+  "idx": 7,
+  "key": "evidence_integration_style",
+  "X1": "policy_research_data",
+  "Xf": "case_study_narratives",
+  "r1": 1,
+  "c1": 1,
+  "rf": 0,
+  "cf": 0,
+  "nr": 3483,
+  "nc": 401
+ },
+ {
+  "idx": 38,
+  "key": "favored_framework",
+  "X1": "care_ethics",
+  "Xf": "deontology",
+  "r1": 0,
+  "c1": 0,
+  "rf": 2,
+  "cf": 0,
+  "nr": 3376,
+  "nc": 401
+ },
+ {
+  "idx": 0,
+  "key": "replication_count_requirement",
+  "X1": "2",
+  "Xf": "3",
+  "r1": 61,
+  "c1": 2,
+  "rf": 65,
+  "cf": 5,
+  "nr": 3360,
+  "nc": 401
+ },
+ {
+  "idx": 94,
+  "key": "motivational_tone",
+  "X1": "firm_directness",
+  "Xf": "compassionate_empathy",
+  "r1": 0,
+  "c1": 0,
+  "rf": 0,
+  "cf": 0,
+  "nr": 3292,
+  "nc": 401
+ },
+ {
+  "idx": 4,
+  "key": "scientific_rigor",
+  "X1": "very_high",
+  "Xf": "moderate",
+  "r1": 0,
+  "c1": 0,
+  "rf": 48,
+  "cf": 5,
+  "nr": 3269,
+  "nc": 401
+ },
+ {
+  "idx": 2,
+  "key": "scientific_rigor",
+  "X1": "very_high",
+  "Xf": "moderate",
+  "r1": 0,
+  "c1": 0,
+  "rf": 48,
+  "cf": 5,
+  "nr": 3263,
+  "nc": 401
+ }
+]

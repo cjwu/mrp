@@ -1,0 +1,1167 @@
+{
+  "config": {
+    "n": 50,
+    "model": "claude-haiku-4-5-20251001",
+    "temperature": 0,
+    "seed": 20260801,
+    "convs": "./exp_tmp/synth_chain_k8_convs.json",
+    "pads": [
+      "User prefers morning meetings over afternoon ones.",
+      "User subscribes to a weekly science newsletter.",
+      "User enjoys cooking at home on weekends.",
+      "User keeps a running list of podcast recommendations."
+    ],
+    "arms": [
+      "a_current_only",
+      "b_plain_stale",
+      "c_final_stale",
+      "d_final_only"
+    ]
+  },
+  "agg": {
+    "a_current_only": {
+      "y_correct": 44,
+      "x_distractor": 0,
+      "neither": 6
+    },
+    "b_plain_stale": {
+      "y_correct": 29,
+      "x_distractor": 14,
+      "neither": 7
+    },
+    "c_final_stale": {
+      "y_correct": 31,
+      "x_distractor": 17,
+      "neither": 2
+    },
+    "d_final_only": {
+      "y_correct": 0,
+      "x_distractor": 50,
+      "neither": 0
+    }
+  },
+  "stats": {
+    "c_vs_b_stale": {
+      "n": 50,
+      "b": 7,
+      "c": 4,
+      "diff_pp": 6,
+      "ci_lo_pp": -6,
+      "ci_hi_pp": 18,
+      "mcnemar_p": 0.5488281250000002
+    },
+    "b_vs_a_stale": {
+      "n": 50,
+      "b": 14,
+      "c": 0,
+      "diff_pp": 28.000000000000004,
+      "ci_lo_pp": 16,
+      "ci_hi_pp": 40,
+      "mcnemar_p": 0.00012207031250000005
+    },
+    "d_stale_rate": 1,
+    "a_correct_rate": 0.88
+  },
+  "per_sample": [
+    {
+      "idx": 0,
+      "current": "Barcelona",
+      "stale_used": "Reykjavik",
+      "query": "Where is the user actually traveling?",
+      "a_current_only": {
+        "answer": "Barcelona",
+        "category": "y_correct"
+      },
+      "b_plain_stale": {
+        "answer": "Barcelona",
+        "category": "y_correct"
+      },
+      "c_final_stale": {
+        "answer": "Barcelona",
+        "category": "y_correct"
+      },
+      "d_final_only": {
+        "answer": "Reykjavik",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 1,
+      "current": "Vue",
+      "stale_used": "Lit",
+      "query": "Which frontend framework is the user using?",
+      "a_current_only": {
+        "answer": "Vue",
+        "category": "y_correct"
+      },
+      "b_plain_stale": {
+        "answer": "Vue",
+        "category": "y_correct"
+      },
+      "c_final_stale": {
+        "answer": "Vue",
+        "category": "y_correct"
+      },
+      "d_final_only": {
+        "answer": "Lit",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 2,
+      "current": "Korean",
+      "stale_used": "Vietnamese",
+      "query": "What cuisine did the user end up choosing?",
+      "a_current_only": {
+        "answer": "Korean",
+        "category": "y_correct"
+      },
+      "b_plain_stale": {
+        "answer": "Vietnamese",
+        "category": "x_distractor"
+      },
+      "c_final_stale": {
+        "answer": "Vietnamese",
+        "category": "x_distractor"
+      },
+      "d_final_only": {
+        "answer": "Vietnamese",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 3,
+      "current": "farmhouse",
+      "stale_used": "ski chalet",
+      "query": "Which vacation rental did the user finalize?",
+      "a_current_only": {
+        "answer": "Farmhouse",
+        "category": "y_correct"
+      },
+      "b_plain_stale": {
+        "answer": "Ski chalet",
+        "category": "x_distractor"
+      },
+      "c_final_stale": {
+        "answer": "Ski chalet",
+        "category": "x_distractor"
+      },
+      "d_final_only": {
+        "answer": "Ski chalet",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 4,
+      "current": "book",
+      "stale_used": "camera lens",
+      "query": "What gift did the user actually purchase?",
+      "a_current_only": {
+        "answer": "Not mentioned",
+        "category": "neither"
+      },
+      "b_plain_stale": {
+        "answer": "Book",
+        "category": "y_correct"
+      },
+      "c_final_stale": {
+        "answer": "Book",
+        "category": "y_correct"
+      },
+      "d_final_only": {
+        "answer": "Camera lens",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 5,
+      "current": "Bangkok",
+      "stale_used": "Rome",
+      "query": "Where is the user actually traveling?",
+      "a_current_only": {
+        "answer": "Bangkok",
+        "category": "y_correct"
+      },
+      "b_plain_stale": {
+        "answer": "Bangkok",
+        "category": "y_correct"
+      },
+      "c_final_stale": {
+        "answer": "Bangkok",
+        "category": "y_correct"
+      },
+      "d_final_only": {
+        "answer": "Rome",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 6,
+      "current": "Svelte",
+      "stale_used": "Solid",
+      "query": "Which frontend framework is the user using?",
+      "a_current_only": {
+        "answer": "Svelte",
+        "category": "y_correct"
+      },
+      "b_plain_stale": {
+        "answer": "Solid",
+        "category": "x_distractor"
+      },
+      "c_final_stale": {
+        "answer": "Solid",
+        "category": "x_distractor"
+      },
+      "d_final_only": {
+        "answer": "Solid",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 7,
+      "current": "Japanese",
+      "stale_used": "Indian",
+      "query": "What cuisine did the user end up choosing?",
+      "a_current_only": {
+        "answer": "Japanese",
+        "category": "y_correct"
+      },
+      "b_plain_stale": {
+        "answer": "Indian",
+        "category": "x_distractor"
+      },
+      "c_final_stale": {
+        "answer": "Indian",
+        "category": "x_distractor"
+      },
+      "d_final_only": {
+        "answer": "Indian",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 8,
+      "current": "farmhouse",
+      "stale_used": "lake cottage",
+      "query": "Which vacation rental did the user finalize?",
+      "a_current_only": {
+        "answer": "Farmhouse",
+        "category": "y_correct"
+      },
+      "b_plain_stale": {
+        "answer": "Lake cottage",
+        "category": "x_distractor"
+      },
+      "c_final_stale": {
+        "answer": "Lake cottage",
+        "category": "x_distractor"
+      },
+      "d_final_only": {
+        "answer": "Lake cottage",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 9,
+      "current": "book",
+      "stale_used": "watch",
+      "query": "What gift did the user actually purchase?",
+      "a_current_only": {
+        "answer": "Not mentioned",
+        "category": "neither"
+      },
+      "b_plain_stale": {
+        "answer": "Not specified",
+        "category": "neither"
+      },
+      "c_final_stale": {
+        "answer": "book",
+        "category": "y_correct"
+      },
+      "d_final_only": {
+        "answer": "Watch",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 10,
+      "current": "Paris",
+      "stale_used": "Reykjavik",
+      "query": "Where is the user actually traveling?",
+      "a_current_only": {
+        "answer": "Paris",
+        "category": "y_correct"
+      },
+      "b_plain_stale": {
+        "answer": "Paris",
+        "category": "y_correct"
+      },
+      "c_final_stale": {
+        "answer": "Paris",
+        "category": "y_correct"
+      },
+      "d_final_only": {
+        "answer": "Reykjavik",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 11,
+      "current": "Remix",
+      "stale_used": "Svelte",
+      "query": "Which frontend framework is the user using?",
+      "a_current_only": {
+        "answer": "Remix",
+        "category": "y_correct"
+      },
+      "b_plain_stale": {
+        "answer": "Svelte",
+        "category": "x_distractor"
+      },
+      "c_final_stale": {
+        "answer": "Remix",
+        "category": "y_correct"
+      },
+      "d_final_only": {
+        "answer": "Svelte",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 12,
+      "current": "French",
+      "stale_used": "Korean",
+      "query": "What cuisine did the user end up choosing?",
+      "a_current_only": {
+        "answer": "Not mentioned.",
+        "category": "neither"
+      },
+      "b_plain_stale": {
+        "answer": "Not specified",
+        "category": "neither"
+      },
+      "c_final_stale": {
+        "answer": "Not specified in context.",
+        "category": "neither"
+      },
+      "d_final_only": {
+        "answer": "Korean",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 13,
+      "current": "yurt",
+      "stale_used": "downtown loft",
+      "query": "Which vacation rental did the user finalize?",
+      "a_current_only": {
+        "answer": "Yurt",
+        "category": "y_correct"
+      },
+      "b_plain_stale": {
+        "answer": "Yurt",
+        "category": "y_correct"
+      },
+      "c_final_stale": {
+        "answer": "Yurt",
+        "category": "y_correct"
+      },
+      "d_final_only": {
+        "answer": "Downtown loft",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 14,
+      "current": "camera lens",
+      "stale_used": "fountain pen",
+      "query": "What gift did the user actually purchase?",
+      "a_current_only": {
+        "answer": "Not mentioned",
+        "category": "neither"
+      },
+      "b_plain_stale": {
+        "answer": "Not mentioned",
+        "category": "neither"
+      },
+      "c_final_stale": {
+        "answer": "Camera lens",
+        "category": "y_correct"
+      },
+      "d_final_only": {
+        "answer": "Fountain pen",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 15,
+      "current": "Sydney",
+      "stale_used": "Reykjavik",
+      "query": "Where is the user actually traveling?",
+      "a_current_only": {
+        "answer": "Sydney",
+        "category": "y_correct"
+      },
+      "b_plain_stale": {
+        "answer": "Sydney",
+        "category": "y_correct"
+      },
+      "c_final_stale": {
+        "answer": "Sydney",
+        "category": "y_correct"
+      },
+      "d_final_only": {
+        "answer": "Reykjavik",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 16,
+      "current": "Qwik",
+      "stale_used": "Solid",
+      "query": "Which frontend framework is the user using?",
+      "a_current_only": {
+        "answer": "Qwik",
+        "category": "y_correct"
+      },
+      "b_plain_stale": {
+        "answer": "Solid",
+        "category": "x_distractor"
+      },
+      "c_final_stale": {
+        "answer": "Solid",
+        "category": "x_distractor"
+      },
+      "d_final_only": {
+        "answer": "Solid",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 17,
+      "current": "Indian",
+      "stale_used": "Mexican",
+      "query": "What cuisine did the user end up choosing?",
+      "a_current_only": {
+        "answer": "Indian",
+        "category": "y_correct"
+      },
+      "b_plain_stale": {
+        "answer": "Indian",
+        "category": "y_correct"
+      },
+      "c_final_stale": {
+        "answer": "Mexican",
+        "category": "x_distractor"
+      },
+      "d_final_only": {
+        "answer": "Mexican",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 18,
+      "current": "yurt",
+      "stale_used": "treehouse",
+      "query": "Which vacation rental did the user finalize?",
+      "a_current_only": {
+        "answer": "Yurt",
+        "category": "y_correct"
+      },
+      "b_plain_stale": {
+        "answer": "Yurt",
+        "category": "y_correct"
+      },
+      "c_final_stale": {
+        "answer": "Treehouse",
+        "category": "x_distractor"
+      },
+      "d_final_only": {
+        "answer": "Treehouse",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 19,
+      "current": "watch",
+      "stale_used": "kitchen knife",
+      "query": "What gift did the user actually purchase?",
+      "a_current_only": {
+        "answer": "Watch",
+        "category": "y_correct"
+      },
+      "b_plain_stale": {
+        "answer": "Watch",
+        "category": "y_correct"
+      },
+      "c_final_stale": {
+        "answer": "Watch",
+        "category": "y_correct"
+      },
+      "d_final_only": {
+        "answer": "Kitchen knife",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 20,
+      "current": "Vienna",
+      "stale_used": "Reykjavik",
+      "query": "Where is the user actually traveling?",
+      "a_current_only": {
+        "answer": "Vienna",
+        "category": "y_correct"
+      },
+      "b_plain_stale": {
+        "answer": "Vienna",
+        "category": "y_correct"
+      },
+      "c_final_stale": {
+        "answer": "Vienna",
+        "category": "y_correct"
+      },
+      "d_final_only": {
+        "answer": "Reykjavik",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 21,
+      "current": "Angular",
+      "stale_used": "Qwik",
+      "query": "Which frontend framework is the user using?",
+      "a_current_only": {
+        "answer": "Angular",
+        "category": "y_correct"
+      },
+      "b_plain_stale": {
+        "answer": "Angular",
+        "category": "y_correct"
+      },
+      "c_final_stale": {
+        "answer": "Angular",
+        "category": "y_correct"
+      },
+      "d_final_only": {
+        "answer": "Qwik",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 22,
+      "current": "Greek",
+      "stale_used": "Korean",
+      "query": "What cuisine did the user end up choosing?",
+      "a_current_only": {
+        "answer": "Greek",
+        "category": "y_correct"
+      },
+      "b_plain_stale": {
+        "answer": "Korean",
+        "category": "x_distractor"
+      },
+      "c_final_stale": {
+        "answer": "Greek",
+        "category": "y_correct"
+      },
+      "d_final_only": {
+        "answer": "Korean",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 23,
+      "current": "lake cottage",
+      "stale_used": "beach house",
+      "query": "Which vacation rental did the user finalize?",
+      "a_current_only": {
+        "answer": "Lake cottage",
+        "category": "y_correct"
+      },
+      "b_plain_stale": {
+        "answer": "Lake cottage",
+        "category": "y_correct"
+      },
+      "c_final_stale": {
+        "answer": "Beach house",
+        "category": "x_distractor"
+      },
+      "d_final_only": {
+        "answer": "Beach house",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 24,
+      "current": "perfume",
+      "stale_used": "headphones",
+      "query": "What gift did the user actually purchase?",
+      "a_current_only": {
+        "answer": "Perfume",
+        "category": "y_correct"
+      },
+      "b_plain_stale": {
+        "answer": "Perfume",
+        "category": "y_correct"
+      },
+      "c_final_stale": {
+        "answer": "Perfume",
+        "category": "y_correct"
+      },
+      "d_final_only": {
+        "answer": "Headphones",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 25,
+      "current": "Vienna",
+      "stale_used": "Paris",
+      "query": "Where is the user actually traveling?",
+      "a_current_only": {
+        "answer": "Vienna",
+        "category": "y_correct"
+      },
+      "b_plain_stale": {
+        "answer": "Vienna",
+        "category": "y_correct"
+      },
+      "c_final_stale": {
+        "answer": "Vienna",
+        "category": "y_correct"
+      },
+      "d_final_only": {
+        "answer": "Paris",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 26,
+      "current": "Qwik",
+      "stale_used": "Angular",
+      "query": "Which frontend framework is the user using?",
+      "a_current_only": {
+        "answer": "Qwik",
+        "category": "y_correct"
+      },
+      "b_plain_stale": {
+        "answer": "Angular",
+        "category": "x_distractor"
+      },
+      "c_final_stale": {
+        "answer": "Qwik",
+        "category": "y_correct"
+      },
+      "d_final_only": {
+        "answer": "Angular",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 27,
+      "current": "Spanish",
+      "stale_used": "French",
+      "query": "What cuisine did the user end up choosing?",
+      "a_current_only": {
+        "answer": "Not mentioned.",
+        "category": "neither"
+      },
+      "b_plain_stale": {
+        "answer": "Not mentioned.",
+        "category": "neither"
+      },
+      "c_final_stale": {
+        "answer": "Not specified in context.",
+        "category": "neither"
+      },
+      "d_final_only": {
+        "answer": "French",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 28,
+      "current": "beach house",
+      "stale_used": "lake cottage",
+      "query": "Which vacation rental did the user finalize?",
+      "a_current_only": {
+        "answer": "Beach house",
+        "category": "y_correct"
+      },
+      "b_plain_stale": {
+        "answer": "Beach house",
+        "category": "y_correct"
+      },
+      "c_final_stale": {
+        "answer": "Beach house",
+        "category": "y_correct"
+      },
+      "d_final_only": {
+        "answer": "Lake cottage",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 29,
+      "current": "espresso machine",
+      "stale_used": "headphones",
+      "query": "What gift did the user actually purchase?",
+      "a_current_only": {
+        "answer": "Espresso machine",
+        "category": "y_correct"
+      },
+      "b_plain_stale": {
+        "answer": "Not specified",
+        "category": "neither"
+      },
+      "c_final_stale": {
+        "answer": "Espresso machine",
+        "category": "y_correct"
+      },
+      "d_final_only": {
+        "answer": "Headphones",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 30,
+      "current": "Bangkok",
+      "stale_used": "Reykjavik",
+      "query": "Where is the user actually traveling?",
+      "a_current_only": {
+        "answer": "Bangkok",
+        "category": "y_correct"
+      },
+      "b_plain_stale": {
+        "answer": "Bangkok",
+        "category": "y_correct"
+      },
+      "c_final_stale": {
+        "answer": "Bangkok",
+        "category": "y_correct"
+      },
+      "d_final_only": {
+        "answer": "Reykjavik",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 31,
+      "current": "React",
+      "stale_used": "Qwik",
+      "query": "Which frontend framework is the user using?",
+      "a_current_only": {
+        "answer": "React",
+        "category": "y_correct"
+      },
+      "b_plain_stale": {
+        "answer": "React",
+        "category": "y_correct"
+      },
+      "c_final_stale": {
+        "answer": "React",
+        "category": "y_correct"
+      },
+      "d_final_only": {
+        "answer": "Qwik",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 32,
+      "current": "Korean",
+      "stale_used": "Italian",
+      "query": "What cuisine did the user end up choosing?",
+      "a_current_only": {
+        "answer": "Korean",
+        "category": "y_correct"
+      },
+      "b_plain_stale": {
+        "answer": "Italian",
+        "category": "x_distractor"
+      },
+      "c_final_stale": {
+        "answer": "Italian",
+        "category": "x_distractor"
+      },
+      "d_final_only": {
+        "answer": "Italian",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 33,
+      "current": "treehouse",
+      "stale_used": "downtown loft",
+      "query": "Which vacation rental did the user finalize?",
+      "a_current_only": {
+        "answer": "Treehouse",
+        "category": "y_correct"
+      },
+      "b_plain_stale": {
+        "answer": "Treehouse",
+        "category": "y_correct"
+      },
+      "c_final_stale": {
+        "answer": "Treehouse",
+        "category": "y_correct"
+      },
+      "d_final_only": {
+        "answer": "Downtown loft",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 34,
+      "current": "perfume",
+      "stale_used": "wine subscription",
+      "query": "What gift did the user actually purchase?",
+      "a_current_only": {
+        "answer": "Perfume",
+        "category": "y_correct"
+      },
+      "b_plain_stale": {
+        "answer": "Perfume",
+        "category": "y_correct"
+      },
+      "c_final_stale": {
+        "answer": "Perfume",
+        "category": "y_correct"
+      },
+      "d_final_only": {
+        "answer": "Wine subscription",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 35,
+      "current": "Barcelona",
+      "stale_used": "Sydney",
+      "query": "Where is the user actually traveling?",
+      "a_current_only": {
+        "answer": "Barcelona",
+        "category": "y_correct"
+      },
+      "b_plain_stale": {
+        "answer": "Barcelona",
+        "category": "y_correct"
+      },
+      "c_final_stale": {
+        "answer": "Barcelona",
+        "category": "y_correct"
+      },
+      "d_final_only": {
+        "answer": "Sydney",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 36,
+      "current": "Solid",
+      "stale_used": "Preact",
+      "query": "Which frontend framework is the user using?",
+      "a_current_only": {
+        "answer": "Solid",
+        "category": "y_correct"
+      },
+      "b_plain_stale": {
+        "answer": "Preact",
+        "category": "x_distractor"
+      },
+      "c_final_stale": {
+        "answer": "Preact",
+        "category": "x_distractor"
+      },
+      "d_final_only": {
+        "answer": "Preact",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 37,
+      "current": "Korean",
+      "stale_used": "French",
+      "query": "What cuisine did the user end up choosing?",
+      "a_current_only": {
+        "answer": "Korean",
+        "category": "y_correct"
+      },
+      "b_plain_stale": {
+        "answer": "Korean",
+        "category": "y_correct"
+      },
+      "c_final_stale": {
+        "answer": "Korean",
+        "category": "y_correct"
+      },
+      "d_final_only": {
+        "answer": "French",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 38,
+      "current": "lake cottage",
+      "stale_used": "houseboat",
+      "query": "Which vacation rental did the user finalize?",
+      "a_current_only": {
+        "answer": "Lake cottage",
+        "category": "y_correct"
+      },
+      "b_plain_stale": {
+        "answer": "Lake cottage",
+        "category": "y_correct"
+      },
+      "c_final_stale": {
+        "answer": "Houseboat",
+        "category": "x_distractor"
+      },
+      "d_final_only": {
+        "answer": "Houseboat",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 39,
+      "current": "camera lens",
+      "stale_used": "perfume",
+      "query": "What gift did the user actually purchase?",
+      "a_current_only": {
+        "answer": "Not mentioned",
+        "category": "neither"
+      },
+      "b_plain_stale": {
+        "answer": "Not specified",
+        "category": "neither"
+      },
+      "c_final_stale": {
+        "answer": "Perfume",
+        "category": "x_distractor"
+      },
+      "d_final_only": {
+        "answer": "Perfume",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 40,
+      "current": "Sydney",
+      "stale_used": "Tokyo",
+      "query": "Where is the user actually traveling?",
+      "a_current_only": {
+        "answer": "Sydney",
+        "category": "y_correct"
+      },
+      "b_plain_stale": {
+        "answer": "Sydney",
+        "category": "y_correct"
+      },
+      "c_final_stale": {
+        "answer": "Sydney",
+        "category": "y_correct"
+      },
+      "d_final_only": {
+        "answer": "Tokyo",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 41,
+      "current": "Qwik",
+      "stale_used": "Solid",
+      "query": "Which frontend framework is the user using?",
+      "a_current_only": {
+        "answer": "Qwik",
+        "category": "y_correct"
+      },
+      "b_plain_stale": {
+        "answer": "Solid",
+        "category": "x_distractor"
+      },
+      "c_final_stale": {
+        "answer": "Solid",
+        "category": "x_distractor"
+      },
+      "d_final_only": {
+        "answer": "Solid",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 42,
+      "current": "Greek",
+      "stale_used": "Vietnamese",
+      "query": "What cuisine did the user end up choosing?",
+      "a_current_only": {
+        "answer": "Greek",
+        "category": "y_correct"
+      },
+      "b_plain_stale": {
+        "answer": "Vietnamese",
+        "category": "x_distractor"
+      },
+      "c_final_stale": {
+        "answer": "Vietnamese",
+        "category": "x_distractor"
+      },
+      "d_final_only": {
+        "answer": "Vietnamese",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 43,
+      "current": "ski chalet",
+      "stale_used": "lake cottage",
+      "query": "Which vacation rental did the user finalize?",
+      "a_current_only": {
+        "answer": "Ski chalet",
+        "category": "y_correct"
+      },
+      "b_plain_stale": {
+        "answer": "Ski chalet",
+        "category": "y_correct"
+      },
+      "c_final_stale": {
+        "answer": "Lake cottage",
+        "category": "x_distractor"
+      },
+      "d_final_only": {
+        "answer": "Lake cottage",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 44,
+      "current": "kitchen knife",
+      "stale_used": "book",
+      "query": "What gift did the user actually purchase?",
+      "a_current_only": {
+        "answer": "Kitchen knife",
+        "category": "y_correct"
+      },
+      "b_plain_stale": {
+        "answer": "Not specified",
+        "category": "neither"
+      },
+      "c_final_stale": {
+        "answer": "Kitchen knife",
+        "category": "y_correct"
+      },
+      "d_final_only": {
+        "answer": "Book",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 45,
+      "current": "Rome",
+      "stale_used": "Sydney",
+      "query": "Where is the user actually traveling?",
+      "a_current_only": {
+        "answer": "Rome",
+        "category": "y_correct"
+      },
+      "b_plain_stale": {
+        "answer": "Rome",
+        "category": "y_correct"
+      },
+      "c_final_stale": {
+        "answer": "Rome",
+        "category": "y_correct"
+      },
+      "d_final_only": {
+        "answer": "Sydney",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 46,
+      "current": "Astro",
+      "stale_used": "Remix",
+      "query": "Which frontend framework is the user using?",
+      "a_current_only": {
+        "answer": "Astro",
+        "category": "y_correct"
+      },
+      "b_plain_stale": {
+        "answer": "Remix",
+        "category": "x_distractor"
+      },
+      "c_final_stale": {
+        "answer": "Astro",
+        "category": "y_correct"
+      },
+      "d_final_only": {
+        "answer": "Remix",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 47,
+      "current": "Thai",
+      "stale_used": "Greek",
+      "query": "What cuisine did the user end up choosing?",
+      "a_current_only": {
+        "answer": "Thai",
+        "category": "y_correct"
+      },
+      "b_plain_stale": {
+        "answer": "Thai",
+        "category": "y_correct"
+      },
+      "c_final_stale": {
+        "answer": "Thai",
+        "category": "y_correct"
+      },
+      "d_final_only": {
+        "answer": "Greek",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 48,
+      "current": "treehouse",
+      "stale_used": "houseboat",
+      "query": "Which vacation rental did the user finalize?",
+      "a_current_only": {
+        "answer": "Treehouse",
+        "category": "y_correct"
+      },
+      "b_plain_stale": {
+        "answer": "Treehouse",
+        "category": "y_correct"
+      },
+      "c_final_stale": {
+        "answer": "Houseboat",
+        "category": "x_distractor"
+      },
+      "d_final_only": {
+        "answer": "Houseboat",
+        "category": "x_distractor"
+      }
+    },
+    {
+      "idx": 49,
+      "current": "wine subscription",
+      "stale_used": "camera lens",
+      "query": "What gift did the user actually purchase?",
+      "a_current_only": {
+        "answer": "Wine subscription",
+        "category": "y_correct"
+      },
+      "b_plain_stale": {
+        "answer": "Wine subscription",
+        "category": "y_correct"
+      },
+      "c_final_stale": {
+        "answer": "Wine subscription",
+        "category": "y_correct"
+      },
+      "d_final_only": {
+        "answer": "Camera lens",
+        "category": "x_distractor"
+      }
+    }
+  ]
+}
