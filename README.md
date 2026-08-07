@@ -1,8 +1,8 @@
 # MRP Audit Release (anonymized)
 
 Code, data, and archived raw outputs for the paper *Retrieval-Augmented Memory Is
-Not Enough: The Monotonic Retrieval Paradox in Conversational Assistants*
-(anonymized supplementary).
+Not Enough: The Monotonic Retrieval Paradox in Long-Term Conversations*
+(anonymized code and data release).
 Every number in the paper traces to a script here and an archived JSON under
 `exp_tmp/`.
 
