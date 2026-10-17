@@ -1,8 +1,7 @@
-# MRP Audit Release (anonymized)
+# MRP Audit Release (NeurIPS 2026 PALM Workshop paper)
 
 Code, data, and archived raw outputs for the paper *Retrieval-Augmented Memory Is
-Not Enough: The Monotonic Retrieval Paradox in Long-Term Conversations*
-(anonymized code and data release).
+Not Enough: The Monotonic Retrieval Paradox in Long-Term Conversations*.
 Every number in the paper traces to a script here and an archived JSON under
 `exp_tmp/`.
 
